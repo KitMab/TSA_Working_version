@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = ALB
+		owner = SER
 		victory_points = {
 			9914 5 
 		}
@@ -36,14 +36,6 @@ state = {
 
 		}
 		add_core_of = ALB
-		add_claim_by = ITA
-		1939.4.12 = {
-			owner = FRA
-			controller = ITA
-			remove_claim_by = ITA
-
-		}
-
 	}
 
 	provinces = {
