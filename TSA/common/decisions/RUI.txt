@@ -1,1 +1,63 @@
+    IRE_category  = {
+        RUI_kill_Old_Tzar = { 
+            icon = GFX_decision_CVK_CALLING
+            available = {
+			  tag = RUI
+			
+			}
+            fire_only_once = yes
+            visible = { 
+             tag = RUI
+            }			 
+			ai_will_do = { 
+            factor = 90
+            }
 
+            complete_effect = {
+			  set_country_flag = Nikolay_II_Dead_flag
+			}			
+			
+        }
+		RUI_New_Tzar = { 
+            icon = GFX_decision_CVK_CALLING
+            available = {
+			  tag = RUI
+			
+			}
+            fire_only_once = yes
+            visible = { 
+             tag = RUI
+            }			 
+			ai_will_do = { 
+            factor = 90
+            }
+
+            complete_effect = {
+			  set_country_flag = New_Tzar_flag
+			}			
+			
+        }
+		RUI_Remove_Regence = { 
+            icon = GFX_decision_CVK_CALLING
+            available = {
+			  tag = RUI
+			
+			}
+            fire_only_once = yes
+            visible = { 
+             tag = RUI
+            }			 
+			ai_will_do = { 
+            factor = 90
+            }
+
+            complete_effect = {
+			  set_country_flag = Remove_Regency_button_flag
+			}			
+			
+        }
+		
+		
+    }
+	
+	
