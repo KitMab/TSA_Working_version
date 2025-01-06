@@ -1,38 +1,37 @@
 bookmarks = {
 	bookmark = {
-		name = "Новая эпоха империй"
-		desc = "Новая эпоха империй_DESC"
+		name = "THE_ERA_OF_NEW_EMPIRES_NAME"
+		desc = "THE_ERA_OF_NEW_EMPIRES_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "ISK"
+		default_country = "RUI"
 		default = yes
 		"RUI"={
-			history = "ISK_GATHERING_STORM_DESC"
-			ideology = facism
+			history = "RUI_GATHERING_STORM_DESC"
+			ideology = despotism
 			ideas = {
-			ISK_1
-			isk_army_4
-			isk_army_5
+				RUI_Tsar_Nikoly_II
+				RUI_Anti_Communism_idea
+				RUI_Tsar_Alexey_II
 			}
 			focuses = {
-                newfocus_60
-				newfocus_35
-				newfocus_32
-				
+                RUI_Russian_way
+				RUI_HISTORY
+				RUI_Strengthening
 			}
 		}
-		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+		"OSM"={
+			history = "OSM_GATHERING_STORM_DESC"
+			ideology = despotism
 			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
+				OSM_Kurdistan_VS_Osmania
+				OSM_Bad_Government
+				OSM_Fascism_Cult_Leader
 			}
 			focuses = {
-				USA_war_plan_black
-				USA_limited_intervention
-				USA_reestablish_the_gold_standard
+                OSM_Choice_Politic
+				OSM_War_USSR
+				OSM_Turkey
 			}
 		}
 		"ENG"={
