@@ -1,0 +1,409 @@
+focus_tree = {
+	id = PRI
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRI
+		}
+	}
+	default = no
+	focus = {
+		id = PRI_History
+		icon = GFX_goal_unknown
+		cost = 0,60
+		x = 19
+		y = 0
+
+	}
+	focus = {
+		id = PRI_Economic_development
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 3
+		y = 17
+
+	}
+	
+	
+	focus = {
+		id = PRI_OUR_PATH
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_History
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = PRI_Rapprochement_with_Prussia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_OUR_PATH
+		}
+		mutually_exclusive = {
+			focus = PRI_Communism_is_our_foundation
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = PRI_Coronation_of_the_first_Kaiser_PRI
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Rapprochement_with_Prussia
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = PRI_Military_exercises_with_Prussia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Coronation_of_the_first_Kaiser_PRI
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = PRI_Alliance_with_Prussia
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = PRI_Military_exercises_with_Prussia
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = PRI_Help_with_Prussia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Alliance_with_Prussia
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = PRI_USSR_claims
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Help_with_Prussia
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = PRI_Development_of _military_academies
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_USSR_claims
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = PRI_Communism_is_our_foundation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_OUR_PATH
+		}
+		mutually_exclusive = {
+			focus = PRI_Rapprochement_with_Prussia
+			focus = PRI_Democracy
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = PRI_Power_of_the_Secretary_General
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Communism_is_our_foundation
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = PRI_Rapprochement_with_the_USSR
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PRI_Power_of_the_Secretary_General
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = PRI_Enter_the_Comintern
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PRI_Rapprochement_with_the_USSR
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = PRI_Nationalization
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Enter_the_Comintern
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = PRI_Creation_of_the_Pioneers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Nationalization
+		}
+		x = 18
+		y = 10
+
+	}
+	focus = {
+		id = PRI_Industrial_development
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PRI_Creation_of_the_Pioneers
+		}
+		x = 18
+		y = 11
+
+	}
+	focus = {
+		id = PRI_Deal_with_the_church
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Industrial_development
+		}
+		x = 18
+		y = 12
+
+	}
+	focus = {
+		id = PRI_Mandatory_conscription
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Deal_with_the_church
+		}
+		x = 18
+		y = 13
+
+	}
+	
+	focus = {
+		id = PRI_SWE_claims
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = 
+		}
+		x = 18
+		y = 15
+
+	}
+	focus = {
+		id = PRI_Power_of_the_people
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Communism_is_our_foundation
+		}
+		x = 20
+		y = 6
+
+	}
+	focus = {
+		id = PRI_Getting_closer_to_BAY
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Power_of_the_people
+		}
+		x = 20
+		y = 7
+
+	}
+	focus = {
+		id = PRI_Creation_of_a_new_army
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Getting_closer_to_BAY
+		}
+		x = 20
+		y = 8
+
+	}
+	focus = {
+		id = PRI_Limited_property
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Creation_of_a_new_army
+		}
+		x = 20
+		y = 9
+
+	}
+	focus = {
+		id = PRI_Young_defender
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Limited_property
+		}
+		x = 20
+		y = 10
+
+	}
+	focus = {
+		id = PRI_Help_for_the_communists_of_Finland
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Young_defender
+		}
+		x = 20
+		y = 11
+
+	}
+	focus = {
+		id = PRI_Support_for_Foreign_Communists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Help_for_the_communists_of_Finland
+		}
+		x = 20
+		y = 12
+
+	}
+	focus = {
+		id = PRI_military_service_optional
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Support_for_Foreign_Communists
+		}
+		x = 20
+		y = 13
+
+	}
+	focus = {
+		id = PRI_War_with_Prussia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_military_service_optional
+		}
+		x = 20
+		y = 14
+
+	}
+	focus = {
+		id = PRI_War_with_the_USSR
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_War_with_Prussia
+		}
+		x = 14
+		y = 11
+
+	}
+	focus = {
+		id = PRI_War_with_the_USSR
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_War_with_Prussia
+		}
+		x = 20
+		y = 15
+
+	}
+	focus = {
+		id = PRI_Democracy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_OUR_PATH
+		}
+		mutually_exclusive = {
+			focus = PRI_Communism_is_our_foundation
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = PRI_Subsidizing_of_companies
+		icon = GFX_goal_unknown
+		cost = 4,00
+		prerequisite = {
+			focus = PRI_Economic_development
+		}
+		mutually_exclusive = {
+			focus = PRI_stop_parasitism
+		}
+		x = 3
+		y = 19
+
+	}
+	focus = {
+		id = PRI_stop_parasitism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_Economic_development
+		}
+		mutually_exclusive = {
+			focus = PRI_Subsidizing_of_companies
+		}
+		x = 7
+		y = 19
+
+	}
+	focus = {
+		id = PRI_Finland_claims
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PRI_War_with_the_USSR
+		}
+		x = 14
+		y = 12
+
+	}
+	

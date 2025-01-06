@@ -1,0 +1,177 @@
+focus_tree = {
+	id = _CRA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRA
+		}
+	}
+	default = no
+	focus = {
+		id = CRA_recruitment_of_new_Red_Army_soldiers
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 6
+		y = 0
+	
+	completion_reward = {
+					add_temporary_buff_to_units = {
+							combat_offense = 0.25
+							combat_breakthrough = 0.25
+							str_damage_multiplier = -0.25
+							war_support_reduction_on_damage = 0.2
+							cannot_retreat_while_attacking = 1.0
+							days = 7
+							tooltip = ABILITY_FORCE_ATTACK_TOOLTIP
+						}
+						add_manpower = 3000
+
+
+						
+						}
+				}
+	
+	focus = {
+		id = CRA_open_emergency_warehouses
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = CRA_recruitment_of_new_Red_Army_soldiers
+		}
+		x = 6
+		y = 1
+completion_reward = {
+			
+		add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = CRA
+			 }
+			
+	}
+	}
+	focus = {
+		id = CRA_warehouse_with_equipment
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = CRA_open_emergency_warehouses
+		}
+		x = 3
+		y = 2
+completion_reward = {
+			  add_equipment_to_stockpile = {
+        type = light_tank_chassis
+        amount = 75
+        producer = SOV
+}
+
+	}
+	}
+	focus = {
+		id = CRA_study_of_light_tanks
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = CRA_warehouse_with_equipment
+		}
+		x = 3
+		y = 3
+	
+	completion_reward = {
+    add_tech_bonus = {
+						name = armor_bonus
+						bonus = 0.5
+						uses = 2
+						category = armor
+					}
+				}
+       
+      
+        }
+	
+	focus = {
+		id = CRA_weapons_warehouse
+		icon = GFX_goal_unknown
+		cost = 1,90
+		prerequisite = {
+			focus = CRA_open_emergency_warehouses
+		}
+		x = 9
+		y = 2
+completion_reward = {
+			
+		add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = SOV
+			 
+			  }
+			 add_manpower = 3000
+			 
+			 add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+				producer = sov
+			
+		
+		}
+			
+		
+		}
+	}
+	
+	focus = {
+		id = CRA_study_of_light_weapons
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = CRA_weapons_warehouse
+		}
+		x = 9
+		y = 3
+completion_reward = {
+	add_tech_bonus = {
+    bonus = 0.5
+    uses = 1
+    category = infantry_tech
+}
+	}
+	}
+	focus = {
+		id = CRA_guarding_the_east
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = CRA_study_of_light_tanks
+		}
+		prerequisite = {
+			focus = CRA_study_of_light_weapons
+		}
+		x = 6
+		y = 4
+completion_reward = {
+	add_command_power = 100
+	army_experience = 100
+	add_manpower = 5000
+	
+	}
+}
+
+focus = {
+		id = CRA_war_with_FER
+		icon = GFX_goal_unknown
+		cost = 1,00
+		
+		
+		x = 14
+		y = 0
+completion_reward = {
+			create_wargoal = {
+				target = FER
+				type = annex_everything
+			}
+		}
+}
+}
