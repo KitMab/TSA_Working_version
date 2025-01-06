@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = SRA
+		owner = SIB
 		victory_points = {
 			4824 1
 		}
@@ -15,6 +15,7 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = SOV
+                add_core_of = SIB
 	}
 
 	provinces={
