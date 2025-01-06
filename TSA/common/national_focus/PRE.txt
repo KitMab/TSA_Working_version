@@ -372,7 +372,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = PRE_Italy's_own_puppet
+		id = PRE_Italys_own_puppet
 		icon = GFX_goal_unknown
 		cost = 5,00
 		available = {
@@ -422,7 +422,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 2,00
 		prerequisite = {
-			focus = PRE_Italy's_own_puppet
+			focus = PRE_Italys_own_puppet
 		}
 		x = 13
 		y = 13
@@ -688,7 +688,7 @@ focus_tree = {
 			create_equipment_variant = {
     				name = "Kaiser Ship"								
     				type = ship_hull_cruiser_2
-    				name_group = 
+    				name_group = 1
     				role_icon_index = 1
     				modules = {
         				fixed_ship_torpedo_slot = ship_torpedo_sub_1

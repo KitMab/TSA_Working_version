@@ -155,7 +155,6 @@ focus_tree = {
 			#############ПЕРЕХОД В ФАШИЗМ################
 			set_party_rule = {
     				ideology = fascism
-   				desc =
     				can_create_factions = yes
 			}
 			remove_ideas = OSM_Bad_Government 
@@ -479,7 +478,6 @@ focus_tree = {
 		completion_reward = {
 			set_party_rule = {
     				ideology = democratic
-   				desc =
     				can_create_factions = no
 			}
 			remove_ideas = OSM_Bad_Government 

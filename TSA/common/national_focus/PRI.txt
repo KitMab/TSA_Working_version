@@ -226,7 +226,6 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = 
 		}
 		x = 18
 		y = 15
@@ -343,7 +342,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = PRI_War_with_the_USSR
+		id = PRI_War_with_the_USSR1
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -393,7 +392,6 @@ focus_tree = {
 		}
 		x = 7
 		y = 19
-
 	}
 	focus = {
 		id = PRI_Finland_claims
@@ -404,6 +402,5 @@ focus_tree = {
 		}
 		x = 14
 		y = 12
-
-	}
-	
+    }
+}	
