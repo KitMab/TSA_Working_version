@@ -21,7 +21,7 @@ bookmarks = {
 			}
 		}
 		"OSM"={
-			history = "OSM_GATHERING_STORM_DESC"
+			history = "OSM_THE_ERA_OF_NEW_EMPIRES_DESC"
 			ideology = despotism
 			ideas = {
 				OSM_Kurdistan_VS_Osmania
@@ -35,7 +35,7 @@ bookmarks = {
 			}
 		}
 		"PRE"={
-			history = "PRE_GATHERING_STORM_DESC"
+			history = "PRE_THE_ERA_OF_NEW_EMPIRES_DESC"
 			ideology = despotism
 			ideas = {
 				PRE_Berlin_Treaty
@@ -48,83 +48,44 @@ bookmarks = {
 				PRE_German_Reunification
 			}
 		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { NOT = { has_dlc = "Man the Guns" } }
+		"BAY"={
+			history = "BAY_THE_ERA_OF_NEW_EMPIRES_DESC"
+			ideology = marxism
 			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
+				BAY_bad_army_1
+				BAY_bad_industry_economic1
+				BAY_sobstvenost_1
 			}
 			focuses = {
-				tizard_mission_focus
-				ENG_war_with_germany
-				ENG_war_with_italy
+                BAY_problems_army_tree
+				BAY_problems_political
+				BAY_problems_industry_economic
 			}
 		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { has_dlc = "Waking the Tiger" }
+		"PRI"={
+			history = "PRI_THE_ERA_OF_NEW_EMPIRES_DESC"
+			ideology = despotism
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
 			}
 			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_revive_the_kaiserreich
+                PRI_Rapprochement_with_Prussia
+				PRI_Communism_is_our_foundation
+				PRI_Democracy
 			}
 		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
+		"UKR"={
+			history = "UKR_THE_ERA_OF_NEW_EMPIRES_DESC"
 			ideology = fascism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
 			}
 			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_ussr_war_goal
+                UKR_Fascism
+				UKR_Politic_Choice
+				UKR_Democratic
 			}
-		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { has_dlc = "By Blood Alone" }
-			ideas = {
-				vittorio_emanuele
-				ITA_iri_fake_ns
-				ITA_re_fake_ns
-			}	
-			focuses = {
-				ITA_comandante_diavolo
-				ITA_il_sol_dell_avvenire
-				ITA_a_colonial_empire
-			}		
-		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "By Blood Alone" } }
-			ideas = {
-				vittorio_emanuele
-				ITA_iri_fake_ns
-				ITA_re_fake_ns
-			}	
-			focuses = {
-				ITA_comandante_diavolo
-				ITA_to_live_as_a_lion
-				ITA_a_colonial_empire
-			}		
 		}
 		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
+			history = "JAP_THE_ERA_OF_NEW_EMPIRES_DESC"
 			ideology = fascism
 			ideas = {
 				state_shintoism
@@ -137,43 +98,9 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}			
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			available = { has_dlc = "No Step Back" }
-			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
-			}
-			focuses = {
-				SOV_behead_the_snake
-				SOV_the_supreme_soviet
-				SOV_reconvene_the_zemsky_sobor
-			}	
-		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			available = { NOT = { has_dlc = "No Step Back" } }
-			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
-			}
-			focuses = {
-				SOV_behead_the_snake
-				SOV_father_of_nations
-				SOV_the_supreme_soviet
-			}	
-		}
-
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
-
-
-		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
