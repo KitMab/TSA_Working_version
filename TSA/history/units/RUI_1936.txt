@@ -1,0 +1,205 @@
+﻿division_template = {
+	name = "RUI Division"		
+	division_names_group = RUI_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+		division_template = {
+					name = "Kazachya Kavaleryskaya Diviziya"
+					division_names_group = RUI_CAV_01
+					template_counter = 05
+
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+						mot_artillery_brigade = { x = 2 y = 0 }
+						light_armor = { x = 3 y = 0 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+						recon = { x = 0 y = 2 }
+					}
+				}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "RUI Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3963
+		division_template = "RUI Division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+
+	}
+}
+
+
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "RUI Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7868
+		division_template = "RUI Division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+
+	}
+}
+
+
+
+
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "RUI Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7266
+		division_template = "RUI Division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "RUI Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12189
+		division_template = "RUI Division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+
+	}
+}
+
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "RUI Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location =  12189
+		division_template = "RUI Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+
+
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "RUI Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4841
+		division_template = "RUI Division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "RUI Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7249
+		division_template = "RUI Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+}
+
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "RUI Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1343
+		division_template = "RUI Division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "RUI Division"
+		division_name = {
+			is_name_ordered = yes
+		
+		name_order = 1
+	    }
+		commander={ 
+		  Vlasov
+		  }
+		location = 12136
+		division_template = "RUI Division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+        
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_2
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.86
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ROA"
+		}
+		requested_factories = 1
+		progress = 0.40
+		efficiency = 100
+	}
+}

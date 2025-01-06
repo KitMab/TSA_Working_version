@@ -1,0 +1,268 @@
+﻿division_template = {
+	name = "ARB Division"		
+	division_names_group = ARB_INF_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+	priority = 0 
+}
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6883
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6057
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1549
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2097
+		division_template = "ARB Division"
+		start_experience_factor = 1.5
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5057
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+	    location = 5081
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5081
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8118
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10840
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1920
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1920
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1920
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+
+
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11979
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4161
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1112
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+units = {
+	Ushtria Shqipëtarë
+	division = {  "ARB Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10383
+		division_template = "ARB Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+
+
+
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_2
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.86
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ROA"
+		}
+		requested_factories = 1
+		progress = 0.40
+		efficiency = 100
+	}
+}
