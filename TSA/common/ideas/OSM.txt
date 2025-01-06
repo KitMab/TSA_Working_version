@@ -1,0 +1,231 @@
+ideas = {
+	country = {
+		#########################ИДЕЯ ВОЙНА С КУРДИСТАНОМ(ДЕБАФФЫ)##########################
+		OSM_Kurdistan_VS_Osmania = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = OSM_Kurdistan_VS_Osmania
+			
+			removal_cost = -1
+			
+			modifier = {
+				#######ПОЛИТКА ФАКТОР########
+				political_power_factor = -0.1
+				######ТНП####################
+				consumer_goods_factor = 0.1
+				#######ПОДДЕРЖКА ВОЙНЫ#######
+				war_support_factor = 0.05				
+			}
+		}
+		#########################ИДЕЯ ВОЙНА С КУРДИСТАНОМ(ДЕБАФФЫ)##########################
+		
+		#########################ИДЕЯ ВОЙНА С КУРДИСТАНОМ(БАФФЫ)##########################
+		OSM_Kurdistan_VS_Osmania_2 = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = OSM_Kurdistan_VS_Osmania
+			
+			removal_cost = -1
+			
+			modifier = {
+				#######ПОЛИТКА ФАКТОР########
+				political_power_factor = 0.15
+				#######ПОДДЕРЖКА ВОЙНЫ#######
+				war_support_factor = 0.1	
+				#######СТАБИЛЬНОСТЬ##########
+				stability_factor = 0.15			
+			}
+		}
+		#########################ИДЕЯ ВОЙНА С КУРДИСТАНОМ(ДЕБАФФЫ)##########################
+
+		######################### БОНУС ФАШИСТОВ ##########################
+		OSM_Fascism = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = OSM_Kurdistan_VS_Osmania
+			
+			removal_cost = -1
+			
+			modifier = {
+				#######ПОЛИТКА ФАКТОР########
+				political_power_factor = 0.05
+				#######ПОДДЕРЖКА ВОЙНЫ#######
+				war_support_factor = 0.1	
+				####### ФАШИСТЫ ПРОДВИЖЕНИЕ ##########
+				fascism_drift = 0.20	
+			}
+		}
+		######################### БОНУС ДЕМОКРАТЫ ##########################
+		OSM_Democratic = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = OSM_Kurdistan_VS_Osmania
+			
+			removal_cost = -1
+			
+			modifier = {
+				#######ПОЛИТКА ФАКТОР########
+				political_power_factor = -0.05
+				#######СТАБИЛКА#######
+				stability_factor = 0.15
+				######## ФАБРИКИ #####################
+
+				consumer_goods_factor = -0.15
+	
+				####### ДЕМОКРТЫ ПРОДВИЖЕНИЕ ##########
+				democratic_drift = 0.20	
+			}
+		}
+		#########################КУЛЬТ ЛИЧНОСТИ ФАШИСТЫ##########################
+		OSM_Fascism_Cult_Leader = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				#######ПОЛИТКА ФАКТОР########
+				political_power_gain = 0.1
+				#######ПОДДЕРЖКА ВОЙНЫ#######
+				war_support_factor = 0.1	
+				####### ФАШИСТЫ ПРОДВИЖЕНИЕ ##########
+				fascism_drift = 0.1
+				####### Стабильность ##########
+				stability_factor = 0.05	
+			}
+		}
+		#########################РЕСПУБЛИКА##########################
+		OSM_Republic = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				#######ПОЛИТКА ФАКТОР########
+				political_power_gain = -0.05	
+				####### Стабильность ##########
+				stability_factor = 0.15	
+			}
+		}	
+		#########################ПЛОХОЕ УПРАВЛЕНИЕ##########################
+		OSM_Bad_Government = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				#######ПОЛИТКА ФАКТОР########
+				political_power_gain = -0.2	
+				####### Стабильность ##########
+				stability_factor = -0.1
+				####### Поддержка войны ##########
+				war_support_factor = -0.1
+				######ТНП####################
+				consumer_goods_factor = 0.15
+				######ПРОИЗВОДСТВО####################
+				production_factory_efficiency_gain_factor = -0.5 
+		
+			}
+		}	
+
+		######################### БОНУС К ЭКОНОМИКЕ ##########################
+		OSM_Bonus_Economic = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = OSM_Kurdistan_VS_Osmania
+			
+			removal_cost = -1
+			
+			modifier = {
+				######ТНП####################
+				consumer_goods_factor = -0.1				
+			}
+		}
+
+		######################### БОНУС К ВОЕНКЕ ##########################
+		OSM_Bonus_War = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = OSM_Kurdistan_VS_Osmania
+			
+			removal_cost = -1
+			
+			modifier = {
+				###### БОНУС К ВОЕНКЕ ####################
+				production_factory_efficiency_gain_factor = 0.2
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1		
+			}
+		}
+
+	}
+
+}

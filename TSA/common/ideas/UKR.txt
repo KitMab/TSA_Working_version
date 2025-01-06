@@ -1,0 +1,51 @@
+ideas = {
+	country = {
+		######################### ПОДКУП ДЕПУТАТОВ РАДА ##########################
+		UKR_RADA_bribery_deputies = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				#######ПОЛИТКА ФАКТОР########
+				political_power_factor = -0.10
+				######ТНП####################
+				consumer_goods_factor = 0.15			
+			}
+		}
+	}
+	
+	country = {
+		######################### ПОДКУП ДЕПУТАТОВ РАДА ##########################
+		UKR_RADA_reduce_production_deputies = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				#######ПОЛИТКА ФАКТОР########
+				political_power_factor = -0.30
+				######ПРОИЗВОДСТВО####################
+				production_factory_efficiency_gain_factor = -0.5 			
+			}
+		}
+	}
+}

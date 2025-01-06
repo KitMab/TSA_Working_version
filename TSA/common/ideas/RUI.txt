@@ -1,0 +1,291 @@
+ideas = {
+	country = {
+		#########################НОВАЯ ГВАРДИЯ##########################
+		
+		
+		
+		
+		
+		
+		RUI_New_Guard = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = OSM_Kurdistan_VS_Osmania
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				breakthrough_factor = 0.1
+				######ТНП####################
+				consumer_goods_factor = 0.1
+				#######ПОДДЕРЖКА ВОЙНЫ#######
+				war_support_factor = 0.05				
+			}
+		}
+		#########################БАФФЫ НА ВСЁ НИКОЛАЙ 2 RESTORE THE NOBLES##########################
+		RUI_Restore_the_Nobles = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = OSM_Kurdistan_VS_Osmania
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.05
+				army_core_defence_factor = 0.03
+				drift_defence_factor = 0.25			
+			}
+		}
+		#########################СТОЛЫПИНСКИЕ РЕФОРМЫ##########################
+		RUI_Stolypin_Reforms = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = OSM_Kurdistan_VS_Osmania
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.05
+				conscription_factor = 0.03
+				production_factory_efficiency_gain_factor = 0.2
+				consumer_goods_factor = -0.1 	
+			}
+		}
+		###############СТАРАЯ ГВАРДИЯ##############################################
+		RUI_Old_Guard = {
+			
+			allowed = {
+				original_tag = OSM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = OSM_Kurdistan_VS_Osmania
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_infantry_attack_factor = 0.15
+				army_infantry_defence_factor = 0.15
+			}
+		}
+
+	     RUI_Industry_idea = { 
+
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture =  generic_production_bonus
+            
+            modifier = {
+                production_factory_max_efficiency_factor = 0.1
+                production_factory_efficiency_gain_factor = 0.05
+
+				production_speed_industrial_complex_factor = 0.05
+            }
+        }
+		RUI_army_idea = { 
+
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture =  generic_production_bonus
+            
+            modifier = {
+                               army_org_Factor = 0.05
+				conscription = 0.05				
+surrender_limit = 0.3
+            }
+        }
+		
+			     RUI_economic_idea = { 
+
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture =  generic_production_bonus
+            
+            modifier = {
+              production_speed_buildings_factor = 0.1
+			  consumer_goods_factor = 0.1
+			  conversion_cost_civ_to_mil_factor = 0.1
+global_building_slots = 2
+			  industry_free_repair_factor = 0.1
+
+            }
+        }
+		
+		 RUI_AIR_1 = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = generic_constitutional_guarantees
+            
+            modifier = {
+air_bombing_targetting = 0.25
+air_attack_factor = 0.3
+air_ace_generation_chance_factor = 0.15
+  air_mission_xp_gain_factor = 0.05 
+	air_training_xp_gain_factor = 0.05		
+			}
+        }
+	RUI_ARMY_NEW_Officers = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = generic_constitutional_guarantees
+            
+            modifier = {
+cavalry_speed_factor = 0.05 
+Infantry_speed_factor = 0.05
+           
+		   }
+        }     
+			RUI_ARMY_Emp = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = generic_constitutional_guarantees
+            
+            modifier = {
+training_time_factor = -0.1
+            }
+        }     
+			
+		  RUI_international_army_idea = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = generic_constitutional_guarantees
+            
+            modifier = {
+                political_power_gain = -0.25
+            }
+        }
+		
+		RUI_Tsar_Nikoly_II = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = RUI_Tsar_Alexey_II
+            
+            modifier = {
+                political_power_gain = -0.25
+            }
+        }
+		 
+		 RUI_Tsar_Alexey_II = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = RUI_Tsar_Alexey_II
+            
+            modifier = {
+                political_power_gain = -0.25
+            }
+        }
+		
+		
+		
+		RUI_military_exercises_idea = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = RUI_military_exercises_idea
+            
+            modifier = {
+              army_org_factor = 0.05
+            }
+        }
+		
+		RUI_Anti_Communism_idea = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = RUI_military_exercises_idea
+            
+            modifier = {
+              drift_defence_factor = 0.1
+            }
+        }	
+		
+		RUI_interrogation_of_red_generals_idea = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = RUI_military_exercises_idea
+            
+            modifier = {
+            special_forces_cap = 0.1
+			  army_core_defence_factor = 0.03
+				army_core_attack_factor = 0.03
+			  
+            }
+        }	
+		
+		
+		
+	
+	RUI_foreign_attache_idea = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = RUI_military_exercises_idea
+            
+            modifier = {
+              experience_gain_army_factor = 0.05
+           				land_reinforce_rate = 0.02
+				army_morale_factor = 0.05
+		   }
+        }	
+	RUI_artillery_GOD_idea = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = RUI_military_exercises_idea
+            
+            modifier = {
+            breakthrough_factor = 0.05
+			army_artillery_defence_factor = 0.05
+			}
+	
+		   }
+        }	
+	RUI_PORT_Krasnodar_arenda = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = RUI_military_exercises_idea
+            
+            modifier = {
+            political_power_gain = -0.25
+			}
+	
+		   }
+        }	
+
