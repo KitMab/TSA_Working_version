@@ -1,0 +1,34 @@
+add_namespace = mod
+add_namespace = mod_news
+
+    #country_event = {
+    #    id = mod.1
+    #    title = mod.1.t
+    #    desc =  mod.1.d
+    #    picture = GFX_
+
+    #    is_triggered_only = yes
+
+    #    option = {
+    #        name = mod.1.a
+    
+    #    }
+
+    #    option = {
+    #        name = mod.1.b
+
+    #    }
+    #}
+
+    #news_event = {
+    #    id = mod_news.1
+    #    title = mod_news.1.t
+    #    desc = mod_news.1.d
+
+    #    is_triggered_only = yes
+    #    picture = GFX_
+
+    #    option = {
+    #        name = mod_news.1.a
+    #    }
+    #}
