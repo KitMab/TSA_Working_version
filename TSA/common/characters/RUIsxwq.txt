@@ -1,0 +1,16 @@
+characters = {
+	RUI_Nikolay_II = {
+		name= RUI_Nikolay_II
+		portraits = {
+			civilian = {
+				 large = GFX_RUI_Nikolay_II
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			traits = { dictator }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
