@@ -1,0 +1,63 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_Nikoly_II"
+		texturefile = "gfx/leaders/RUI/portrait_Nikoly_II.dds"
+	}
+	spriteType = {
+		name = "GFX_general"
+		texturefile = "gfx/leaders/RUI/portrait_Alexey_II.dds"
+	}
+spriteType = {
+		name = "GFX_Vladimir_Grigoryev"
+		texturefile = "gfx/leaders/RUI/portrait_Vladimir_Grigoryev.dds"
+	}
+spriteType = {
+		name = "GFX_Nikolay_Stogov"
+		texturefile = "gfx/leaders/RUI/portrait_Nikolay_Stogov.dds"
+	}
+spriteType = {
+		name = "GFX_Mihail_Tereshenko"
+		texturefile = "gfx/leaders/RUI/portrait_Mihail_Tereshenko_advisor.dds"
+	}
+spriteType = {
+		name = "GFX_Mihail_Tereshenko_small"
+		texturefile = "gfx/interface/ideas/idea_Mihail_Tereshenko.dds"
+	}
+spriteType = {
+		name = "GFX_alexdandr_Konovalov_small"
+		texturefile = "gfx/interface/ideas/idea_alexdandr_Konovalov.dds"
+	}
+	spriteType = {
+		name = "GFX_pyotr_dolgorukov_small"
+		texturefile = "gfx/interface/ideas/idea_pyotr_dolgorukov.dds"
+	}
+	spriteType = {
+		name = "GFX_vasiliy_Maklakov_small"
+		texturefile = "gfx/interface/ideas/idea_vasiliy_Maklakov.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_Vsevolod_Shahovskoy_small"
+		texturefile = "gfx/interface/ideas/idea_Vsevolod_Shahovskoy.dds"
+	}
+	spriteType = {
+		name = "GFX_Fyodr_Abramov_small"
+		texturefile = "gfx/interface/ideas/idea_Fyodr_Abramov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Abram_Dragamilov_small"
+		texturefile = "gfx/interface/ideas/idea_Abram_Dragamilov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Abram_Dragamilov"
+		texturefile = "gfx/leaders/RUI/portrait_Abram_Dragamilov.dds"
+	}
+	
+spriteType = {
+		name = "GFX_general_Small"
+		texturefile = "gfx/interface/ideas/idea_Alexey_II.dds"
+	}
+
+}
