@@ -1,1 +1,85 @@
+add_namespace = bavaria_problems
+country_event = {
+    id = bavaria_problems.1 ##Евент про общие проблемы баварии
+    title = bavaria_problems.1.a
+    desc = bavaria_problems.1.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = bavaria_problems.1.c
+        add_ideas = {
+            BAY_bad_army_1
+        }
+    }
+}
+add_namespace = bavaria_problems_army
+country_event = {
+    id = bavaria_problems_army.1 ##Евент про проблемы с армией
+    title = bavaria_problems_army.1.a
+    desc = bavaria_problems_army.1.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = bavaria_problems_army.1.c
+        add_ideas = {
+                extensive_conscription
+            }
+        add_ideas = {
+                partial_economic_mobilisation
+            }        
+    }
+}
+add_namespace = bavaria_problems_political
+country_event = {
+    id = bavaria_problems_political.1 ##Евент про политические проблемы
+    title = bavaria_problems_political.1.a
+    desc = bavaria_problems_political.1.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = bavaria_problems_political.1.c
+    }
+}
+country_event = {
+    id = bavaria_problems_political.2 ##Ивент про то что всё хорошо с политикой 
+    title = bavaria_problems_political.2.a
+    desc = bavaria_problems_political.2.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = bavaria_problems_political.2.c
+    }
+}
+add_namespace = bavaria_problems_industry_economic
+country_event = {
+    id = bavaria_problems_industry_economic.1 ##Евент про то что всё плохо с промкой и экономикой
+    title = bavaria_problems_industry_economic.1.a
+    desc = bavaria_problems_industry_economic.1.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = bavaria_problems_industry_economic.1.c
+        add_ideas = {
+            BAY_problems_industry_economic1
+            BAY_sobstvenost_1
+        }
+    }
+}
+add_namespace = bavaria_conquest
+country_event = {
+    id = bavaria_conquest.1 ##Евент про завоевания
+    title = bavaria_conquest1.a
+    desc = bavaria_conquest1.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = bavaria_bavaria_conquest.1.c
+        add_war_support = 0.3
+        add_ideas = {
+            BAY_war
+        }
+    }
+}
+
+
 
