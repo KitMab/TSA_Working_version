@@ -1,1 +1,499 @@
-
+focus_tree = {
+    id = kom_bavaria_focus_tree
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = BAY
+        }
+    }
+    default = no
+    continuous_focus_position = { x = 150 y = 3350 }
+    focus = {
+        id = BAY_problems_tree
+        cost = 1
+        x = 8
+		y = 0
+        completion_reward = {
+            country_event = bavaria_problems.1
+        }
+    }
+    focus = {
+        id = BAY_send_radical_to_jail
+        prerequisite = {
+            focus = BAY_problems_army4
+        }
+        prerequisite = {
+            focus = Bay_political_itogi
+        }
+        prerequisite = {
+            focus = BAY_problems_industry_economic4
+        }
+        cost = 3
+        x = 8
+		y = 6
+        completion_reward = {
+            add_stability = 0.05
+            add_manpower = -4226
+        }
+    }
+    focus = {
+        id = BAY_conquest
+        prerequisite = {
+            focus = BAY_send_radical_to_jail
+        }
+        cost = 1
+        x = 8
+		y = 7
+        completion_reward = {
+            country_event = bavaria_conquest.1
+        }
+    }
+    focus = {
+        id = BAY_austrian_heritage ##Австрийское наследие
+        prerequisite = {
+            focus = BAY_conquest
+        }
+        cost = 2
+        x = 4
+		y = 8
+        completion_reward = {
+            add_ideas = {
+                BAY_austrian_heritage_idea
+            }
+        }
+    }
+    focus = {
+        id = BAY_CZE_war
+        prerequisite = {
+            focus = BAY_austrian_heritage
+        }
+        cost = 2
+        x = 5
+		y = 9
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = CZE
+            }
+        }
+    }
+    focus = {
+        id = BAY_CZE_integration
+        prerequisite = {
+            focus = BAY_CZE_war
+        }
+        cost = 10
+        x = 5
+		y = 10
+        completion_reward = {
+            add_state_core = 848
+            add_state_core = 153
+            add_state_core = 152
+            add_state_core = 976
+            add_state_core = 4
+            add_state_core = 975
+            add_political_power = -150
+        }
+    }
+    focus = {
+        id = BAY_AUS_war
+        prerequisite = {
+            focus = BAY_austrian_heritage
+        }
+        cost = 2
+        x = 3
+		y = 9
+        completion_reward = {
+            create_wargoal { 
+                type = annex_everything
+                target = AUS
+            }
+        }
+    }
+    focus = {
+        id = BAY_AUS_integration
+        prerequisite = {
+            focus = BAY_AUS_war
+        }
+        cost = 10
+        x = 3
+		y = 10
+        completion_reward = {
+            add_state_core = 848
+            add_state_core = 153
+            add_state_core = 152
+            add_state_core = 976
+            add_state_core = 4
+            add_state_core = 975
+            add_political_power = -150
+        }
+    }
+    focus = {
+        id = BAY_problems_industry_economic
+        prerequisite = {
+            focus = BAY_problems_tree
+        }
+        cost = 2
+        x = 12
+		y = 1
+        completion_reward = {
+            country_event = bavaria_problems_industry_economic.1
+        }
+    }
+    focus = {
+        id = BAY_problems_sobstvenost_mygko
+        mutually_exclusive = {
+            focus = BAY_problems_sobstvenost_zakrepit
+        }
+        prerequisite = {
+            focus = BAY_problems_industry_economic
+        }
+        cost = 5
+        x = 13
+		y = 3
+        completion_reward = {
+            remove_ideas = {
+                BAY_sobstvenost_1
+            }
+        }
+    }
+    focus = {
+        id = BAY_problems_sobstvenost_zakrepit
+        mutually_exclusive = {
+            focus = BAY_problems_sobstvenost_mygko
+        }
+        prerequisite = {
+            focus = BAY_problems_industry_economic
+        }
+        cost = 5
+        x = 15
+		y = 3
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = BAY_sobstvenost_1
+                add_idea = BAY_sobstvenost_zakrep
+            }
+        }
+    }
+    focus = {
+        id = BAY_problems_industry_economic1
+        prerequisite = {
+            focus = BAY_problems_industry_economic
+        }
+        cost = 5
+        x = 11
+		y = 2
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = BAY_bad_industry_economic1
+                add_idea = BAY_bad_industry_economic2
+            }
+        }
+    }
+    focus = {
+        id = BAY_problems_industry_economic2
+        prerequisite = {
+            focus = BAY_problems_industry_economic1
+        }
+        cost = 5
+        x = 11
+		y = 3
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = BAY_bad_industry_economic2
+                add_idea = BAY_bad_industry_economic3
+            }
+        }
+    }
+    focus = {
+        id = BAY_problems_industry_economic3
+        prerequisite = {
+            focus = BAY_problems_industry_economic2
+        }
+        cost = 5
+        x = 11
+		y = 4
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = BAY_bad_industry_economic3
+                add_idea = BAY_bad_industry_economic4
+            }
+        }
+    }
+    focus = {
+        id = BAY_problems_industry_economic4
+        prerequisite = {
+            focus = BAY_problems_industry_economic3
+        }
+        prerequisite = {
+            focus = BAY_problems_sobstvenost_mygko
+            focus = BAY_problems_sobstvenost_zakrepit
+        }
+        cost = 5
+        x = 12
+		y = 5
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = BAY_bad_industry_economic4
+                add_idea = BAY_bad_industry_economic5
+            }
+        }
+    }
+    focus = {
+        id = BAY_problems_political
+        prerequisite = {
+            focus = BAY_problems_tree
+        }
+        cost = 2
+        x = 8
+		y = 1
+        completion_reward = {
+            country_event = bavaria_problems_political.1
+        }
+    }
+    focus = {
+        id = Bay_KSB
+        prerequisite = {
+            focus = BAY_problems_political
+        }
+        cost = 5
+        x = 9
+		y = 2
+        completion_reward = {
+            add_ideas = {
+                Bay_political_effective_sovet1
+            }
+        }
+    }
+    focus = {
+        id = Bay_KSB1
+        prerequisite = {
+            focus = Bay_KSB
+        }
+        cost = 5
+        x = 9
+		y = 3
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = Bay_political_effective_sovet1
+                add_idea = Bay_political_effective_sovet2
+            }
+        }
+    }
+    focus = {
+        id = Bay_send_anticommunist_to_jail
+        prerequisite = {
+            focus = Bay_KSB1
+        }
+        cost = 5
+        x = 9
+		y = 4
+        completion_reward = {
+            add_stability = 0.15
+        }
+    }
+    focus = {
+        id = Bay_political_itogi
+        prerequisite = {
+            focus = BAY_problems_diplomatic_fascism
+        }
+        prerequisite = {
+            focus = Bay_send_anticommunist_to_jail
+        }
+        cost = 5
+        x = 8
+		y = 5
+        completion_reward = {
+            add_stability = 0.15
+        }
+    }
+    focus = { ##Фокус про отношения с Чехословакией 
+        id = BAY_problems_diplomatic_chekhi
+        prerequisite = {
+            focus = BAY_problems_political
+        }
+        cost = 5
+        x = 7
+		y = 2
+        completion_reward = {
+            add_opinion_modifier = {
+                target = CZE
+                modifier = hostile_status
+            }
+        }
+    }
+    focus = { ##Фокус про отношения с Пруссией 
+        id = BAY_problems_diplomatic_prussia
+        prerequisite = {
+            focus = BAY_problems_diplomatic_chekhi
+        }
+        cost = 5
+        x = 7
+		y = 3
+        completion_reward = {
+            add_opinion_modifier = {
+                target = PRE
+                modifier = hostile_status
+            }
+        }
+    }
+    focus = { ##Фокус про отношения с Фашисткой Германией 
+        id = BAY_problems_diplomatic_fascism
+        prerequisite = {
+            focus = BAY_problems_diplomatic_prussia
+        }
+        cost = 5
+        x = 7
+		y = 4
+        completion_reward = {
+            add_opinion_modifier = {
+                target = GER
+                modifier = hostile_status
+            }
+        }
+    }
+    focus = { 
+        id = BAY_problems_army_tree
+        prerequisite = {
+            focus = BAY_problems_tree
+        }
+        cost = 2
+        x = 4
+        y = 1
+        completion_reward = {
+            country_event = bavaria_problems_army.1
+        }
+    }
+    focus = { ##BAbVdR фокус создающий агенство Баварское отделение по защите революции
+        id = BAY_BAbVdR
+        prerequisite = {
+            focus = BAY_problems_army_tree
+        }
+        cost = 2
+        x = 1
+        y = 2
+        completion_reward = {
+            create_intelligence_agency = {
+                name = AbVdR
+                icon = GFX_intelligence_agency_logo_sov
+            }
+        }
+    }
+    focus = {
+        id = BAY_problems_army1
+        prerequisite = {
+            focus = BAY_problems_army_tree
+        }
+        cost = 5
+        x = 3
+        y = 2
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = BAY_bad_army_1
+                add_idea = BAY_bad_army_2
+            }
+        }
+    }
+    focus = {
+        id = BAY_problems_army2
+        prerequisite = {
+            focus = BAY_problems_army1
+        }
+        cost = 5
+        x = 3
+        y = 3
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = BAY_bad_army_2
+                add_idea = BAY_bad_army_3
+            }
+        }
+    }
+    focus = {
+        id = BAY_problems_army3
+        prerequisite = {
+            focus = BAY_problems_army2
+        }
+        cost = 5
+        x = 3
+        y = 4
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = BAY_bad_army_3
+                add_idea = BAY_bad_army_4
+            }
+        }
+    }
+    focus = {
+        id = BAY_manpower
+        prerequisite = {
+            focus = BAY_problems_army_tree
+        }
+        cost = 5
+        x = 5
+        y = 2
+        completion_reward = {
+            add_manpower = 50000
+        }
+    }
+    focus = {
+        id = BAY_factory_military
+        prerequisite = {
+            focus = BAY_manpower
+        }
+        cost = 5
+        x = 5
+        y = 3
+        completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+    }
+    focus = {
+        id = BAY_army_industry_tree
+        prerequisite = {
+            focus = BAY_factory_military
+        }
+        cost = 5
+        x = 5
+        y = 4
+        completion_reward = {
+            add_ideas = {
+                BAY_army_industry
+            }
+        }
+    }
+    focus = {
+        id = BAY_problems_army4
+        prerequisite = {
+            focus = BAY_army_industry_tree
+        }
+        prerequisite = {
+            focus = BAY_problems_army3
+        }
+        cost = 5
+        x = 4
+        y = 5
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = BAY_bad_army_4
+                add_idea = BAY_bad_army_5
+            }
+        }
+    }
+}
