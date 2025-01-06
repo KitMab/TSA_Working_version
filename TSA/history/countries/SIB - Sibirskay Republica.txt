@@ -1,4 +1,4 @@
-﻿capital = 826 
+﻿capital = 578 
 
 #oob = "CBS_1936"
 
