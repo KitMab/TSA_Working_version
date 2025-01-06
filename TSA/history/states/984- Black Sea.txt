@@ -1,0 +1,26 @@
+
+state = {
+	id = 984
+	name = "STATE_984" 
+	manpower = 97663
+	
+	state_category = rural
+	resources={
+		steel=18 # was: 24
+	}
+
+	history={
+		owner = RUI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		add_core_of = RUI
+	}
+
+	provinces = {
+	750
+	}
+
+	local_supplies = 0.0 
+}
