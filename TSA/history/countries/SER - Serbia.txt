@@ -84,7 +84,7 @@ recruit_character = SER_pot
 recruit_character = SER_nccr
 recruit_character = SER_mt
 
-set_convoys = 0
+set_convoys = 150
 
 set_politics = {
 	ruling_party = fascism
