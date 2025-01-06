@@ -34,19 +34,18 @@ bookmarks = {
 				OSM_Turkey
 			}
 		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { has_dlc = "Man the Guns" }
+		"PRE"={
+			history = "PRE_GATHERING_STORM_DESC"
+			ideology = despotism
 			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
+				PRE_Berlin_Treaty
+				PRE_Bismarck_fleet
+				PRE_Economic_Development
 			}
 			focuses = {
-				ENG_imperial_federation
-				ENG_the_kings_party
-				ENG_organize_the_blackshirts
+                PRE_Recreate_the_Central_Powers
+				PRE_Kaiser_propaganda
+				PRE_German_Reunification
 			}
 		}
 		"ENG"={
