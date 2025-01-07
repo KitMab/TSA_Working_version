@@ -1,4 +1,4 @@
-﻿capital = 957
+﻿capital = 408
 
 oob = "RUI_1936"
 
