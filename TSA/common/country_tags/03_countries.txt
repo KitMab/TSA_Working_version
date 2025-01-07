@@ -1,6 +1,5 @@
 RUI = "countries/Russian Impire.txt"
 WRU = "countries/White Russian.txt"
-PRU = "countries/Prussian.txt"
 KDE = "countries/Caucasus.txt"
 CBS = "countries/Kuban forces.txt"
 SRA = "countries/Central Asian Khanate.txt"
