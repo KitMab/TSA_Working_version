@@ -1,0 +1,12 @@
+IRE_category = { 
+
+        icon = generic_army_support 
+        allowed = {  
+            tag = RUI
+        }
+		visible_when_empty = yes
+		priority = 90
+		
+		scripted_gui = new_scripted_gui
+		
+}
