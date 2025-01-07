@@ -926,15 +926,6 @@ WRU_CAV_02 = #COSSACK CAVALRY
 
 	for_countries = { WRU UKR }
 
-	can_use = {
-		OR = {
-			AND = {
-				tag = WRU
-				has_completed_focus = WRU_restore_cossack_units
-			}
-			tag = UKR
-		}
-	}
 
 	division_types = { "cavalry" }
 
