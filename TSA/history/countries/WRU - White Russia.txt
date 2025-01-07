@@ -23,6 +23,11 @@ create_country_leader = {
 		#
 	}
 }
+add_ideas = {
+    service_by_requirement
+    limited_exports
+    partial_economic_mobilisation
+}
 ###TECH
 set_technology = {
 	infantry_weapons = 1
