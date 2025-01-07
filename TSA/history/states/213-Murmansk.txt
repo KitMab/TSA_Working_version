@@ -19,10 +19,11 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			air_base = 2
+			air_base = 6
 			3134 = {
-				naval_base = 4
-				coastal_bunker = 1
+				naval_base = 6
+				coastal_bunker = 2
+                                bunker = 2
 			}
 		}
 		add_core_of = WRU
