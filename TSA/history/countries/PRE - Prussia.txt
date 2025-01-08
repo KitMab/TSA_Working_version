@@ -1,5 +1,5 @@
 capital = 763
-oob = "WRU"
+oob = 
 set_research_slots = 3
 set_convoys = 350
 set_popularities = {
