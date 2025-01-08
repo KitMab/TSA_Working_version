@@ -1,5 +1,4 @@
 capital = 763
-oob = 
 set_research_slots = 4
 set_convoys = 350
 set_popularities = {
