@@ -14,11 +14,10 @@ state={
 		#}
 		owner = PRE
 		controller = PRE
-		
+		add_core_of = PRE
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = PRU
 	}
 
 	provinces={
