@@ -98,9 +98,6 @@ set_popularities = {
 	neutrality = 20
 	communism = 60
 }
-
-
-recruit_character = FRC_kirilli_bechvaya
 recruit_character = FRA_maurice_thorez
 
 
