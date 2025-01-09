@@ -124,6 +124,9 @@ characters = {
 				original_tag = RUI
 			}
 			
+		traits = {
+				RUI_Dolgorukov
+			}
 		}
 	}		
 					
