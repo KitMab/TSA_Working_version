@@ -97,10 +97,6 @@ set_popularities = {
 	communism = 10
 	neutrality = 0
 }
-
-
-recruit_character = ABK_kirilli_bechvaya
-
 create_country_leader = {
 	name = "Пётр Краснов"
 	desc = ""
