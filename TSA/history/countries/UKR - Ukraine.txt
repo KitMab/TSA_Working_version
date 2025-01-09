@@ -102,7 +102,6 @@ set_variable = { UKR_supporting_power = 5}
 set_variable = { UKR_against_government = 5}
 set_variable = { UKR_all_members = 450 } 
 
-recruit_character = OSM_kirilli_bechvaya
 
 create_country_leader = {
 	name = "Евгений Коновалец"
