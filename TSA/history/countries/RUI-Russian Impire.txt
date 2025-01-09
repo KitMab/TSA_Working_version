@@ -1,6 +1,6 @@
 ﻿capital = 408
 
-oob = "RUI_1936"
+oob = "RUI"
 
 set_research_slots = 3
 
