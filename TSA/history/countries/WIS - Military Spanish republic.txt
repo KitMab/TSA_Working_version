@@ -9,16 +9,6 @@ set_popularities = {
 set_politics = {
 	ruling_party = neutral
 }
-###create_country_leader = {
-	name = "Oleg Korenev"
-	desc = ""
-	picture = GFX_portrait_europe_generic_4
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-###}
 add_ideas = {
     service_by_requirement
     limited_exports
