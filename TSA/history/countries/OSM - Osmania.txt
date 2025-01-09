@@ -107,9 +107,6 @@ set_popularities = {
 #	target = KUR
 #	type = annex_everything
 #}
-
-recruit_character = OSM_kirilli_bechvaya
-
 add_ideas = OSM_Kurdistan_VS_Osmania
 add_ideas = OSM_Bad_Government
 
