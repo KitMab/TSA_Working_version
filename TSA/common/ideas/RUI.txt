@@ -248,6 +248,17 @@ training_time_factor = -0.1
             }
         }	
 		
+       RUI_surrender_idea = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = RUI_military_exercises_idea
+            
+            modifier = {
+       surrender_limit = 0.8
+			}
+	
+		   }
 		
 		
 	
@@ -283,9 +294,21 @@ training_time_factor = -0.1
             picture = RUI_military_exercises_idea
             
             modifier = {
-            political_power_gain = -0.25
+            political_power_gain = -0.3
+			}
+	
+		   }
+        	
+
+       RUI_surrender = { 
+            allowed = {always = yes}
+            allowed_civil_war = {always = yes}
+
+            picture = RUI_military_exercises_idea
+            
+            modifier = {
+       surrender_limit = 0.3
 			}
 	
 		   }
         }	
-
