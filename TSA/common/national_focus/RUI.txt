@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 0 y = 1300}
+	continuous_focus_position = { x = 0 y = 1488}
 	
 	focus = {
 		id = RUI_HISTORY
@@ -32,6 +32,17 @@ news_event = {
 		cost = 2,00
 		x = 24
 		y = 0
+
+	available = {
+		
+		 has_completed_focus =  RUI_HISTORY
+			
+			
+			}
+		
+		
+		
+
 completion_reward = {
 news_event = {
     id = RUI_WAY_event.1
@@ -201,8 +212,13 @@ completion_reward = {
 				target = FER
 				type = annex_everything
 			}
-			
-			surrender_limit = 0.3
+	add_timed_idea = {
+				idea = RUI_surrender_idea
+				days = 200
+			}		
+		 
+		
+		
 	}
 
 
@@ -441,7 +457,12 @@ add_advisor_role = {
 		}
 		x = 14
 		y = 6
-
+available = {
+		
+		 has_completed_focus =  RUI_Finish_off_the_USSR
+			
+			
+			}
 	}
 	focus = {
 		id = RUI_Tsar_Nicholas
@@ -508,6 +529,15 @@ add_advisor_role = {
 		prerequisite = {
 			focus = RUI_Stolypin_successors
 		}
+		
+	available = {
+		
+		 has_completed_focus =  RUI_Finish_off_the_USSR
+			
+			
+			}
+		
+		
 		completion_reward = {
 			add_ideas = RUI_Old_Guard 
 		}	
@@ -730,7 +760,16 @@ add_resistance= 5
 		x = 26
 		y = 14
 completion_reward = {
-
+add_extra_state_shared_building_slots = 1
+				
+				
+					408 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 			  
 
 }
@@ -1789,7 +1828,7 @@ add_tech_bonus = {
 		
 		available = {
 		
-			234 = { #LENINGRAD
+			984 = { #LENINGRAD
 				is_owned_and_controlled_by = ROOT
 			
 			
@@ -2357,7 +2396,7 @@ add_state_claim = 304
 		y = 6
 completion_reward = {
 create_wargoal = {
-				target = THA
+				target = SIA
 				type = annex_everything
 			}
 	}
@@ -2435,7 +2474,12 @@ create_wargoal = {
 		x = 45
 		y = 10
 completion_reward = {
-
+news_event = {
+    id = RUI_Cult_Alexey_II.1
+    days = 1
+    random_hours = 12
+    random_days = 1
+}
 	}
 	}
 	
