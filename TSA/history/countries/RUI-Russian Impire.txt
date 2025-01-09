@@ -106,15 +106,15 @@ set_popularities = {
 recruit_character = Nikoly_II_ROMANOV
 recruit_character = RUI_Alexey_II
 recruit_character = RUI_Vladimir_Grigoryev
-recruit_character =RUI_Nikolay_Stogov
-recruit_character =RUI_Mihail_Tereshenko
-recruit_character =RUI_alexdandr_Konovalov
-recruit_character =RUI_vasiliy_Maklakov
-recruit_character =RUI_pyotr_dolgorukov
-recruit_character =RUI_Vsevolod_Shahovskoy
+recruit_character = RUI_Nikolay_Stogov
+recruit_character = RUI_Mihail_Tereshenko
+recruit_character = RUI_alexdandr_Konovalov
+recruit_character = RUI_vasiliy_Maklakov
+recruit_character = RUI_pyotr_dolgorukov
+recruit_character = RUI_Vsevolod_Shahovskoy
 
-recruit_character =RUI_Fyodr_Abramov
-recruit_character =RUI_Abram_Dragamilov
+recruit_character = RUI_Fyodr_Abramov
+recruit_character = RUI_Abram_Dragamilov
 
 
 
