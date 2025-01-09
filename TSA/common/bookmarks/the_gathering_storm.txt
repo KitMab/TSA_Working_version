@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 		"RUI"={
 			history = "RUI_GATHERING_STORM_DESC"
-			ideology = despotism
+			ideology = neutrality
 			ideas = {
 				RUI_Tsar_Nikoly_II
 				RUI_Anti_Communism_idea
@@ -22,7 +22,7 @@ bookmarks = {
 		}
 		"OSM"={
 			history = "OSM_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = despotism
+			ideology = neutrality
 			ideas = {
 				OSM_Kurdistan_VS_Osmania
 				OSM_Bad_Government
@@ -36,7 +36,7 @@ bookmarks = {
 		}
 		"PRE"={
 			history = "PRE_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = despotism
+			ideology = neutrality
 			ideas = {
 				PRE_Berlin_Treaty
 				PRE_Bismarck_fleet
@@ -50,7 +50,7 @@ bookmarks = {
 		}
 		"BAY"={
 			history = "BAY_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = marxism
+			ideology = communism
 			ideas = {
 				BAY_bad_army_1
 				BAY_bad_industry_economic1
@@ -64,7 +64,7 @@ bookmarks = {
 		}
 		"PRI"={
 			history = "PRI_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = despotism
+			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
