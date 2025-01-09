@@ -15,7 +15,6 @@ state = {
 			infrastructure = 2
 		}
 		add_core_of = CRA
-                add_core_of = RUI
 		add_core_of = FER
 	}
 
