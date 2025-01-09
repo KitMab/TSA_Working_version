@@ -20,6 +20,9 @@ create_country_leader = {
 		#
 	}
 }
+add_ideas = {
+    disarmed_nation
+}
 ###TECH
 set_technology = {
 	infantry_weapons = 1
