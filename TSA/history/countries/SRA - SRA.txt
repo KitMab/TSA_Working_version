@@ -97,7 +97,6 @@ set_popularities = {
 }
 
 
-recruit_character = OSM_kirilli_bechvaya
 
 create_country_leader = {
 	name = "Евгений Коновалец"
