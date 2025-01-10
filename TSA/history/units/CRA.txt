@@ -23,7 +23,7 @@ units = {
         division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 1
-		start_manpower_factor = 1
+	start_manpower_factor = 100
     }
     division= {
 		division_name = {
@@ -34,7 +34,7 @@ units = {
         division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 1
-		start_manpower_factor = 1
+	start_manpower_factor = 100
     }
     division= {
 		division_name = {
@@ -45,7 +45,7 @@ units = {
         division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 1
-		start_manpower_factor = 1
+	start_manpower_factor = 100
     }
     division= {
 		division_name = {
@@ -56,7 +56,7 @@ units = {
         division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 1
-		start_manpower_factor = 1
+	start_manpower_factor = 100
     }
     division= {
 		division_name = {
@@ -67,7 +67,7 @@ units = {
         division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 1
-		start_manpower_factor = 1
+	start_manpower_factor = 100
     }
     division= {
 		division_name = {
@@ -78,6 +78,6 @@ units = {
         division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 1
-		start_manpower_factor = 1
+	start_manpower_factor = 1001
     }
 }
