@@ -1,4 +1,4 @@
-﻿capital = 982#Sukhumi
+﻿capital = 982
 
 oob = "CRA_1936"
 
