@@ -14,7 +14,9 @@ focus_tree = {
 		cost = 0,50
 		x = 11
 		y = 0
-
+completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = PRE_New_Bismarck
@@ -24,6 +26,27 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_ideas = PRE_Bismarck_fleet 
+		create_equipment_variant = {
+    				name = "New Bismarck"								
+    				type = improved_battleship
+    				name_group = 1
+    				role_icon_index = 1
+    				modules = {
+        				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+        				fixed_ship_engine_slot = sub_ship_engine_1
+        				rear_1_custom_slot = ship_mine_layer_sub
+    				}
+}
+    			create_ship = {
+        			type = improved_battleship
+        			equipment_variant = "New Bismarck"
+        			creator = ROOT
+        			name = "New Bismarck"
+    			}
+		
+		
+		
+		
 		}
 	}
 	focus = {
@@ -35,7 +58,13 @@ focus_tree = {
 		}
 		x = 21
 		y = 1
-
+completion_reward = {
+			remove_ideas = PRE_Berlin_treaty 
+		
+		
+		
+		
+		}
 	}
 	focus = {
 		id = PRE_Factory_construction
@@ -47,7 +76,7 @@ focus_tree = {
 			random_owned_state = {
 				add_building_construction = {
     						type = industial_complex
-    						level = 1
+    						level = 2
     						instant_build = yes
 					}			
 			}
@@ -63,7 +92,7 @@ focus_tree = {
 		x = 11
 		y = 1
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 75
 		}
 	}
 	focus = {
@@ -82,7 +111,14 @@ focus_tree = {
     					level = 2
     					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+    					type = industial_complex
+    					level = 2
+    					instant_build = yes
+				}
+				
+				add_extra_state_shared_building_slots = 5
 			}
 		}
 		prerequisite = {
@@ -156,7 +192,8 @@ focus_tree = {
 			}
 			add_ideas = PRE_Military_Politic_Bonus_1
 			army_experience = 50
-		}
+	add_idea = PRE_Military_exercises
+	}
 
 	}
 	focus = {
@@ -193,10 +230,11 @@ focus_tree = {
 		x = 11
 		y = 4
 		completion_reward = {
-			add_manpower = 3000
+			add_manpower = 5000
 			swap_ideas = {
 				remove_idea = PRE_Military_Politic_Bonus_1
 				add_idea = PRE_Military_Politic_Bonus_2
+	
 			}
 		}
 	}
