@@ -29,6 +29,7 @@ state={
 			}
 		}
 		add_core_of = WRU
+		add_claim_by = RUI
 		if = {
 			limit = {
 				has_dlc = "Arms Against Tyranny"
