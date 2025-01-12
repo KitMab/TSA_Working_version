@@ -13,6 +13,7 @@ state={
 		}
 		add_core_of = WRU
 		add_core_of = KAR
+		add_claim_by = RUI
 	}
 
 	provinces={
