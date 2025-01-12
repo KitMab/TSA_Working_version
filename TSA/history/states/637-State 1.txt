@@ -13,7 +13,7 @@ state = {
 			}
 
 		}
-		add_core_of = SOV
+		add_claim_by = RUI
 		add_core_of = FER
 	}
 
