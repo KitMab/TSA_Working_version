@@ -295,7 +295,7 @@ completion_reward = {
 		y = 8
 completion_reward = {
 		create_wargoal = {
-				target = TAN
+				target = MON
 				type = annex_everything
 			}
 	}
