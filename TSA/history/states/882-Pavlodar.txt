@@ -11,6 +11,7 @@ state = {
 	history = {
 		owner = SRA
 		add_core_of = KAZ
+		add_claim_by = RUI
 		buildings = {
 			infrastructure = 2
 
