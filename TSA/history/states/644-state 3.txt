@@ -12,6 +12,7 @@ state = {
 		}
 		add_core_of = FER
 		add_core_of = YAK
+		add_claim_by = RUI
 
 	}
 
