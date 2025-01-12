@@ -11,8 +11,8 @@ state={
 		victory_points = {
 			1517 1 
 		}
-		add_core_of = SOV
-        add_core_of = SRA
+		add_claim_by = RUI
+                add_core_of = SRA
 	}
 
 	provinces={
