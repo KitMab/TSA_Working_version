@@ -14,11 +14,10 @@ state = {
 			infrastructure = 1
 			industrial_complex = 1
 
-		}
-		
-		add_core_of = SOV
+		}	
+		add_claim_by = RUI
 		add_core_of = TMS
-add_core_of = SRA
+                add_core_of = SRA
 	}
 
 	provinces = {
