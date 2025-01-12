@@ -7,7 +7,7 @@ state={
 
 	history={
 		owner = FIN
-
+		add_claim_by = RUI
 		victory_points = { #Petsamo
 			9140 1
 		}
