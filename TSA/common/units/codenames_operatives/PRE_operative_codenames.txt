@@ -1,0 +1,29 @@
+﻿PRE_OPERATIVE_CODENAME_HISTORICAL = {
+	name = PRE_OPERATIVE_CODENAME_HISTORICAL
+
+	for_countries = { PRE }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+
+	unique = {
+		"Wolf"
+		"Cicero"
+		"Cäsar"
+		"Nero"
+		"Alaric"
+		"Augustus"
+		"Titus"
+		"Tiger"
+		"Condor"
+		"Elster"
+		"Bär"
+		"Hai"
+		"Maus"
+		"Willhelm"
+		"August"
+		"Karl"
+		"Heinrich"
+	}
+}
