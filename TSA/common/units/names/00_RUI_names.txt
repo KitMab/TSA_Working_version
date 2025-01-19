@@ -1,5 +1,5 @@
 ﻿RUI = {
-	fleet_names_template = FLEET_NAME_WRU
+	fleet_names_template = FLEET_NAME_﻿RUI
 	submarine = {
 		prefix = ""
 		generic = { "Podvodnaya Lodka" }
@@ -60,13 +60,13 @@
 			"Moskva" "Petrograd" "Oryol" "Kiyev" "Minsk" "Novorossysk" "Kharkov" "Riga" "Admiral Gorshkov" "Leonid Brezhnev" "Admiral Kuznetsov" 
 		}
 	}
-air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
+air_wing_names_template = AIR_WING_NAME_﻿RUI_FALLBACK
 
 	#Air wings can only be named through archetype
 	small_plane_airframe = {
 		prefix = ""
 		generic = { "IAD" "IAD-PVO"}
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -74,7 +74,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	medium_plane_scout_plane_airframe = {
 		prefix = ""
 		generic = { "ORAP" "RAP"}
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -82,7 +82,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	jet_fighter_equipment = {
 		prefix = ""
 		generic = { "IAD" "IAD-PVO" "GIAD" }
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -90,7 +90,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "IAD" "IAD-PVO"}
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -98,7 +98,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "ShAD" "NBAD" }
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -106,7 +106,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "OKIAP" }
-		generic_pattern = AIR_WING_NAME_WRU_CARRIER
+		generic_pattern = AIR_WING_NAME_﻿RUI_CARRIER
 		unique = {
 		}	
 	}
@@ -114,14 +114,14 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "OKShAP" }
-		generic_pattern = AIR_WING_NAME_WRU_CARRIER
+		generic_pattern = AIR_WING_NAME_﻿RUI_CARRIER
 		unique = {
 		}	
 	}
 	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "OKMTAP" }
-		generic_pattern = AIR_WING_NAME_WRU_CARRIER
+		generic_pattern = AIR_WING_NAME_﻿RUI_CARRIER
 		unique = {
 		}	
 	}
@@ -129,7 +129,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	medium_plane_airframe = {
 		prefix = ""
 		generic = { "BAD" }
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -137,7 +137,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	jet_tac_bomber_equipment = {
 		prefix = ""
 		generic = { "BAD" "GBAD" }
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -145,7 +145,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "MBAD" "MTAD" }
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -153,7 +153,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	large_plane_airframe = {
 		prefix = ""
 		generic = { "OTBAD" }
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -161,7 +161,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	large_plane_maritime_patrol_plane_airframe = {
 		prefix = ""
 		generic = { "TBAD" "OPAD" "ODRAD" }
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -169,7 +169,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	jet_strategic_bomber_equipment = {
 		prefix = ""
 		generic = { "OTBAD" }
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -177,7 +177,7 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	transport_plane_equipment = {
 		prefix = ""
 		generic = { "TrAD" }
-		generic_pattern = AIR_WING_NAME_WRU_GENERIC
+		generic_pattern = AIR_WING_NAME_﻿RUI_GENERIC
 		unique = {
 		}	
 	}
@@ -185,31 +185,31 @@ air_wing_names_template = AIR_WING_NAME_WRU_FALLBACK
 	infantry = {
 		prefix = ""
 		generic = { "Strelkovaya Diviziya" }
-		generic_pattern = "UNIT_GENERIC_NAME_WRU"
+		generic_pattern = "UNIT_GENERIC_NAME_﻿RUI"
 		unique = {}
 	}
 	motorized = {
 		prefix = ""
 		generic = { "Motostrelkovaya Diviziya" }
-		generic_pattern = "UNIT_GENERIC_NAME_WRU"
+		generic_pattern = "UNIT_GENERIC_NAME_﻿RUI"
 		unique = {}
 	}
 	mountaineers = {
 		prefix = ""
 		generic = { "Gornostrelkovaya Diviziya" }
-		generic_pattern = "UNIT_GENERIC_NAME_WRU"
+		generic_pattern = "UNIT_GENERIC_NAME_﻿RUI"
 		unique = {}
 	}
 	cavalry = {
 		prefix = ""
 		generic = { "Kavaleryskaya Diviziya" }
-		generic_pattern = "UNIT_GENERIC_NAME_WRU"
+		generic_pattern = "UNIT_GENERIC_NAME_﻿RUI"
 		unique = {}
 	}
 	light_armor = {
 		prefix = ""
 		generic = { "Mekhanizirovanaya Korpus" }
-		generic_pattern = "UNIT_GENERIC_NAME_WRU"
+		generic_pattern = "UNIT_GENERIC_NAME_﻿RUI"
 		unique = {}
 	}
 }
