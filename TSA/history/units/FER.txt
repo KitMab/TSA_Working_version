@@ -134,7 +134,7 @@ units = {
     division= {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 12
+			name_order = 13
 		}
         location = 1852
         division_template = "Strelkovaya Diviziya"
@@ -144,7 +144,7 @@ units = {
     division= {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 13
+			name_order = 14
 		}
         location = 4805
         division_template = "Strelkovaya Diviziya"
@@ -154,7 +154,7 @@ units = {
     division= {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 14
+			name_order = 15
 		}
         location = 12192
         division_template = "Strelkovaya Diviziya"
@@ -164,7 +164,7 @@ units = {
     division= {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 15
+			name_order = 16
 		}
         location = 12263
         division_template = "Strelkovaya Diviziya"
@@ -174,7 +174,7 @@ units = {
     division= {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 16
+			name_order = 17
 		}
         location = 12638
         division_template = "Strelkovaya Diviziya"
@@ -184,7 +184,7 @@ units = {
     division= {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 17
+			name_order = 18
 		}
         location = 12569
         division_template = "Strelkovaya Diviziya"
@@ -194,7 +194,7 @@ units = {
     division= {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 18
+			name_order = 19
 		}
         location = 7871
         division_template = "Strelkovaya Diviziya"
