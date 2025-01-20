@@ -10,11 +10,11 @@ state={
 	}
 
 	history={
-		owner = SIB
+		owner = FER
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SIB
+		add_core_of = FER
 		add_claim_by = RUI
 		
 	}
