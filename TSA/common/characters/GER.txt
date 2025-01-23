@@ -1,0 +1,42 @@
+characters = {
+		GER_erwin_rommel = {
+		name = GER_erwin_rommel
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_erwin_rommel
+				small = GFX_idea_erwin_rommel
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = erwin_rommel
+			ledger = army
+			allowed = {
+				original_tag = PRE
+			}
+			traits = {
+				army_armored_3
+			}
+			cost = 200
+			ai_will_do = {
+				base = 8
+				modifier = {
+					factor = 0
+					has_completed_focus = GER_start_the_proletarian_revolution
+					NOT = {
+						has_completed_focus = GER_the_peoples_victory
+					}
+				}
+			}
+		}
+		corps_commander = {
+			traits = { trait_reckless media_personality armor_officer war_hero trickster }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 4
+		}
+	}
+}
