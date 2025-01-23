@@ -28,6 +28,7 @@ add_ideas = {
     service_by_requirement
     limited_exports
     partial_economic_mobilisation
+	SIB_unsustainable_national_debt
 }
 ###TECH
 set_technology = {
