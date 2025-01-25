@@ -68,14 +68,14 @@ country_event = {
 }
 
 
-#add_namespace = RUI_Nikolay_did_event
+#add_namespace = RUI_Nikolay_death_event
 
 
 
 #country_event = {
 #	id = RUI_Nikolay_death_event.1
-#	title = RUI_Nikolay_did_event.1.t
-#	desc = RUI_Nikolay_did_event.1.d
+#	title = RUI_Nikolay_death_event.1.t
+#	desc = RUI_Nikolay_death_event.1.d
 #	picture = GFX_report_event_europe_funeral
 #	
 #	trigger = {
