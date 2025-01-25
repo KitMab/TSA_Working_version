@@ -73,7 +73,7 @@ country_event = {
 
 
 #country_event = {
-#	id = RUI_Nikolay_did_event.1
+#	id = RUI_Nikolay_death_event.1
 #	title = RUI_Nikolay_did_event.1.t
 #	desc = RUI_Nikolay_did_event.1.d
 #	picture = GFX_report_event_europe_funeral
@@ -101,7 +101,7 @@ country_event = {
 	#	}		
 	#}
 	#option = {
-	#	name = RUI_Nikolay_did_event.1.a
+	#	name = RUI_Nikolay_death_event.1.a
 	#	kill_country_leader = yes
 	#	create_country_leader = {
 	#		name = "RUI_Alexey_II"
