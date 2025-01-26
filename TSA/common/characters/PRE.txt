@@ -1,6 +1,6 @@
 characters = {
-		GER_erwin_rommel = {
-		name = GER_erwin_rommel
+		PRE_erwin_rommel = {
+		name = PRE_erwin_rommel
 		portraits = {
 			army = {
 				large = GFX_portrait_GER_erwin_rommel
@@ -18,16 +18,6 @@ characters = {
 				army_armored_3
 			}
 			cost = 200
-			ai_will_do = {
-				base = 8
-				modifier = {
-					factor = 0
-					has_completed_focus = GER_start_the_proletarian_revolution
-					NOT = {
-						has_completed_focus = GER_the_peoples_victory
-					}
-				}
-			}
 		}
 		corps_commander = {
 			traits = { trait_reckless media_personality armor_officer war_hero trickster }
