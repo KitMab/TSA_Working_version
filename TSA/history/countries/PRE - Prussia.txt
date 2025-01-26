@@ -24,7 +24,7 @@ create_country_leader = {
 add_ideas = {
     disarmed_nation
 }
-recruit_character = GER_erwin_rommel
+recruit_character = PRE_erwin_rommel
 ###TECH
 set_technology = {
 	infantry_weapons = 1
