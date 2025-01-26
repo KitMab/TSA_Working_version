@@ -1,0 +1,74 @@
+add_namespace = british
+
+country_event = {
+	id = british.1
+	title = british.1.t
+	desc = british.1.d
+	picture = 
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = british.1.a
+        ENG = { annex_country = { target = SCO transfer_troops = yes } }
+		hidden_effect = {
+		news_event = { id = british.2 hours = 6 }
+		   ENG = {
+           add_state_core = 133
+		   add_state_core = 121
+		   add_state_core = 120
+		   add_state_core = 136
+		   add_state_core = 993
+		   add_timed_idea = { idea = ENG_recovery_after_reunification days = 365 }
+		   }   
+       }		
+    }
+	
+	option = {
+		name = british.1.b
+        ENG = {
+		    create_wargoal = {
+				type = annex_everything
+				target = SCO
+				expire = 0
+			 }
+        }
+	}
+	
+}
+
+news_event = {
+	id = british.2
+	title = british.2.t
+	desc = british.2.d
+	picture = GFX_news_event_050
+	
+	major = yes
+	
+	trigger = {
+	618 = { is_controlled_by = ENG }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = british.2.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = british.2.b
+		trigger = { TAG = JAP }
+	}
+	
+	option = {
+		name = british.2.с
+		trigger = { TAG = ENG }
+	}
+}
