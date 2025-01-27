@@ -23,6 +23,7 @@ create_country_leader = {
 }
 add_ideas = {
     disarmed_nation
+    PRE_Berlin_Treaty
 }
 recruit_character = PRE_erwin_rommel
 ###TECH
