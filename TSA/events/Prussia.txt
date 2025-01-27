@@ -83,3 +83,15 @@ country_event = {
         name = PRE_Coronation_of_William_III.1.c
     }
 }
+add_namespace = PRE_Germany_is_united_again
+country_event = {
+    id = PRE_Germany_is_united_again.1
+    title = PRE_Germany_is_united_again.1.a
+    desc = PRE_Germany_is_united_again.1.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = PRE_Germany_is_united_again.1.c
+    }
+}
+
