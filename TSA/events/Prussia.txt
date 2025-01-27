@@ -67,6 +67,7 @@ country_event = {
     title = PRE_Death_of_Wilhelm_II.1.a
     desc = PRE_Death_of_Wilhelm_II.1.b
     picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
     option = {
         name = PRE_Death_of_Wilhelm_II.1.c
     }
@@ -77,6 +78,7 @@ country_event = {
     title = PRE_Coronation_of_William_III.1.a
     desc = PRE_Coronation_of_William_III.1.b
     picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
     option = {
         name = PRE_Coronation_of_William_III.1.c
     }
