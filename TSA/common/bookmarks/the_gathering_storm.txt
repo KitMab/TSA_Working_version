@@ -15,7 +15,7 @@ bookmarks = {
 				RUI_Tsar_Alexey_II
 			}
 			focuses = {
-                RUI_Russian_way
+                                RUI_Russian_way
 				RUI_HISTORY
 				RUI_Strengthening
 			}
@@ -29,7 +29,7 @@ bookmarks = {
 				OSM_Fascism_Cult_Leader
 			}
 			focuses = {
-                OSM_Choice_Politic
+                                OSM_Choice_Politic
 				OSM_War_USSR
 				OSM_Turkey
 			}
@@ -43,7 +43,7 @@ bookmarks = {
 				PRE_Economic_Development
 			}
 			focuses = {
-                PRE_Recreate_the_Central_Powers
+                                PRE_Recreate_the_Central_Powers
 				PRE_Kaiser_propaganda
 				PRE_German_Reunification
 			}
@@ -57,7 +57,7 @@ bookmarks = {
 				BAY_sobstvenost_1
 			}
 			focuses = {
-                BAY_problems_army_tree
+                                BAY_problems_army_tree
 				BAY_problems_political
 				BAY_problems_industry_economic
 			}
@@ -68,20 +68,17 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-                PRI_Rapprochement_with_Prussia
+                                PRI_Rapprochement_with_Prussia
 				PRI_Communism_is_our_foundation
 				PRI_Democracy
 			}
 		}
-		"UKR"={
-			history = "UKR_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = fascism
+		"ENG"={
+			history = "ENG_THE_ERA_OF_NEW_EMPIRES_DESC"
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
-                UKR_Fascism
-				UKR_Politic_Choice
-				UKR_Democratic
 			}
 		}
 		"JAP"={
