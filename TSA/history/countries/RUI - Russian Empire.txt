@@ -15,7 +15,7 @@ add_ideas = {
     service_by_requirement
     limited_exports
     partial_economic_mobilisation
-	Rent_of_Yekaterinodar_port
+    Rent_of_Yekaterinodar_port
     RUI_international_army_idea
     RUI_Tsar_Nikoly_II
 }
