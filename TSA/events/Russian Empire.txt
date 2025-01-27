@@ -158,6 +158,7 @@ country_event = {
     title = RUI_Russia_and_Europe.1.a
     desc = RUI_Russia_and_Europe.1.b
     picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
     option = {
         name = RUI_Russia_and_Europe.1.c
     }
@@ -168,6 +169,7 @@ country_event = {
     title = RUI_Russia_and_America.1.a
     desc = RUI_Russia_and_America.1.b
     picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
     option = {
         name = RUI_Russia_and_America.1.c
     }
