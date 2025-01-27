@@ -176,6 +176,8 @@ add_ideas = {
 	stiff_upper_lip
 	ENG_the_war_to_end_all_wars
 	george_v
+	ENG_threat_communism
+	ENG_popular_uprisings_1
 }
 	
 
@@ -209,11 +211,6 @@ if = {
 		freedom_level = 0.4
 	}
 	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
 		target = NZL
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
@@ -226,7 +223,7 @@ if = {
 
 set_autonomy = {
 	target = ENC
-	autonomous_state = autonomy_integrated_puppet
+	autonomous_state = autonomy_colony
 }
 if = {
 	limit = { has_dlc = "Together for Victory" }
