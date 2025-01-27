@@ -10,7 +10,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
+			
 			
 			removal_cost = -1
 			
@@ -29,7 +29,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
+			
 			
 			removal_cost = -1
 			
@@ -46,7 +46,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
+			
 			
 			removal_cost = -1
 
@@ -64,7 +64,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
+			
 				
 			removal_cost = -1
 			
@@ -83,7 +83,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
+			
 			
 			removal_cost = -1
 			
@@ -104,7 +104,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
+			
 			
 			removal_cost = -1
 			
@@ -124,7 +124,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
+			
 			
 			removal_cost = -1
 			
@@ -142,7 +142,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
+			
 			
 			removal_cost = -1
 			
@@ -157,7 +157,6 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture =
 			removal_cost = -1
 
 			targeted_modifier = {
@@ -188,7 +187,6 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture =
 			removal_cost = -1
 
 			targeted_modifier = {

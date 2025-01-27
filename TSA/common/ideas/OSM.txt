@@ -115,7 +115,6 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
 			
 			removal_cost = -1
 			
@@ -141,7 +140,6 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
 			
 			removal_cost = -1
 			
@@ -159,11 +157,8 @@ ideas = {
 				original_tag = OSM
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
 
-			picture = 
+
 			
 			removal_cost = -1
 			
@@ -189,16 +184,13 @@ ideas = {
 				original_tag = OSM
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
+
 
 			picture = OSM_Kurdistan_VS_Osmania
 			
 			removal_cost = -1
 			
 			modifier = {
-				######ТНП####################
 				consumer_goods_factor = -0.1				
 			}
 		}
