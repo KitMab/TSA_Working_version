@@ -452,12 +452,8 @@ PRE_MOT_01 = {
 
 	for_countries = { PRE }
 
-	can_use = {
-		OR = {
-			has_government = neutrality 
-			has_government = democratic 
-		}
-	}
+
+	can_use = { always = yes }
 
 	division_types = { "motorized"  }
 
@@ -493,12 +489,8 @@ PRE_MEC_01_MONARNCHIST = {
 
 	for_countries = { PRE }
 
-	can_use = { 
-		OR = {
-			has_government = neutrality 
-			has_government = democratic 
-		}
-	}
+
+	can_use = { always = yes }
 
 	division_types = { "mechanized"  }
 
@@ -728,13 +720,8 @@ PRE_Arm_01_ANTIFASCIST = {
 
 	for_countries = { PRE }
 
-	can_use = {
-		OR = {
-			has_government = neutrality
-			has_government = democratic
-			has_government = communism
-		}
-	}
+
+	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
@@ -846,7 +833,8 @@ PRE_MIL_01 = {
 
 	for_countries = { PRE }
 
-	can_use = { has_government = neutrality }
+
+	can_use = { always = yes }
 
 	division_types = { "militia"  }
 
@@ -868,13 +856,8 @@ PRE_MIL_02 = {
 
 	for_countries = { PRE }
 
-	can_use = { 
-		OR = {
-			has_government = neutrality 
-			has_government = democratic 
-			has_government = fascism
-		}
-	}
+
+	can_use = { always = yes }
 
 	division_types = { "militia"  }
 
