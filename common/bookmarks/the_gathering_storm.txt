@@ -68,9 +68,6 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-                                PRI_Rapprochement_with_Prussia
-				PRI_Communism_is_our_foundation
-				PRI_Democracy
 			}
 		}
 		"ENG"={
