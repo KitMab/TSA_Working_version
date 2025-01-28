@@ -174,3 +174,15 @@ country_event = {
         name = RUI_Russia_and_America.1.c
     }
 }
+add_namespace = RUI_Reconsidering_the_sale_of_Alaska
+country_event = {
+    id = RUI_Reconsidering_the_sale_of_Alaska.1
+    title = RUI_Reconsidering_the_sale_of_Alaska.1.a
+    desc = RUI_Reconsidering_the_sale_of_Alaska.1.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = RUI_Reconsidering_the_sale_of_Alaska.1.c
+    }
+}
+
