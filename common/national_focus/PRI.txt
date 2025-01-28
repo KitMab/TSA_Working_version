@@ -1,1 +1,11 @@
-###Прошлые фокусы говно были
+###Прошлая ветка была говном поэтому я её ликвидировал
+focus_tree = {
+    id = PRI_focus_tree
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = PRI
+        }
+    }
+}
