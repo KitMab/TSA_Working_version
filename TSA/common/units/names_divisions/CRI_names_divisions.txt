@@ -926,6 +926,7 @@ CRI_CAV_02 = #COSSACK CAVALRY
 
 	for_countries = { CRI }
 
+	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
