@@ -1518,15 +1518,7 @@ CRA_CAV_02 = #COSSACK CAVALRY
 
 	for_countries = { CRA UKR }
 
-	can_use = {
-		OR = {
-			AND = {
-				tag = CRA
-				has_completed_focus = CRA_restore_cossack_units
-			}
-			tag = UKR
-		}
-	}
+	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
@@ -1653,7 +1645,7 @@ CRA_PEN_01 =
 
 	for_countries = { CRA }
 
-	can_use = { has_completed_focus = CRA_penal_battalions }
+	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
