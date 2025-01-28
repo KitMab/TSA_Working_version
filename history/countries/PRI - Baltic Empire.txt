@@ -1,3 +1,4 @@
+###https://ru.wikipedia.org/wiki/%D0%90%D0%B4%D0%BE%D0%BB%D1%8C%D1%84_%D0%A4%D1%80%D0%B8%D0%B4%D1%80%D0%B8%D1%85_%D0%9C%D0%B5%D0%BA%D0%BB%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3-%D0%A8%D0%B2%D0%B5%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9
 capital = 808
 oob = "PRI"
 set_research_slots = 4
@@ -12,7 +13,7 @@ set_politics = {
 	ruling_party = neutrality
 }
 create_country_leader = {
-	name = "Adolf Friedrich" https://ru.wikipedia.org/wiki/%D0%90%D0%B4%D0%BE%D0%BB%D1%8C%D1%84_%D0%A4%D1%80%D0%B8%D0%B4%D1%80%D0%B8%D1%85_%D0%9C%D0%B5%D0%BA%D0%BB%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3-%D0%A8%D0%B2%D0%B5%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9
+	name = "Adolf Friedrich" 
 	desc = ""
 	picture = GFX_portrait_europe_generic_4
 	expire = "1965.1.1"
