@@ -156,8 +156,8 @@ focus_tree = {
 				type = annex_everything
 			}
 	        add_timed_idea = {
-				idea = RUI_surrender_idea
-				days = 200
+				idea = RUI_Fast_company_in_the_Far_East
+				days = 120
 			}		
 	    }
 	}
