@@ -1,0 +1,10 @@
+ideas = {
+    country = {
+        CRA_Guardians_of_the_East_idea = {
+            modifier = {
+                army_attack_factor = 0.25
+                army_defence_factor = 0.25
+            }
+        }
+    }
+}

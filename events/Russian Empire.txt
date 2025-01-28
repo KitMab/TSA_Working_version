@@ -1,0 +1,188 @@
+﻿add_namespace = RUI_History_event
+
+country_event = {
+	id = RUI_History_event.1
+	title = RUI_History_event.1.t
+	desc = RUI_History_event.1.d
+	picture = 
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = RUI_History_event.1.a
+		
+
+	}
+}
+add_namespace = RUI_WAY_event
+country_event = {
+	id =  RUI_WAY_event.1
+	title =  RUI_WAY_event.1.t
+	desc =  RUI_WAY_event.1.d
+	picture = 
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name =  RUI_WAY_event.1.a
+		
+
+	}
+}
+add_namespace = RUI_CRA_event
+
+country_event = {
+	id =  RUI_CRA_event.1
+	title =  RUI_CRA_event.1.t
+	desc =  RUI_CRA_event.1.d
+	picture = 
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name =  RUI_CRA_event.1.a
+		
+
+	}
+}
+add_namespace = RUI_COMMUNIST_event
+
+
+country_event = {
+	id =  RUI_COMMUNIST_event.1
+	title =  RUI_COMMUNIST_event.1.t
+	desc =  RUI_COMMUNIST_event.1.d
+	picture = 
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name =  RUI_COMMUNIST_event.1.a
+		
+
+	}
+}
+#add_namespace = RUI_Nikolay_death_event
+#country_event = {
+#	id = RUI_Nikolay_death_event.1
+#	title = RUI_Nikolay_death_event.1.t
+#	desc = RUI_Nikolay_death_event.1.d
+#	picture = GFX_report_event_europe_funeral
+#	
+#	trigger = {
+	#	tag = RUI
+	#	date > 1941.6.18
+	#	has_start_date < 1941.22.22
+	#has_country_leader = {
+	#		character = Nikoly_II_ROMANOV
+	#		ruling_only = yes
+	#	}
+	#
+	#}	
+#
+	#fire_only_once = yes
+#
+	#mean_time_to_happen = { days = 7 }
+#
+	#immediate = {
+	#	hidden_effect = {
+	#	set_country_flag = ENG_king_died
+	#		remove_ideas = RUI_Tsar_Nikoly_II
+	#		add_ideas = RUI_Tsar_Alexey_II	
+	#	}		
+	#}
+	#option = {
+	#	name = RUI_Nikolay_death_event.1.a
+	#	kill_country_leader = yes
+	#	create_country_leader = {
+	#		name = "RUI_Alexey_II"
+	#		desc = "POLITICS_RUI_Alexey_II_DESC"
+	#		picture = GFX_General
+	#		expire = "1965.1.1"
+	#	ideology = despotism
+	#		traits = {
+	#			
+	#		}
+	#	}
+	#}
+	#}
+	
+	
+	
+	add_namespace = RUI_Nikolay_II
+	
+	
+	country_event = {
+	id = RUI_Nikolay_II.1
+	title = RUI_Nikolay_II.1.t
+	desc = RUI_Nikolay_II.1.d
+	picture = GFX_report_event_europe_funeral
+	
+	trigger = {
+		tag = RUI
+		date > 1936.1.19
+		has_start_date < 1936.01.02
+	}	
+
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 7 }
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = ENG_king_died
+			remove_ideas = RUI_Tsar_Nikoly_II
+			add_ideas = RUI_Tsar_Alexey_II
+		}		
+	}
+	
+	option = {
+		name = RUI_Nikolay_II.1.a
+		effect_tooltip = {
+			remove_ideas = RUI_Tsar_Nikoly_II		
+			add_ideas = RUI_Tsar_Alexey_II
+		}
+	set_country_flag = Nikolay_II_Dead_flag
+	 set_country_flag = New_Tzar_flag
+	 retire_characters = Nikoly_II_ROMANOV
+	retire_character = Nikoly_II_ROMANOV
+	}
+}
+add_namespace = RUI_Russia_and_Europe
+country_event = {
+    id = RUI_Russia_and_Europe.1
+    title = RUI_Russia_and_Europe.1.a
+    desc = RUI_Russia_and_Europe.1.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = RUI_Russia_and_Europe.1.c
+    }
+}
+add_namespace = RUI_Russia_and_America
+country_event = {
+    id = RUI_Russia_and_America.1
+    title = RUI_Russia_and_America.1.a
+    desc = RUI_Russia_and_America.1.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = RUI_Russia_and_America.1.c
+    }
+}
+add_namespace = RUI_Reconsidering_the_sale_of_Alaska
+country_event = {
+    id = RUI_Reconsidering_the_sale_of_Alaska.1
+    title = RUI_Reconsidering_the_sale_of_Alaska.1.a
+    desc = RUI_Reconsidering_the_sale_of_Alaska.1.b
+    picture = GFX_report_event_polish_tanks_01
+    is_triggered_only = yes
+    option = {
+        name = RUI_Reconsidering_the_sale_of_Alaska.1.c
+    }
+}
+

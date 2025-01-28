@@ -1,0 +1,46 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_scripted_gui_window_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/scripted_gui_background.dds"
+	}
+	spriteType = {
+		name = "GFX_Regency_button"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Regency_button.dds"
+	}
+	spriteType = {
+		name = "GFX_Nikolay_II_scripted_gui"
+		textureFile = "/gfx/interface/scripted_gui_graphics/NIkolay_II.dds"
+	}
+	spriteType = {
+		name = "GFX_Alexsey_scripted_gui"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Alexsey.dds"
+	}
+	spriteType = {
+		name = "GFX_Alexsandrovna_Fedorovna_gui"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Alexsandrovna_Fedorovna.dds"
+	}
+	spriteType = {
+		name = "GFX_Alexsey_Tzar_gui"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Alexsey_Tzar.dds"
+	}
+	spriteType = {
+		name = "GFX_Ileana_gui"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Ileana.dds"
+	}
+	spriteType = {
+		name = "GFX_Nikolay_Alexeivich_gui"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Nikolay_Alexeivich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Regent_text_icon"
+		texturefile = "gfx/interface/scripted_gui_graphics/Regent_text_icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Regent_dark_text_icon"
+		texturefile = "gfx/interface/scripted_gui_graphics/Regent_dark_text_icon.dds"
+		legacy_lazy_load = no
+	}
+}

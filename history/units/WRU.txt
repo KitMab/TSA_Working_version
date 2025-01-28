@@ -1,0 +1,185 @@
+division_template = {
+    name = "Self-Defense Forces"
+    division_names_group = WRU_INF_01
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        artillery_brigade = { x = 1 y = 0 }
+        artillery_brigade = { x = 1 y = 1 }
+    }
+    support = {
+        artillery = { x = 0 y = 0 }
+    }
+} 
+units = {
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 3134
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+        location = 3338
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+        location = 3189
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+        location = 11159
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+        location = 6106
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+        location = 3084
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+        location = 6057
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+        location = 11153
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+        location = 6109
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+        location = 89
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+        location = 11071
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+        location = 9187
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+        location = 11171
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+        location = 3130
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+        location = 180
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+        location = 6105
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+        location = 3075
+        division_template = "Self-Defense Forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1
+    }
+}
