@@ -924,8 +924,9 @@ WRU_CAV_02 = #COSSACK CAVALRY
 {
 	name = "Cossack Cavalry Division"
 
-	for_countries = { WRU UKR }
+	for_countries = { WRU }
 
+	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
