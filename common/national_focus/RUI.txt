@@ -653,7 +653,7 @@ focus_tree = {
 			add_ideas = {
 				RUI_military_exercises_idea
 			}
-			random_owned_controlled_state {
+			random_owned_controlled_state = {
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -817,7 +817,7 @@ focus_tree = {
 		x = 30
 		y = 19
 		completion_reward = {
-			random_owned_controlled_state {
+			random_owned_controlled_state = {
 				add_building_construction = {
 					type = fuel_silo
 					level = 2
@@ -1416,7 +1416,7 @@ focus_tree = {
 		x = 10
 		y = 8
 		completion_reward = {
-			random_owned_controlled_state {
+			random_owned_controlled_state = {
 				add_building_construction = {
 					type = air_base
 					level = 2

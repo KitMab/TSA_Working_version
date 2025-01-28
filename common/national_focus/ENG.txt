@@ -34,7 +34,7 @@ focus_tree = {
 				add_idea = ENG_popular_uprisings_5
 				remove_idea = ENG_popular_uprisings_4
 			}
-		remove_idea = ENG_popular_uprisings_5 
+		remove_ideas = ENG_popular_uprisings_5 
 	}	
 	  }
 	}
@@ -146,6 +146,14 @@ focus_tree = {
 		y = 4
 		
 		completion_reward = {
+			126 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 			navy_experience = 25
 			add_tech_bonus = {
 				name = capital_ships_bonus
@@ -155,12 +163,6 @@ focus_tree = {
 				category = bc_tech
 				category = bb_tech
 				category = cv_tech
-			}
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = dockyard
-				level = 2
-				instant_build = yes
 			}
 		}
 
@@ -329,80 +331,77 @@ focus_tree = {
 		}
 		x = 10
 		y = 1
-		
-		
-		
-	completion_reward ={	
-	  random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
+		completion_reward ={	
+			random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+							OR = {
+								is_in_home_area = yes
+								NOT = {
+									owner = {
+										any_owned_state = {
+											free_building_slots = {
+												building = industrial_complex
+												size > 0
+												include_locked = yes
+											}
+											is_in_home_area = yes
+										}
 									}
-									is_in_home_area = yes
 								}
 							}
 						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
 					}
+				swap_ideas = {
+					add_idea = ENG_popular_uprisings_2
+					remove_idea = ENG_popular_uprisings_1
 				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
+			hidden_effect = {
+		swap_ideas = {
+					add_idea = ENG_popular_uprisings_3
+					remove_idea = ENG_popular_uprisings_2
 				}
-			}
-			swap_ideas = {
-				add_idea = ENG_popular_uprisings_2
-				remove_idea = ENG_popular_uprisings_1
-			}
-		hidden_effect = {
-	  swap_ideas = {
-				add_idea = ENG_popular_uprisings_3
-				remove_idea = ENG_popular_uprisings_2
-			}
-      swap_ideas = {
-				add_idea = ENG_popular_uprisings_4
-				remove_idea = ENG_popular_uprisings_3
-			}
-      swap_ideas = {
-				add_idea = ENG_popular_uprisings_5
-				remove_idea = ENG_popular_uprisings_4
-			}
-		remove_idea = ENG_popular_uprisings_5 
-	}	
-	} 
+		swap_ideas = {
+					add_idea = ENG_popular_uprisings_4
+					remove_idea = ENG_popular_uprisings_3
+				}
+		swap_ideas = {
+					add_idea = ENG_popular_uprisings_5
+					remove_idea = ENG_popular_uprisings_4
+				}
+			remove_ideas = ENG_popular_uprisings_5 
+		}	
+		} 
 
-	}
-	focus = {
-		id = ENG_advanced_production_technology
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ENG_domestic_industry_development
 		}
-		x = 10
-		y = 2
-		
-		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 2.0
-				uses = 3
-				category = industry
+		focus = {
+			id = ENG_advanced_production_technology
+			icon = GFX_goal_unknown
+			cost = 10
+			prerequisite = {
+				focus = ENG_domestic_industry_development
 			}
-		}
+			x = 10
+			y = 2
+			
+			completion_reward = {
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 2.0
+					uses = 3
+					category = industry
+				}
+			}
 
 	}
 	focus = {
@@ -728,7 +727,7 @@ focus_tree = {
 				add_idea = ENG_popular_uprisings_5
 				remove_idea = ENG_popular_uprisings_4
 			}
-		remove_idea = ENG_popular_uprisings_5 
+		remove_ideas = ENG_popular_uprisings_5 
 	}	
 	  }
 
@@ -772,7 +771,7 @@ focus_tree = {
 				add_idea = ENG_popular_uprisings_5
 				remove_idea = ENG_popular_uprisings_4
 			}
-		remove_idea = ENG_popular_uprisings_5 
+		remove_ideas = ENG_popular_uprisings_5 
 	}	
 	  }
 		
@@ -828,7 +827,7 @@ focus_tree = {
 				add_idea = ENG_popular_uprisings_5
 				remove_idea = ENG_popular_uprisings_4
 			}
-		remove_idea = ENG_popular_uprisings_5 
+		remove_ideas = ENG_popular_uprisings_5 
 	}	
 	  }
 
@@ -1414,7 +1413,18 @@ focus_tree = {
 		y = 7
 		
 		completion_reward = {
-		random_owned_controlled_state = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
 				limit = {
 					free_building_slots = {
 						building = arms_factory
@@ -1437,20 +1447,8 @@ focus_tree = {
 						}
 					}
 				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
 			}
-			add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
 		}
-
 	}
 	focus = {
 		id = ENG_new_continental_doctrine
@@ -1542,6 +1540,11 @@ focus_tree = {
 		
 		completion_reward = {
 		random_owned_controlled_state = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
 				limit = {
 					free_building_slots = {
 						building = arms_factory
@@ -1571,11 +1574,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
 		}
 
 	}
@@ -1591,6 +1589,11 @@ focus_tree = {
 		
 		completion_reward = {
 		random_owned_controlled_state = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
 				limit = {
 					free_building_slots = {
 						building = arms_factory
@@ -1620,11 +1623,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
 		}
 
 	}
