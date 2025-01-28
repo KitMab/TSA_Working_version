@@ -1,5 +1,5 @@
 focus_tree = {
-    id = kom_bavaria_focus_tree
+    id = kom_bavaria_focus_tree 
     country = {
         factor = 0
         modifier = {
