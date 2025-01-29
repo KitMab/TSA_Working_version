@@ -95,3 +95,7 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+declare_war_on = {
+	target = ENC
+	type = annex_everything
+}
