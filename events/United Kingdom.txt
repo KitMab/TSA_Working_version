@@ -4,7 +4,6 @@ country_event = {
 	id = british.1
 	title = british.1.t
 	desc = british.1.d
-	picture = 
 	
 	fire_only_once = yes
 	is_triggered_only = yes

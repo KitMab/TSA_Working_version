@@ -1,69 +1,45 @@
 ﻿add_namespace = RUI_History_event
-
 country_event = {
 	id = RUI_History_event.1
 	title = RUI_History_event.1.t
 	desc = RUI_History_event.1.d
-	picture = 
-	
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = RUI_History_event.1.a
-		
-
 	}
 }
 add_namespace = RUI_WAY_event
 country_event = {
 	id =  RUI_WAY_event.1
 	title =  RUI_WAY_event.1.t
-	desc =  RUI_WAY_event.1.d
-	picture = 
-	
+	desc =  RUI_WAY_event.1.d	
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name =  RUI_WAY_event.1.a
-		
-
 	}
 }
 add_namespace = RUI_CRA_event
-
 country_event = {
 	id =  RUI_CRA_event.1
 	title =  RUI_CRA_event.1.t
 	desc =  RUI_CRA_event.1.d
-	picture = 
-	
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
-		name =  RUI_CRA_event.1.a
-		
-
+		name =  RUI_CRA_event.1.a	
 	}
 }
 add_namespace = RUI_COMMUNIST_event
-
-
 country_event = {
 	id =  RUI_COMMUNIST_event.1
 	title =  RUI_COMMUNIST_event.1.t
 	desc =  RUI_COMMUNIST_event.1.d
-	picture = 
-	
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name =  RUI_COMMUNIST_event.1.a
-		
-
 	}
 }
 #add_namespace = RUI_Nikolay_death_event
@@ -109,29 +85,20 @@ country_event = {
 	#		}
 	#	}
 	#}
-	#}
-	
-	
-	
-	add_namespace = RUI_Nikolay_II
-	
-	
-	country_event = {
+	#}	
+add_namespace = RUI_Nikolay_II		
+country_event = {
 	id = RUI_Nikolay_II.1
 	title = RUI_Nikolay_II.1.t
 	desc = RUI_Nikolay_II.1.d
 	picture = GFX_report_event_europe_funeral
-	
 	trigger = {
 		tag = RUI
 		date > 1936.1.19
 		has_start_date < 1936.01.02
 	}	
-
 	fire_only_once = yes
-
 	mean_time_to_happen = { days = 7 }
-
 	immediate = {
 		hidden_effect = {
 			set_country_flag = ENG_king_died
@@ -139,17 +106,15 @@ country_event = {
 			add_ideas = RUI_Tsar_Alexey_II
 		}		
 	}
-	
 	option = {
 		name = RUI_Nikolay_II.1.a
 		effect_tooltip = {
 			remove_ideas = RUI_Tsar_Nikoly_II		
 			add_ideas = RUI_Tsar_Alexey_II
 		}
-	set_country_flag = Nikolay_II_Dead_flag
-	 set_country_flag = New_Tzar_flag
-	 retire_characters = Nikoly_II_ROMANOV
-	retire_character = Nikoly_II_ROMANOV
+		set_country_flag = Nikolay_II_Dead_flag
+		set_country_flag = New_Tzar_flag
+		retire_character = Nikoly_II_ROMANOV
 	}
 }
 add_namespace = RUI_Russia_and_Europe

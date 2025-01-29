@@ -1,8 +1,8 @@
-﻿capital = 291
+﻿capital = 644 #Yakutsk
 
-oob = "ENC_1936"
+#oob = "YAK_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 # Starting tech
 set_technology = {
@@ -13,19 +13,16 @@ set_technology = {
 	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
+	tech_trucks = 1
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
-	
 	mass_assault = 1
 	fleet_in_being = 1
 }
-
 if = {
 	limit = {
-		NOT = {
-			has_dlc = "By Blood Alone"
-		}
+		NOT = { has_dlc = "By Blood Alone" }
 	}
 	set_technology = {
 		early_fighter = 1
@@ -35,10 +32,11 @@ if = {
 		naval_bomber1 = 1
 	}
 }
-
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		gwtank = 1
@@ -47,7 +45,9 @@ if = {
 }
 if = {
 	limit = {
+		
 		has_dlc = "No Step Back"
+		
 	}
 	set_technology = {
 		gwtank_chassis = 1
@@ -84,47 +84,25 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
-declare_war_on = {
-	target = ARB
-	type = annex_everything
-}
-
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 100
+	democratic = 60
+	fascism = 0
+	communism = 20
+	neutrality = 20
 }
 
+recruit_character = YAK_pavel_pevznyak
+recruit_character = YAK_anatoly_pepelyayev
 
-recruit_character = ENC_kirilli_bechvaya
 
 
-create_country_leader = {
-	name = "Оливер Лиз"
-	desc = ""
-    picture = "gfx/leaders/ENC/Portrait_Britain_Oliver_Leese.DDS"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits={
-	}
-}
-create_field_marshal = { 
-	name = "Оливер Лиз"
-	desc = ""
-    picture = "gfx/leaders/ENC/Portrait_Britain_Oliver_Leese.DDS"
-	skill = 3
-	attack_skill  = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-	traits={
-	}
-}
+
 
 

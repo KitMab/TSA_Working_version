@@ -1,11 +1,8 @@
 add_namespace = PRE
-
 country_event = {
 	id = PRE.1
 	title = PRE.1.t
 	desc = PRE.1.d
-	picture = 
-	
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -15,11 +12,10 @@ country_event = {
 	}
 	option = {
 		name = PRE.1.b
-			###ОБЪЯВЛЕНИЕ ВОЙНЫ###
-			declare_war_on = {
-    				target = AUS          
-    				type = annex_everything
-			}	
+		declare_war_on = {
+			target = AUS          
+			type = annex_everything
+		}	
 	}
 }
 
@@ -27,11 +23,8 @@ country_event = {
 	id = PRE.2
 	title = PRE.2.t
 	desc = PRE.2.d
-	picture = 
-	
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = PRE.2.a
 		PRE = { 
@@ -47,17 +40,14 @@ country_event = {
 	id = PRE.3
 	title = PRE.3.t
 	desc = PRE.3.d
-	picture = 
-	
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = PRE.3.a
 		add_equipment_to_stockpile = {
-    			type = infantry_equipment
-    			amount = 1000
-    			producer = PRE
+    		type = infantry_equipment
+    		amount = 1000
+    		producer = PRE
 		}
 	}
 }

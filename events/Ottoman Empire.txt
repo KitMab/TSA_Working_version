@@ -1,27 +1,20 @@
 ﻿add_namespace = osman_empire
-
 country_event = {
 	id = osman_empire.1
 	title = osman_empire.1.t
-	desc = osman_empire.1.d
-	picture = 
-	
+	desc = osman_empire.1.d	
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = osman_empire.1.a
-		###ОБЪЯВЛЕНИЕ ВОЙНЫ###
 		declare_war_on = {
-    			target = KUR          
-    			type = annex_everything
+    		target = KUR          
+    		type = annex_everything
 		}
-		###СМЕНА ИДЕИ###
 		swap_ideas = {
-    			remove_idea = OSM_Kurdistan_VS_Osmania 
-    			add_idea = OSM_Kurdistan_VS_Osmania_2
+    		remove_idea = OSM_Kurdistan_VS_Osmania 
+    		add_idea = OSM_Kurdistan_VS_Osmania_2
 		}
-
 	}
 }
 #############################ВОПРОС СИРИИ#########################
@@ -29,11 +22,8 @@ country_event = {
 	id = osman_empire.2
 	title = osman_empire.2.t
 	desc = osman_empire.2.d
-	picture = 
-
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = osman_empire.2.a
 		###ОБЪЯВЛЕНИЕ ВОЙНЫ###
@@ -61,11 +51,8 @@ country_event = {
 	id = osman_empire.3
 	title = osman_empire.3.t
 	desc = osman_empire.3.d
-	picture = 
-
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = osman_empire.3.a
 		# Передача региона
@@ -102,11 +89,8 @@ country_event = {
 	id = osman_empire.5
 	title = osman_empire.5.t
 	desc = osman_empire.5.d
-	picture = 
-
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = osman_empire.5.a
 		###############вступление в ось##########################
@@ -124,11 +108,8 @@ country_event = {
 	id = osman_empire.6
 	title = osman_empire.6.t
 	desc = osman_empire.6.d
-	picture = 
-
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = osman_empire.6.a
 		###############аннексия#########################
@@ -162,7 +143,6 @@ country_event = {
 	}
 	option = {
 		name = osman_empire.6.b
-		###Нихуя не делает###
 	}
 	option = {
 		name = osman_empire.6.c
@@ -175,18 +155,14 @@ country_event = {
 	id = osman_empire.7
 	title = osman_empire.7.t
 	desc = osman_empire.7.d
-	picture = 
-
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = osman_empire.7.a
 		give_guarantee = OSM
 	}
 	option = {
 		name = osman_empire.7.b
-		#Пустота :-)	
 	}
 }
 ########################ВСТУПЛЕНИЕ В СОЮЗНИКИ##################################
@@ -194,11 +170,8 @@ country_event = {
 	id = osman_empire.8
 	title = osman_empire.8.t
 	desc = osman_empire.8.d
-	picture = 
-
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = osman_empire.8.a
 		ENG = { 
@@ -207,6 +180,5 @@ country_event = {
 	}
 	option = {
 		name = osman_empire.8.b
-		#Пустота :-)	
 	}
 }
