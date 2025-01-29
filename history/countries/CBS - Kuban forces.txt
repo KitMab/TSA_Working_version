@@ -14,7 +14,7 @@ set_politics = {
 create_country_leader = {
 	name = "Petr Krasnov"
 	desc = ""
-    picture = "Portrait_Pyotr_Krasnov"
+    picture = "gfx/leaders/CBS/Portrait_Pyotr_Krasnov.DDS"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits={
@@ -23,7 +23,7 @@ create_country_leader = {
 create_field_marshal = { 
 	name = "Petr Krasnov"
 	desc = ""
-    picture = "Portrait_Pyotr_Krasnov"
+    picture = "gfx/leaders/CBS/Portrait_Pyotr_Krasnov.DDS"
 	skill = 3
 	attack_skill  = 5
 	defense_skill = 2
@@ -45,6 +45,9 @@ create_corps_commander = {
 	}
 }
 add_ideas = {
+	service_by_requirement
+    limited_exports
+    partial_economic_mobilisation
 }
 ###TECH
 set_technology = {

@@ -16,7 +16,7 @@ state={
 
 		}
 		add_core_of = ARB
-
+		add_core_of = ENC
 	}
 
 	provinces={
