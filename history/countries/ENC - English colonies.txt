@@ -1,8 +1,8 @@
-﻿capital = 291
+﻿capital = 454
 
-oob = "ENC_1936"
+oob = "ENC"
 
-set_research_slots = 3
+set_research_slots = 4
 
 # Starting tech
 set_technology = {
