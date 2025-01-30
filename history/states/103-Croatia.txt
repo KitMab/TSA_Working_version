@@ -9,9 +9,6 @@ state={
 
 	history={
 		owner = CRO
-		victory_points = { #Dubrovnik
-			6889 3 
-		}
 		victory_points = { #Split
 			3924 3
 		}

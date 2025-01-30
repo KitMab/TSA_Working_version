@@ -10,6 +10,9 @@ state={
 		owner = OSM
 		
 		victory_points = {
+			11853 3
+		}
+		victory_points = {
 			9932 15
 		}
 		victory_points = {

@@ -16,6 +16,9 @@ state={
 		victory_points = {
 			9894 3
 		}
+		victory_points = { #Dubrovnik
+			6889 3 
+		}
 		buildings = {
 			infrastructure = 2
 		}
