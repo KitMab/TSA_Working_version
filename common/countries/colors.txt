@@ -7,7 +7,6 @@ ISF= {
 	color = rgb { 191 140 0}
 	color_ui = rgb {191 140 0}
 }
-
 SIB= {
 	color = rgb { 154 219 2}
 	color_ui = rgb { 154 219 2}
@@ -1002,4 +1001,12 @@ OSM = {
 FRC = {
 	color = rgb { 255 100 100 }
 	color_ui = rgb { 200 80 80 }
+}
+CSP = {
+	color = rgb { 246 15 15 }
+	color_ui = rgb { 246 15 15 }
+}
+MSP = {
+	color = rgb { 255 255 51 }
+	color_ui = rgb { 255 255 51 }
 }

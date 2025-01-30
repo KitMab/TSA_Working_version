@@ -1,39 +1,16 @@
-﻿capital = 454
-oob = "ENC"
+capital = 165
 set_research_slots = 4
-set_convoys = 350
 set_popularities = {
-	democratic = 30
-	fascism = 5
-	neutrality = 60
-	communism = 5
+	democratic = 5
+	fascism = 10
+	neutrality = 5
+	communism = 80
 }
 set_politics = {
-	ruling_party = neutrality
-}
-create_country_leader = {
-	name = "Оливер Лиз"
-	desc = ""
-    picture = "gfx/leaders/ENC/Portrait_Britain_Oliver_Leese.DDS"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits={
-	}
-}
-create_field_marshal = { 
-	name = "Оливер Лиз"
-	desc = ""
-    picture = "gfx/leaders/ENC/Portrait_Britain_Oliver_Leese.DDS"
-	skill = 3
-	attack_skill  = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-	traits={
-	}
+	ruling_party = communism
 }
 add_ideas = {
-	service_by_requirement
+    service_by_requirement
     limited_exports
     partial_economic_mobilisation
 }
