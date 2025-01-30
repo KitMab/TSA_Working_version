@@ -4,7 +4,7 @@ state={
 	
 
 	history={
-		owner = ENC
+		owner = ARB
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

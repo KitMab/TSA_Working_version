@@ -1,0 +1,352 @@
+﻿ARB_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { ARB }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GER_Gar_01 }
+
+	fallback_name = "Alfurqat al-%dr"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Alfurqat Ar Riyad" }
+		2 = { "Alfurqat Jiddah" }
+		3 = { "Alfurqat al-%di" }
+		4 = { "Alfurqat al-%di" }
+		5 = { "Alfurqat al-%di" }
+		6 = { "Alfurqat al-%di" }
+		7 = { "Alfurqat al-%di" }
+		8 = { "Alfurqat al-%di" }
+		9 = { "Alfurqat al-%di" }
+		10 = { "Alfurqat al-%di" }
+		12 = { "Alfurqat al-%dr" }
+		13 = { "Alfurqat al-%dr" }
+		14 = { "Alfurqat al-%dr" }
+		15 = { "Alfurqat al-%dr" }
+		16 = { "Alfurqat al-%dr" }
+		17 = { "Alfurqat al-%dr" }
+		18 = { "Alfurqat al-%dr" }
+		19 = { "Alfurqat al-%dr" }
+		20 = { "Alfurqat al-%dr" }
+	}
+}
+
+ARB_CAV_01 = 
+{
+	name = "Cavalry Divisions"
+
+	for_countries = { ARB }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GER_Gar_01 }
+
+	fallback_name = "Alfursan Almalika al-%dr"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Alfursan Almalika 'Medina'" }
+		2 = { "Alfursan Almalika al-%di" }
+		3 = { "Alfursan Almalika al-%di" }
+		4 = { "Alfursan Almalika al-%di" }
+		5 = { "Alfursan Almalika al-%di" }
+		6 = { "Alfursan Almalika al-%di" }
+		7 = { "Alfursan Almalika al-%di" }
+		8 = { "Alfursan Almalika al-%di" }
+		9 = { "Alfursan Almalika al-%di" }
+		10 = { "Alfursan Almalika al-%di" }
+		11 = { "Alfursan Almalika al-%dr" }
+		12 = { "Alfursan Almalika al-%dr" }
+		13 = { "Alfursan Almalika al-%dr" }
+		14 = { "Alfursan Almalika al-%dr" }
+		15 = { "Alfursan Almalika al-%dr" }
+		16 = { "Alfursan Almalika al-%dr" }
+		17 = { "Alfursan Almalika al-%dr" }
+		18 = { "Alfursan Almalika al-%dr" }
+		19 = { "Alfursan Almalika al-%dr" }
+		20 = { "Alfursan Almalika al-%dr" }
+	}
+}
+
+ARB_MOT_01 = 
+{
+	name = "Motorised Divisions"
+
+	for_countries = { ARB }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARB_INF_01 }
+
+	fallback_name = "Alfurqat al-%di"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Alfurqat Ar Riyad" }
+		2 = { "Alfurqat Jiddah" }
+		3 = { "Alfurqat al-%di" }
+		4 = { "Alfurqat al-%di" }
+		5 = { "Alfurqat al-%di" }
+		6 = { "Alfurqat al-%di" }
+		7 = { "Alfurqat al-%di" }
+		8 = { "Alfurqat al-%di" }
+		9 = { "Alfurqat al-%di" }
+		10 = { "Alfurqat al-%di" }
+		12 = { "Alfurqat al-%dr" }
+		13 = { "Alfurqat al-%dr" }
+		14 = { "Alfurqat al-%dr" }
+		15 = { "Alfurqat al-%dr" }
+		16 = { "Alfurqat al-%dr" }
+		17 = { "Alfurqat al-%dr" }
+		18 = { "Alfurqat al-%dr" }
+		19 = { "Alfurqat al-%dr" }
+		20 = { "Alfurqat al-%dr" }
+	}
+}
+
+ARB_ARM_01 = 
+{
+	name = "Armoured Divisions"
+
+	for_countries = { ARB }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARB_CAV_01 }
+
+	fallback_name = "Alfursan Almalika al-%dr"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Alfursan Almalika 'Medina'" }
+		2 = { "Alfursan Almalika al-%di" }
+		3 = { "Alfursan Almalika al-%di" }
+		4 = { "Alfursan Almalika al-%di" }
+		5 = { "Alfursan Almalika al-%di" }
+		6 = { "Alfursan Almalika al-%di" }
+		7 = { "Alfursan Almalika al-%di" }
+		8 = { "Alfursan Almalika al-%di" }
+		9 = { "Alfursan Almalika al-%di" }
+		10 = { "Alfursan Almalika al-%di" }
+		11 = { "Alfursan Almalika al-%dr" }
+		12 = { "Alfursan Almalika al-%dr" }
+		13 = { "Alfursan Almalika al-%dr" }
+		14 = { "Alfursan Almalika al-%dr" }
+		15 = { "Alfursan Almalika al-%dr" }
+		16 = { "Alfursan Almalika al-%dr" }
+		17 = { "Alfursan Almalika al-%dr" }
+		18 = { "Alfursan Almalika al-%dr" }
+		19 = { "Alfursan Almalika al-%dr" }
+		20 = { "Alfursan Almalika al-%dr" }
+	}
+}
+
+ARB_MEC_01 = 
+{
+	name = "Mechanised Divisions"
+
+	for_countries = { ARB }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARB_INF_01 }
+
+	fallback_name = "Alfurqat al-%dr"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Alfurqat Ar Riyad" }
+		2 = { "Alfurqat Jiddah" }
+		3 = { "Alfurqat al-%di" }
+		4 = { "Alfurqat al-%di" }
+		5 = { "Alfurqat al-%di" }
+		6 = { "Alfurqat al-%di" }
+		7 = { "Alfurqat al-%di" }
+		8 = { "Alfurqat al-%di" }
+		9 = { "Alfurqat al-%di" }
+		10 = { "Alfurqat al-%di" }
+		12 = { "Alfurqat al-%dr" }
+		13 = { "Alfurqat al-%dr" }
+		14 = { "Alfurqat al-%dr" }
+		15 = { "Alfurqat al-%dr" }
+		16 = { "Alfurqat al-%dr" }
+		17 = { "Alfurqat al-%dr" }
+		18 = { "Alfurqat al-%dr" }
+		19 = { "Alfurqat al-%dr" }
+		20 = { "Alfurqat al-%dr" }
+	}
+}
+
+ARB_GAR_01 = 
+{
+	name = "Garrison Divisions"
+
+	for_countries = { ARB }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARB_INF_01 }
+
+	fallback_name = "Alfurqat al-%dr"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Alfurqat Ar Riyad" }
+		2 = { "Alfurqat Jiddah" }
+		3 = { "Alfurqat al-%di" }
+		4 = { "Alfurqat al-%di" }
+		5 = { "Alfurqat al-%di" }
+		6 = { "Alfurqat al-%di" }
+		7 = { "Alfurqat al-%di" }
+		8 = { "Alfurqat al-%di" }
+		9 = { "Alfurqat al-%di" }
+		10 = { "Alfurqat al-%di" }
+		12 = { "Alfurqat al-%dr" }
+		13 = { "Alfurqat al-%dr" }
+		14 = { "Alfurqat al-%dr" }
+		15 = { "Alfurqat al-%dr" }
+		16 = { "Alfurqat al-%dr" }
+		17 = { "Alfurqat al-%dr" }
+		18 = { "Alfurqat al-%dr" }
+		19 = { "Alfurqat al-%dr" }
+		20 = { "Alfurqat al-%dr" }
+	}
+}
+
+ARB_MAR_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { ARB }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ARB_MAR_01 }
+
+	fallback_name = "al-Mushati al-%dr"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		20 = { "al-Mushati al-%dr" }
+		21 = { "al-Mushati al-%dr" }
+		22 = { "al-Mushati al-%dr" }
+		23 = { "al-Mushati al-%dr" }
+		24 = { "al-Mushati al-%dr" }
+		25 = { "al-Mushati al-%dr" }
+		26 = { "al-Mushati al-%dr" }
+		27 = { "al-Mushati al-%dr" }
+		28 = { "al-Mushati al-%dr" }
+		29 = { "al-Mushati al-%dr" }
+		30 = { "al-Mushati al-%dr" }
+
+		# Taken from HoI3 division lists.
+	}
+}
+
+ARB_MTN_01 = 
+{
+	name = "Mountain Divisions"
+
+	for_countries = { ARB }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARB_MAR_01 }
+
+	fallback_name = "al-Mushati al-%dr"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		20 = { "al-Mushati al-%dr" }
+		21 = { "al-Mushati al-%dr" }
+		22 = { "al-Mushati al-%dr" }
+		23 = { "al-Mushati al-%dr" }
+		24 = { "al-Mushati al-%dr" }
+		25 = { "al-Mushati al-%dr" }
+		26 = { "al-Mushati al-%dr" }
+		27 = { "al-Mushati al-%dr" }
+		28 = { "al-Mushati al-%dr" }
+		29 = { "al-Mushati al-%dr" }
+		30 = { "al-Mushati al-%dr" }
+
+		# Taken from HoI3 division lists. As they were the same as the MAR division names, have had the numbers linked.
+	}
+}
+
+ARB_PAR_01 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { ARB }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARB_MAR_01 }
+
+	fallback_name = "al-Mushati al-%dr"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		20 = { "al-Mushati al-%dr" }
+		21 = { "al-Mushati al-%dr" }
+		22 = { "al-Mushati al-%dr" }
+		23 = { "al-Mushati al-%dr" }
+		24 = { "al-Mushati al-%dr" }
+		25 = { "al-Mushati al-%dr" }
+		26 = { "al-Mushati al-%dr" }
+		27 = { "al-Mushati al-%dr" }
+		28 = { "al-Mushati al-%dr" }
+		29 = { "al-Mushati al-%dr" }
+		30 = { "al-Mushati al-%dr" }
+
+		# Taken from HoI3 division lists. As they were the same as the MAR division names, have had the numbers linked.
+	}
+}
