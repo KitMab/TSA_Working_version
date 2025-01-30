@@ -28,7 +28,7 @@ recruit_character = RUI_alexdandr_Konovalov
 recruit_character = RUI_vasiliy_Maklakov
 recruit_character = RUI_pyotr_dolgorukov
 recruit_character = RUI_Vsevolod_Shahovskoy
-recruit_character = RUI_Fyodr_Abramov
+###recruit_character = RUI_Fyodr_Abramov
 recruit_character = RUI_Abram_Dragamilov
 ###TECH
 set_technology = {

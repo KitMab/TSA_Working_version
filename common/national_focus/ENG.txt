@@ -295,7 +295,7 @@ focus_tree = {
 	   
 	}
 	focus = {
-		id = ENG_war_with_japan
+		id = ENG_TSA_war_with_japan
 		icon = GFX_focus_AST_war_japan
 		cost = 12.9
 		prerequisite = {
@@ -320,7 +320,6 @@ focus_tree = {
 				expire = 0
 			}
 		}
-
 	}
 	focus = {
 		id = ENG_domestic_industry_development
@@ -559,16 +558,16 @@ focus_tree = {
         }
 		
 		completion_reward = {
-			SCO = {
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = ENG_woo_sco
-				}
-			}
-			add_opinion_modifier = {
-				target = SCO
-				modifier = ENG_woo_sco
-			}
+			###SCO = {
+			###	add_opinion_modifier = {
+			###		target = ROOT
+			###		modifier = ENG_woo_sco
+			###	}
+			###}
+			###add_opinion_modifier = {
+			###	target = SCO
+			###	modifier = ENG_woo_sco
+			###}
 		}
 
 	}
