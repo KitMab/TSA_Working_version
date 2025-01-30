@@ -225,6 +225,99 @@ if = {
 
 	add_to_tech_sharing_group = commonwealth_research
 }
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	#adding ministers
+	add_ideas = {
+		ENG_ernest_bevin
+		bernard_montgomery
+		rsaf_enfield
+		archibald_wavell
+		charles_portal
+		english_electric		
+
+		#laws
+		partial_economic_mobilisation
+		limited_conscription
+
+		ENG_george_vi
+	}
+
+	recruit_character = ENG_neville_chamberlain
+	promote_character = ENG_neville_chamberlain
+	retire_character = ENG_stanley_baldwin
+	remove_ideas = george_v #Dead
+
+	complete_national_focus = limited_rearmament_focus
+	complete_national_focus = air_defense_focus
+	complete_national_focus = radar_focus
+	complete_national_focus = shadow_scheme_focus
+	complete_national_focus = uk_empire_focus
+	complete_national_focus = uk_service_focus
+	complete_national_focus = uk_colonial_focus
+	complete_national_focus = uk_mediterranean_focus
+	complete_national_focus = uk_asia_focus
+	complete_national_focus = uk_commonwealth_focus
+
+	give_guarantee = POL
+	if = {
+		limit = {
+			NOT = {
+				has_dlc = "No Step Back"
+			}
+		}
+		set_oob = "ENG_1939"
+	}
+	if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		set_oob = "ENG_1939_nsb"
+	}
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_naval_oob = "ENG_1939_Naval"
+		else = {
+			set_naval_oob = "ENG_1939_Naval_Legacy"
+		}
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "ENG_1939_air_bba"
+		set_technology = {
+			basic_small_airframe = 1
+			improved_small_airframe = 1
+			basic_medium_airframe = 1
+			basic_large_airframe = 1
+			aa_cannon_1 = 1
+			engines_3 = 1
+			range_improvements = 1
+			air_torpedoe_1 = 1
+		}
+		else = {
+			set_air_oob = "ENG_1939_air_legacy"
+			set_technology = {
+				fighter1 = 1
+				fighter2 = 1
+				heavy_fighter1 = 1
+				heavy_fighter2 = 1
+				CAS2 = 1
+				naval_bomber2 = 1
+				tactical_bomber1 = 1
+				tactical_bomber2 = 1
+				strategic_bomber1 = 1
+				cv_CAS1 = 1
+				cv_fighter1 = 1
+			}
+		}
+}
+
 	set_technology = {
 		
 		interwar_artillery = 1
