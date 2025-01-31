@@ -1,7 +1,7 @@
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_Nikoly_II"
-		texturefile = "gfx/leaders/RUI/portrait_Nikoly_II.dds"
+		name = "GFX_portrait_RUI_Nikolay_II_Romanov"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Nikolay_II_Romanov.dds"
 	}
 	spriteType = {
 		name = "GFX_general"

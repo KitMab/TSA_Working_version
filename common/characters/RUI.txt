@@ -1,20 +1,21 @@
 characters = {
-	
-	Nikoly_II_ROMANOV = {
-		name= Nikoly_II_ROMANOV
+	RUI_Nikolay_II_Romanov = {
+		name = RUI_Nikolay_II_Romanov
 		portraits = {
 			civilian = {
-				 large = GFX_Nikoly_II
+				large = "GFX_portrait_RUI_Nikolay_II_Romanov"
 			}
 		}
 		country_leader = {
 			ideology = despotism
-			traits = { dictator }
-			expire = "1965.1.1.1"
-			id = -1
+			traits = {
+				RUI_Nikolay_II_Romanov_trait
+			}
+			desc = RUI_Nikolay_II_Romanov_desc
 		}
 		corps_commander = {
-			traits = { army_german_ground_commander }
+			traits = {
+			}
 			skill = 3
 			attack_skill  = 5
 			defense_skill = 2
@@ -22,9 +23,6 @@ characters = {
 			logistics_skill = 8
 		}
 	}
-	
-	
-	
 	RUI_Vladimir_Grigoryev = {
 		name= RUI_Vladimir_Grigoryev
 		portraits = {
@@ -66,8 +64,6 @@ characters = {
 				small = GFX_Mihail_Tereshenko_small
 			}
 		}
-
-
 		advisor = {
 			cost = 150
 			slot = political_advisor
@@ -174,23 +170,33 @@ characters = {
 			}		
 		}
 	}		
-		RUI_Alexey_II = {
-		name= RUI_Alexey_II
+	RUI_Alexey_II_Romanov = {
+		name = RUI_Alexey_II_Romanov
 		portraits = {
 			civilian = {
 				small = GFX_general_Small
-				large = GFX_general
-			
-}
+				large = GFX_general			
+            }
 		}
 		country_leader = {
 			ideology = despotism
-			traits = { dictator }
-			expire = "1965.1.1.1"
-			id = -1
+			traits = {
+				RUI_Alexey_II_Romanov_trait
+			}
+			desc = RUI_Alexey_II_Romanov_desc
 		}
-		corps_commander = {
-			traits = { army_german_ground_commander }
+		###corps_commander = {
+		###	traits = {
+		###	}
+		###	skill = 3
+		###	attack_skill  = 5
+		###	defense_skill = 2
+		###	planning_skill = 3
+		###	logistics_skill = 8
+		###}
+		field_marshal = {
+			traits = {
+			}
 			skill = 3
 			attack_skill  = 5
 			defense_skill = 2
@@ -199,22 +205,17 @@ characters = {
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = RUI_Alexey_II
-			allowed = {
-				original_tag = RUI
-			}
+			idea_token = Alexey_II_Romanov
+			ledger = army
 			traits = {
-				army_chief_Alexey_II
+				army_chief_reform_3
 			}
-			cost = 75
 			ai_will_do = {
 				factor = 8.000
 			}
-		}
-		
-		
+		}	
 	}	
-		RUI_Abram_Dragamilov = {
+	RUI_Abram_Dragamilov = {
 		name = RUI_Abram_Dragamilov
 		portraits = {
 			army = {

@@ -178,12 +178,30 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			create_wargoal = {
-    			type = puppet_wargoal_focus
-    			target = BAY
-			}
-			create_wargoal = {
-    			type = puppet_wargoal_focus
+    			type = annex_everything
     			target = GER
+			}
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = PRE_The_Return_of_Bavaria
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = PRE_German_Reunification
+		}
+		x = 13
+		y = 4
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+    			type = annex_everything
+    			target = BAY
 			}
 			add_war_support = 0.05
 		}

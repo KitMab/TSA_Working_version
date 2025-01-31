@@ -19,8 +19,8 @@ add_ideas = {
     RUI_international_army_idea
     RUI_Tsar_Nikoly_II
 }
-recruit_character = Nikoly_II_ROMANOV
-recruit_character = RUI_Alexey_II
+recruit_character = RUI_Nikolay_II_Romanov
+recruit_character = RUI_Alexey_II_Romanov
 recruit_character = RUI_Vladimir_Grigoryev
 recruit_character = RUI_Nikolay_Stogov
 recruit_character = RUI_Mihail_Tereshenko
