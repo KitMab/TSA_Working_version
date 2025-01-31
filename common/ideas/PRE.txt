@@ -95,19 +95,7 @@ ideas = {
 			}
 		}
 		PRE_Berlin_Treaty = {
-			
-			allowed = {
-				original_tag = PRE
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			
-			
-			removal_cost = -1
-			
+			picture = PRE_Berlin_treaty
 			modifier = {
 				conscription_factor = -0.9
 				production_factory_efficiency_gain_factor = -0.7			
