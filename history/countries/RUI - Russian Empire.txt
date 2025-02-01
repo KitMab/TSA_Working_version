@@ -17,7 +17,7 @@ add_ideas = {
     partial_economic_mobilisation
     RUI_Rent_of_Yekaterinodar_port
     RUI_international_army_idea
-    RUI_Tsar_Nikoly_II
+    RUI_Tsar_Nikolay_II
 }
 recruit_character = RUI_Nikolay_II_Romanov
 recruit_character = RUI_Alexey_II_Romanov
