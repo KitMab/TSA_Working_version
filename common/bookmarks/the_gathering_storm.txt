@@ -10,7 +10,7 @@ bookmarks = {
 			history = "RUI_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				RUI_Tsar_Nikoly_II
+				RUI_Tsar_Nikolay_II
 				RUI_Anti_Communism_idea
 				RUI_Tsar_Alexey_II
 			}
