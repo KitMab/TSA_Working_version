@@ -119,10 +119,7 @@ focus_tree = {
 		y = 2
         completion_reward = {
             news_event = {
-                id = RUI_CRA_event.1
-                days = 10
-                random_hours = 12
-                random_days = 10
+                id = RUI_Destroy_CRA.1
             }
 		}
 	}

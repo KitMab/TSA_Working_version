@@ -20,15 +20,19 @@ country_event = {
 		name =  RUI_WAY_event.1.a
 	}
 }
-add_namespace = RUI_CRA_event
+add_namespace = RUI_Destroy_CRA
 country_event = {
-	id =  RUI_CRA_event.1
-	title =  RUI_CRA_event.1.t
-	desc =  RUI_CRA_event.1.d
+	id = RUI_Destroy_CRA.1
+	title = RUI_Destroy_CRA.1.a
+	desc = RUI_Destroy_CRA.1.b
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name =  RUI_CRA_event.1.a	
+		name = RUI_Destroy_CRA.1.c
+		create_wargoal = {
+    		type = annex_everything
+    		target = CRA
+		}
 	}
 }
 add_namespace = RUI_COMMUNIST_event
