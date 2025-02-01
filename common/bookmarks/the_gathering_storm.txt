@@ -15,8 +15,8 @@ bookmarks = {
 				RUI_Tsar_Alexey_II
 			}
 			focuses = {
-                                RUI_Russian_way
-				RUI_HISTORY
+                RUI_Russian_way
+				RUI_History
 				RUI_Strengthening
 			}
 		}

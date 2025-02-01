@@ -31,7 +31,7 @@ focus_tree = {
 		x = 24
 		y = 0
 		available = {
-			has_completed_focus = RUI_HISTORY
+			has_completed_focus = RUI_History
 		}
         completion_reward = {
             news_event = {

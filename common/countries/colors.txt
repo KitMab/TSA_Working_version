@@ -65,9 +65,9 @@ GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
-ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+SCO = {
+	color = rgb { 51 51 255 }
+	color_ui = rgb { 51 51 255 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -78,8 +78,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 0 0 153 }
+	color_ui = rgb { 0 0 153 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -777,8 +777,8 @@ KAR = {
 	color_ui = rgb { 0 128 43 }
 }
 CRI = {
-	color = rgb { 255 80 80 }
-	color_ui = rgb { 204 0 0 }
+	color = rgb { 0 153 80 }
+	color_ui = rgb { 0 153 80 }
 }
 TAT = {
 	color = rgb { 255 51 0 }
@@ -1009,4 +1009,8 @@ CSP = {
 MSP = {
 	color = rgb { 255 255 51 }
 	color_ui = rgb { 255 255 51 }
+}
+ENG = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
 }
