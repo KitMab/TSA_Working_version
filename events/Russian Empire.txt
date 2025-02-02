@@ -33,6 +33,9 @@ country_event = {
     		type = annex_everything
     		target = CRA
 		}
+		982 = {
+			add_core_of = RUI
+		}
 	}
 }
 add_namespace = RUI_COMMUNIST_event
