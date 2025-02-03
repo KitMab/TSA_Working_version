@@ -1,5 +1,5 @@
 focus_tree = {
-	id = Osman_Empire
+	id = OSM_focus_tree
 	country = {
 		factor = 0
 		modifier = {

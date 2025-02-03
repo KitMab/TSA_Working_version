@@ -1,5 +1,5 @@
 focus_tree = {
-	id = RUI
+	id = RUI_focus_tree
 	country = {
 		factor = 0
 		modifier = {
