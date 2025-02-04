@@ -7,10 +7,8 @@ spriteTypes = {
 		name = "GFX_Nikolay_Stogov"
 		texturefile = "gfx/leaders/RUI/portrait_Nikolay_Stogov.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_Mihail_Tereshenko"
 		texturefile = "gfx/leaders/RUI/portrait_Mihail_Tereshenko_advisor.dds"
-	
 	}
-	
+}

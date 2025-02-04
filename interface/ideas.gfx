@@ -8910,15 +8910,15 @@ spriteTypes = {
 	}
 	#########################MODS###############################
 
-	SpriteType = {
+	spriteType = {
 		name = "GFX_idea_OSM_Kurdistan_VS_Osmania"
 		texturefile = "gfx/interface/goals/idea_OSM_Kurdistan_VS_Osmania.dds"			
 	}	
-spriteType = {
+	spriteType = {
 		name = "GFX_idea_RUI_Tsar_Alexey_II"
 		texturefile = "gfx/interface/ideas/idea_RUI_Tsar_Alexey_II.dds"
 	}
-spriteType = {
+	spriteType = {
 		name = "GFX_idea_RUI_Tsar_Nikoly_II"
 		texturefile = "gfx/interface/ideas/idea_RUI_Tsar_Nikoly_II.dds"
 	}
