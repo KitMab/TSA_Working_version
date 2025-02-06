@@ -1,0 +1,174 @@
+division_template = {
+	name = "Popular Brigade"			
+	division_names_group = CSP_INF_03
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	    infantry = { x = 1 y = 2 }
+	}
+}
+units = {
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 740
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+        location = 13220
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+        location = 11854
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+        location = 885
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+        location = 9870
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+    division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+        location = 3859
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+        location = 11766
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+        location = 813
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+        location = 948
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+        location = 7213
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+        location = 9812
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+        location = 871
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+        location = 3799
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+        location = 6856
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+        location = 9889
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+        location = 4098
+        division_template = "Popular Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8		
+    }
+}

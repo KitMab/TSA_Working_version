@@ -1,4 +1,5 @@
 capital = 169
+oob = "ISF"
 set_research_slots = 4
 set_popularities = {
 	democratic = 5
@@ -13,6 +14,11 @@ add_ideas = {
     service_by_requirement
     limited_exports
     partial_economic_mobilisation
+}
+###DIPLOMACY
+declare_war_on = {
+	target = MSP
+	type = annex_everything
 }
 ###TECH
 set_technology = {

@@ -4,7 +4,7 @@ state = {
 	name = "STATE_637" #Kamchatka
 
 	history = {
-		owner = JAP
+		owner = FER
 		buildings = {
 			infrastructure = 1
 			12207 = {

@@ -1070,7 +1070,7 @@ focus_tree = {
 				type = take_state_focus
 				target = JAP
 				generator = {
-					655 537 874 822 637 555
+					655 537 555
 				}
 			}
 		}
@@ -1516,9 +1516,11 @@ news_event = {
 		}
 		x = 40
 		y = 2
-completion_reward = {
-
-	}
+		completion_reward = {
+			country_event = {
+				id = RUI_Russia_and_Europe.1
+			}
+		}
 	}
 	focus = {
 		id = RUI_look_over_the_ocean
