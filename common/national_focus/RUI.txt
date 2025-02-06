@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 0 y = 1488}
+	continuous_focus_position = { x = 0 y = 2588}
 	focus = {
 		id = RUI_History
 		icon = GFX_focus_generic_self_management
@@ -121,6 +121,13 @@ focus_tree = {
             news_event = {
                 id = RUI_Destroy_CRA.1
             }
+			create_wargoal = {
+				type = annex_everything
+				target = CRA
+			}
+			982 = {
+				add_core_of = RUI
+			}
 		}
 	}
 	focus = {
@@ -275,6 +282,54 @@ focus_tree = {
         completion_reward = {
 		    create_wargoal = {
 				target = SOV
+				type = annex_everything
+			}
+	    }
+	}
+	focus = {
+		id = RUI_Liquidation_of_the_separatists
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUI_Finish_off_the_USSR
+		}
+		x = 4
+		y = 11
+        completion_reward = {
+			annex_country = {
+				target = CRI
+				transfer_troops = yes
+			}
+		    create_wargoal = {
+				target = CBS
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = UKR
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = BLR
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = UPR
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = BRS
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = KDE
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = PRI
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = FIN
 				type = annex_everything
 			}
 	    }
