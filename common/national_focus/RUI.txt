@@ -1522,6 +1522,7 @@ focus_tree = {
 		}
 	}
 	focus = {
+
 		id = RUI_buy_bombers
 		icon = GFX_goal_unknown
 		cost = 5
@@ -1531,16 +1532,11 @@ focus_tree = {
 		x = 10
 		y = 11
 		completion_reward = {
-			send_equipment = {
-				equipment = tac_bomber_equipment_1
-				amount = 100
-				target = ENG
-			}		
-			send_equipment = {
-				equipment = strat_bomber_equipment_1
-				amount = 100
-				target = ENG
-		    }  
+			add_equipment_to_stockpile = {
+				type = tac_bomber_equipment_0
+				amount = 300
+				producer = ENG
+			}
 		}
 	}
 	focus = {
