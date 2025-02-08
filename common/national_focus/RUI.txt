@@ -359,13 +359,8 @@ focus_tree = {
 		x = 14
 		y = 2
 		completion_reward = {
-			add_country_leader_role = {
-				character = RUI_Alexey_II
-				promote_leader = yes
-				country_leader = {
-					ideology = despotism
-					expire = "1965.1.1.1"
-				}
+			promote_character = {
+				character = RUI_Alexey_II_Romanov
 			}
 		}
 	}
