@@ -1,5 +1,6 @@
 capital = 91
-set_research_slots = 3
+oob = "UPR"
+set_research_slots = 4
 set_popularities = {
 	democratic = 5
 	fascism = 80

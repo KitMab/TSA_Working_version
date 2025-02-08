@@ -1,5 +1,5 @@
 ﻿capital = 352
-
+oob = "KUR"
 set_research_slots = 2
 
 add_ideas = {
