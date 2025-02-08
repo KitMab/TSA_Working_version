@@ -11,7 +11,7 @@ focus_tree = {
 	continuous_focus_position = { x = 0 y = 2588}
 	focus = {
 		id = RUI_History
-		icon = GFX_focus_generic_self_management
+		icon = GFX_goal_RUI_History
 		cost = 0
 		x = 4
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUI_Russian_way
-		icon = GFX_focus_generic_military_academy
+		icon = GFX_goal_RUI_Russian_way
 		cost = 2
 		x = 24
 		y = 0
@@ -336,7 +336,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUI_Tsarist_absolutism
-		icon = GFX_focus_generic_concessions
+		icon = GFX_goal_RUI_Tsarist_absolutism
 		cost = 5
 		prerequisite = {
 			focus = RUI_Russian_way
@@ -348,7 +348,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUI_Tsar_Alexei
-		icon = GFX_focus_generic_aluminum
+		icon = GFX_goal_RUI_Tsar_Alexei
 		cost = 5
 		prerequisite = {
 			focus = RUI_Tsarist_absolutism
@@ -436,13 +436,10 @@ focus_tree = {
 		}
 		x = 14
 		y = 6
-        available = {
-		    has_completed_focus =  RUI_Finish_off_the_USSR
-		}
 	}
 	focus = {
 		id = RUI_Tsar_Nicholas
-		icon = GFX_focus_generic_treaty
+		icon = GFX_goal_RUI_Tsar_Nicholas
 		cost = 5
 		prerequisite = {
 			focus = RUI_Tsarist_absolutism
@@ -500,9 +497,6 @@ focus_tree = {
 		cost = 5
 		prerequisite = {
 			focus = RUI_Stolypin_successors
-		}
-		available = {
-			has_completed_focus =  RUI_Finish_off_the_USSR
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1132,7 +1126,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUI_Russia_is_great_again
-		icon = GFX_focus_generic_military_mission
+		icon = GFX_goal_RUI_Russia_is_great_again
 		cost = 5
 		prerequisite = {
 			focus = RUI_Return_of_lands_from_Japan
@@ -1218,7 +1212,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUI_interrogation_of_red_generals
-		icon = GFX_focus_generic_steel
+		icon = GFX_goal_RUI_interrogation_of_red_generals
 		cost = 4
 		prerequisite = {
 			focus = RUI_strengthening_of_capitalism
@@ -1233,7 +1227,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUI_Russia_my_dear
-		icon = GFX_focus_generic_tungsten
+		icon = GFX_goal_RUI_Russia_my_dear
 		cost = 5
 		prerequisite = {
 			focus = RUI_interrogation_of_red_generals
@@ -1336,7 +1330,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUI_artillery_God_of_war
-		icon = GFX_goal_unknown
+		icon = GFX_goal_RUI_artillery_God_of_war
 		cost = 5
 		prerequisite = {
 			focus = RUI_training_of_new_officers
