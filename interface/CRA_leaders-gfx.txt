@@ -1,6 +1,0 @@
-spriteTypes = {	
-    spriteType = {
-		name =  GFX_CRA_Vasillyi_STALIN
-		texturefile = "gfx\leaders\CRA\Portrait_Vasilyiy_Stalin.dds"		
-	}
-}
