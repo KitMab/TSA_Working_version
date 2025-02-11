@@ -17,6 +17,11 @@ add_ideas = {
     partial_economic_mobilisation
 }
 recruit_character = FRA_maurice_thorez
+###DIPLOMACY
+declare_war_on = {
+	target = FRA
+	type = annex_everything
+}
 ###TECH
 set_technology = {
 	infantry_weapons = 1
