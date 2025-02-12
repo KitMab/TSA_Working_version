@@ -3,7 +3,7 @@ characters = {
 		name = RUI_Nikolay_II_Romanov
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Nikolay_II_small_civilian"
+				small = "GFX_idea_RUI_Nikolay_II_Romanov_small_civilian"
 				large = "GFX_portrait_RUI_Nikolay_II_Romanov"
             }
 		}
