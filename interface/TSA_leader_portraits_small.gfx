@@ -1,0 +1,42 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_Mihail_Tereshenko_small"
+		texturefile = "gfx/interface/ideas/idea_Mihail_Tereshenko.dds"
+	}
+	spriteType = {
+		name = "GFX_alexdandr_Konovalov_small"
+		texturefile = "gfx/interface/ideas/idea_alexdandr_Konovalov.dds"
+	}
+	spriteType = {
+		name = "GFX_pyotr_dolgorukov_small"
+		texturefile = "gfx/interface/ideas/idea_pyotr_dolgorukov.dds"
+	}
+	spriteType = {
+		name = "GFX_vasiliy_Maklakov_small"
+		texturefile = "gfx/interface/ideas/idea_vasiliy_Maklakov.dds"
+	}
+	spriteType = {
+		name = "GFX_Vsevolod_Shahovskoy_small"
+		texturefile = "gfx/interface/ideas/idea_Vsevolod_Shahovskoy.dds"
+	}
+	spriteType = {
+		name = "GFX_Fyodr_Abramov_small"
+		texturefile = "gfx/interface/ideas/idea_Fyodr_Abramov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUI_Abram_Dragomirov_small_army"
+		texturefile = "gfx/interface/ideas/idea_RUI_Abram_Dragomirov_small_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUI_Alexey_II_Romanov_small_civilian"
+		texturefile = "gfx/interface/ideas/idea_RUI_Alexey_II_Romanov_small_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUI_Alexey_II_Romanov_small_army"
+		texturefile = "gfx/interface/ideas/idea_RUI_Alexey_II_Romanov_small_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUI_Nikolay_II_small_civilian"
+		texturefile = "gfx/interface/ideas/idea_RUI_Nikolay_II_small_civilian.dds"
+	}
+}

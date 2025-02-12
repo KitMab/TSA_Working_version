@@ -1,0 +1,10 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_portrait_RUI_Nikolay_II_Romanov"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Nikolay_II_Romanov.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUI_Alexey_II_Romanov"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Alexey_II_Romanov.dds"
+	}
+}

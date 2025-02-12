@@ -131,6 +131,23 @@ country_event = {
         name = RUI_Russia_my_dear.1.c
     }
 }
+add_namespace = RUI_Return_of_the_Far_East
+country_event = {
+    id = RUI_Return_of_the_Far_East.1
+    title = RUI_Return_of_the_Far_East.1.a
+    desc = RUI_Return_of_the_Far_East.1.b
+    picture = GFX_report_event_polish_tanks_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+        name = RUI_Return_of_the_Far_East.1.c
+		create_wargoal = {
+			target = FER
+			type = annex_everything
+        }
+    }
+}
+
 
 
 

@@ -3,8 +3,9 @@ characters = {
 		name = RUI_Nikolay_II_Romanov
 		portraits = {
 			civilian = {
+				small = "GFX_idea_RUI_Nikolay_II_small_civilian"
 				large = "GFX_portrait_RUI_Nikolay_II_Romanov"
-			}
+            }
 		}
 		country_leader = {
 			ideology = despotism
@@ -174,9 +175,13 @@ characters = {
 		name = RUI_Alexey_II_Romanov
 		portraits = {
 			civilian = {
-				small = GFX_general_Small
-				large = GFX_general			
+				small = "GFX_idea_RUI_Alexey_II_Romanov_small_civilian"
+				large = "GFX_portrait_RUI_Alexey_II_Romanov"
             }
+			army = {
+				small = "GFX_idea_RUI_Alexey_II_Romanov_small_army"
+				large = "GFX_portrait_RUI_Alexey_II_Romanov"
+			}
 		}
 		country_leader = {
 			ideology = despotism
@@ -201,7 +206,7 @@ characters = {
 			attack_skill  = 5
 			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 8
+			logistics_skill = 3
 		}
 		advisor = {
 			slot = army_chief
@@ -210,37 +215,34 @@ characters = {
 			traits = {
 				army_chief_reform_3
 			}
-			ai_will_do = {
-				factor = 8.000
-			}
 		}	
 	}	
-	RUI_Abram_Dragamilov = {
-		name = RUI_Abram_Dragamilov
+	RUI_Abram_Dragomirov = {
+		name = RUI_Abram_Dragomirov
 		portraits = {
 			army = {
-				small = GFX_Abram_Dragamilov_small
-			 large = GFX_Abram_Dragamilov
+				small = "GFX_idea_RUI_Abram_Dragomirov_small_army"
 			}
+		}
+		field_marshal = {
+			traits = {
+			}
+			skill = 5
+			attack_skill  = 5
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 6
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = RUI_Abram_Dragamilov
-			allowed = {
-				original_tag = RUI
-			}
+			idea_token = Abram_Dragomirov
+			ledger = army
 			traits = {
-				army_chief_RUI
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 8.000
+				army_chief_offensive_3
 			}
 		}
 	}
-		
-				
-		}
+}
 		
 		
 		
