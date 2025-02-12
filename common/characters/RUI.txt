@@ -31,7 +31,12 @@ characters = {
 	RUI_Vladimir_Grigoriev = {
 		name = RUI_Vladimir_Grigoriev
 		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Vladimir_Grigoriev_small_civilian"
+				large = "GFX_portrait_RUI_Vladimir_Grigoriev_civilian"
+            }
 			army = {
+				small = "GFX_idea_RUI_Vladimir_Grigoriev_small_army"
 				large = "GFX_portrait_RUI_Vladimir_Grigoriev_army"
 			}
 		}
@@ -48,7 +53,12 @@ characters = {
 	RUI_Nikolay_Stogov = {
 		name = RUI_Nikolay_Stogov
 		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Nikolay_Stogov_small_civilian"
+				large = "GFX_portrait_RUI_Nikolay_Stogov_civilian"
+            }
 			army = {
+				small = "GFX_idea_RUI_Nikolay_Stogov_small_army"
 				large = "GFX_portrait_RUI_Nikolay_Stogov_army"
 			}
 		}
@@ -61,120 +71,110 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 2
 		}
-
 	}
-	RUI_Mihail_Tereshenko = {
-		name = RUI_Mihail_Tereshenko
+	RUI_Mikhail_Tereshchenko = {
+		name = RUI_Mikhail_Tereshchenko
 		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Mikhail_Tereshchenko_small_civilian"
+				large = "GFX_portrait_RUI_Mikhail_Tereshchenko_civilian"
+            }
 			army = {
-				large = GFX_Mihail_Tereshenko
-				small = GFX_Mihail_Tereshenko_small
+				small = "GFX_idea_RUI_Mikhail_Tereshchenko_small_army"
+				large = "GFX_portrait_RUI_Mikhail_Tereshchenko_army"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = political_advisor
-			idea_token = RUI_Mihail_Tereshenko
-			ledger = army
-			allowed = {
-				original_tag = RUI
-			}
+			idea_token = Mikhail_Tereshchenko
 			traits = { 
 				RUI_Teresheno
-			}	
 			}
+			cost = 150	
 		}
-		RUI_alexdandr_Konovalov = {
-		name = RUI_alexdandr_Konovalov
+	}
+	RUI_Alexander_Konovalov = {
+		name = RUI_Alexander_Konovalov
 		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Alexander_Konovalov_small_civilian"
+				large = "GFX_portrait_RUI_Alexander_Konovalov_civilian"
+            }
 			army = {
-				large = GFX_alexdandr_Konovalov
-				small = GFX_alexdandr_Konovalov_small
+				small = "GFX_idea_RUI_Alexander_Konovalov_small_army"
+				large = "GFX_portrait_RUI_Alexander_Konovalov_army"
 			}
 		}
-
-
 		advisor = {
-			cost = 150
 			slot = political_advisor
-			idea_token = RUI_alexdandr_Konovalov
-			ledger = army
-			allowed = {
-				original_tag = RUI
-			}
+			idea_token = Alexander_Konovalov
 			traits = {
 				RUI_Konovalov
 			}
+			cost = 150
 		}
 	}			
-
-	RUI_pyotr_dolgorukov = {
-		name = RUI_pyotr_dolgorukov
+	RUI_Petr_Dolgorukov = {
+		name = RUI_Petr_Dolgorukov
 		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Petr_Dolgorukov_small_civilian"
+				large = "GFX_portrait_RUI_Petr_Dolgorukov_civilian"
+            }
 			army = {
-				large = GFX_pyotr_dolgorukov
-				small = GFX_pyotr_dolgorukov_small
+				small = "GFX_idea_RUI_Petr_Dolgorukov_small_army"
+				large = "GFX_portrait_RUI_Petr_Dolgorukov_army"
 			}
 		}
-
-
 		advisor = {
-			cost = 150
 			slot = political_advisor
-			idea_token = RUI_pyotr_dolgorukov
-			ledger = army
-			allowed = {
-				original_tag = RUI
-			}
-			
-		traits = {
+			idea_token = Petr_Dolgorukov
+			traits = {
 				RUI_Dolgorukov
 			}
-		}
-	}		
-					
-		RUI_vasiliy_Maklakov = {
-		name = RUI_vasiliy_Maklakov
-		portraits = {
-			army = {
-				large = GFX_vasiliy_Maklakov
-				small = GFX_vasiliy_Maklakov_small
-			}
-		}
-
-
-		advisor = {
 			cost = 150
-			slot = political_advisor
-			idea_token = RUI_vasiliy_Maklakov
-			ledger = army
-			allowed = {
-				original_tag = RUI
+		}
+	}					
+	RUI_Vasily_Maklakov = {
+		name = RUI_Vasily_Maklakov
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Vasily_Maklakov_small_civilian"
+				large = "GFX_portrait_RUI_Petr_Dolgorukov_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Vasily_Maklakov_small_army"
+				large = "GFX_portrait_RUI_Vasily_Maklakov_army"
 			}
-			
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Vasily_Maklakov
+			traits = {
+			}
+			cost = 150		
 		}
 	}	
-		RUI_Vsevolod_Shahovskoy = {
-		name = RUI_Vsevolod_Shahovskoy
+	RUI_Vsevolod_Shakhovsky = {
+		name = RUI_Vsevolod_Shakhovsky
 		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Vsevolod_Shakhovsky_small_civilian"
+				large = "GFX_portrait_RUI_Vsevolod_Shakhovsky_civilian"
+            }
 			army = {
-				large = GFX_vasiliy_Maklakov
-				small = GFX_vasiliy_Maklakov_small
+				small = "GFX_idea_RUI_Vsevolod_Shakhovsky_small_army"
+				large = "GFX_portrait_RUI_Vsevolod_Shakhovsky_army"
 			}
 		}
-
-
 		advisor = {
-			cost = 150
 			slot = political_advisor
-			idea_token = RUI_Vsevolod_Shahovskoy
-			ledger = army
-			allowed = {
-				original_tag = RUI
-			}
+			idea_token = Vsevolod_Shakhovsky
 			traits = {
 				RUI_Shahovskiy 
-			}		
+			}	
+			cost = 150	
 		}
 	}		
 	RUI_Alexey_II_Romanov = {
@@ -227,9 +227,13 @@ characters = {
 	RUI_Abram_Dragomirov = {
 		name = RUI_Abram_Dragomirov
 		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Abram_Dragomirov_small_civilian"
+				large = "GFX_portrait_RUI_Alexey_II_Romanov_civilian"
+            }
 			army = {
-				large = "GFX_portrait_RUI_Abram_Dragomirov_army"
 				small = "GFX_idea_RUI_Abram_Dragomirov_small_army"
+				large = "GFX_portrait_RUI_Abram_Dragomirov_army"
 			}
 		}
 		field_marshal = {

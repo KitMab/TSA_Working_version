@@ -155,9 +155,8 @@ focus_tree = {
 		x = 4
 		y = 4
         completion_reward = {
-		    create_wargoal = {
-				target = FER
-				type = annex_everything
+			country_event = {
+				id = RUI_Return_of_the_Far_East.1
 			}
 	        add_timed_idea = {
 				idea = RUI_Fast_company_in_the_Far_East

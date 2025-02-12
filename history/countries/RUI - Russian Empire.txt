@@ -23,11 +23,11 @@ recruit_character = RUI_Nikolay_II_Romanov
 recruit_character = RUI_Alexey_II_Romanov
 recruit_character = RUI_Vladimir_Grigoriev
 recruit_character = RUI_Nikolay_Stogov
-recruit_character = RUI_Mihail_Tereshenko
-recruit_character = RUI_alexdandr_Konovalov
-recruit_character = RUI_vasiliy_Maklakov
-recruit_character = RUI_pyotr_dolgorukov
-recruit_character = RUI_Vsevolod_Shahovskoy
+recruit_character = RUI_Mikhail_Tereshchenko
+recruit_character = RUI_Alexander_Konovalov
+recruit_character = RUI_Vasily_Maklakov
+recruit_character = RUI_Petr_Dolgorukov
+recruit_character = RUI_Vsevolod_Shakhovsky
 ###recruit_character = RUI_Fyodr_Abramov
 recruit_character = RUI_Abram_Dragomirov
 ###TECH
