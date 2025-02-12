@@ -18,7 +18,7 @@ characters = {
 			}
 			desc = RUI_Nikolay_II_Romanov_desc
 		}
-		corps_commander = {
+		field_marshal = {
 			traits = {
 			}
 			skill = 3
