@@ -21,7 +21,7 @@ add_ideas = {
 }
 recruit_character = RUI_Nikolay_II_Romanov
 recruit_character = RUI_Alexey_II_Romanov
-recruit_character = RUI_Vladimir_Grigoryev
+recruit_character = RUI_Vladimir_Grigoriev
 recruit_character = RUI_Nikolay_Stogov
 recruit_character = RUI_Mihail_Tereshenko
 recruit_character = RUI_alexdandr_Konovalov

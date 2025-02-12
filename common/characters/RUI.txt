@@ -4,7 +4,11 @@ characters = {
 		portraits = {
 			civilian = {
 				small = "GFX_idea_RUI_Nikolay_II_Romanov_small_civilian"
-				large = "GFX_portrait_RUI_Nikolay_II_Romanov"
+				large = "GFX_portrait_RUI_Nikolay_II_Romanov_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Nikolay_II_Romanov_small_army"
+				large = "GFX_portrait_RUI_Nikolay_II_Romanov_army"
             }
 		}
 		country_leader = {
@@ -24,15 +28,16 @@ characters = {
 			logistics_skill = 8
 		}
 	}
-	RUI_Vladimir_Grigoryev = {
-		name= RUI_Vladimir_Grigoryev
+	RUI_Vladimir_Grigoriev = {
+		name = RUI_Vladimir_Grigoriev
 		portraits = {
-			civilian = {
-				 large = GFX_Vladimir_Grigoryev
+			army = {
+				large = "GFX_portrait_RUI_Vladimir_Grigoriev_army"
 			}
 		}
 		corps_commander = {
-			traits = { army_german_ground_commander }
+			traits = {
+			}
 			skill = 2
 			attack_skill  = 2
 			defense_skill = 2
@@ -41,14 +46,15 @@ characters = {
 		}
 	}
 	RUI_Nikolay_Stogov = {
-		name= RUI_Nikolay_Stogov
+		name = RUI_Nikolay_Stogov
 		portraits = {
-			civilian = {
-				 large = GFX_Nikolay_Stogov
+			army = {
+				large = "GFX_portrait_RUI_Nikolay_Stogov_army"
 			}
 		}
 		corps_commander = {
-			traits = { army_german_ground_commander }
+			traits = {
+			}
 			skill = 2
 			attack_skill  = 2
 			defense_skill = 2
@@ -176,11 +182,11 @@ characters = {
 		portraits = {
 			civilian = {
 				small = "GFX_idea_RUI_Alexey_II_Romanov_small_civilian"
-				large = "GFX_portrait_RUI_Alexey_II_Romanov"
+				large = "GFX_portrait_RUI_Alexey_II_Romanov_civilian"
             }
 			army = {
 				small = "GFX_idea_RUI_Alexey_II_Romanov_small_army"
-				large = "GFX_portrait_RUI_Alexey_II_Romanov"
+				large = "GFX_portrait_RUI_Alexey_II_Romanov_army"
 			}
 		}
 		country_leader = {
@@ -215,12 +221,14 @@ characters = {
 			traits = {
 				army_chief_reform_3
 			}
+			cost = 200
 		}	
 	}	
 	RUI_Abram_Dragomirov = {
 		name = RUI_Abram_Dragomirov
 		portraits = {
 			army = {
+				large = "GFX_portrait_RUI_Abram_Dragomirov_army"
 				small = "GFX_idea_RUI_Abram_Dragomirov_small_army"
 			}
 		}
@@ -240,6 +248,7 @@ characters = {
 			traits = {
 				army_chief_offensive_3
 			}
+			cost = 200
 		}
 	}
 }

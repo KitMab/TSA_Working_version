@@ -1,10 +1,34 @@
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_portrait_RUI_Nikolay_II_Romanov"
-		texturefile = "gfx/leaders/RUI/portrait_RUI_Nikolay_II_Romanov.dds"
+		name = "GFX_portrait_RUI_Nikolay_II_Romanov_civilian"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Nikolay_II_Romanov_civilian.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_RUI_Alexey_II_Romanov"
-		texturefile = "gfx/leaders/RUI/portrait_RUI_Alexey_II_Romanov.dds"
+		name = "GFX_portrait_RUI_Nikolay_II_Romanov_army"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Nikolay_II_Romanov_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUI_Alexey_II_Romanov_civilian"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Alexey_II_Romanov_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUI_Alexey_II_Romanov_army"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Alexey_II_Romanov_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUI_Alexander_Kolchak_civilian"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Alexander_Kolchak_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUI_Vladimir_Grigoriev_army"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Vladimir_Grigoriev_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUI_Nikolay_Stogov_army"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Nikolay_Stogov_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUI_Abram_Dragomirov_army"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Abram_Dragomirov_army.dds"
 	}
 }
