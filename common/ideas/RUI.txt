@@ -105,6 +105,7 @@ ideas = {
             }
         }
 		RUI_Tsar_Nikolay_II = { 
+            picture = GFX_idea_RUI_Nikolay_II_Romanov_small_civilian
             modifier = {
                 political_power_gain = -0.25
             }

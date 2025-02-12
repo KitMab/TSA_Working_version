@@ -36,7 +36,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_RUI_Alexey_II_Romanov_small_army.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_RUI_Nikolay_II_small_civilian"
-		texturefile = "gfx/interface/ideas/idea_RUI_Nikolay_II_small_civilian.dds"
+		name = "GFX_idea_RUI_Nikolay_II_Romanov_small_civilian"
+		texturefile = "gfx/interface/ideas/idea_RUI_Nikolay_II_Romanov_small_civilian.dds"
 	}
 }
