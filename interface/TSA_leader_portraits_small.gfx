@@ -4,20 +4,52 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_RUI_Mikhail_Tereshchenko_small_civilian.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_RUI_Mikhail_Tereshchenko_small_army"
+		texturefile = "gfx/interface/ideas/idea_RUI_Mikhail_Tereshchenko_small_army.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_RUI_Alexander_Konovalov_small_civilian"
 		texturefile = "gfx/interface/ideas/idea_RUI_Alexander_Konovalov_small_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUI_Alexander_Konovalov_small_army"
+		texturefile = "gfx/interface/ideas/idea_RUI_Alexander_Konovalov_small_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_RUI_Petr_Dolgorukov_small_civilian"
 		texturefile = "gfx/interface/ideas/idea_RUI_Petr_Dolgorukov_small_civilian.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_RUI_Petr_Dolgorukov_small_army"
+		texturefile = "gfx/interface/ideas/idea_RUI_Petr_Dolgorukov_small_army.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_RUI_Vasily_Maklakov_small_civilian"
 		texturefile = "gfx/interface/ideas/idea_RUI_Vasily_Maklakov_small_civilian.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_RUI_Vasily_Maklakov_small_army"
+		texturefile = "gfx/interface/ideas/idea_RUI_Vasily_Maklakov_small_army.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_RUI_Vsevolod_Shakhovsky_small_civilian"
 		texturefile = "gfx/interface/ideas/idea_RUI_Vsevolod_Shakhovsky_small_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUI_Vsevolod_Shakhovsky_small_army"
+		texturefile = "gfx/interface/ideas/idea_RUI_Vsevolod_Shakhovsky_small_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUI_Vsevolod_Shakhovsky_small_civilian"
+		texturefile = "gfx/interface/ideas/idea_RUI_Vsevolod_Shakhovsky_small_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUI_Vsevolod_Shakhovsky_small_army"
+		texturefile = "gfx/interface/ideas/idea_RUI_Vsevolod_Shakhovsky_small_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUI_Abram_Dragomirov_small_civilian"
+		texturefile = "gfx/interface/ideas/idea_RUI_Abram_Dragomirov_small_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_RUI_Abram_Dragomirov_small_army"
@@ -34,5 +66,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_RUI_Nikolay_II_Romanov_small_civilian"
 		texturefile = "gfx/interface/ideas/idea_RUI_Nikolay_II_Romanov_small_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUI_Nikolay_II_Romanov_small_army"
+		texturefile = "gfx/interface/ideas/idea_RUI_Nikolay_II_Romanov_small_army.dds"
 	}
 }
