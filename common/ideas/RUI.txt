@@ -89,7 +89,7 @@ ideas = {
 	    RUI_ARMY_NEW_Officers = { 
             picture = generic_constitutional_guarantees
             modifier = {
-                army_speed_factor = 0.5
+                army_speed_factor = 0.05
 		   }
         }     
 		RUI_ARMY_Emp = { 
