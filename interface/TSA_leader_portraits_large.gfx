@@ -20,12 +20,28 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RUI/portrait_RUI_Alexander_Kolchak_civilian.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_RUI_Alexander_Kolchak_army"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Alexander_Kolchak_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUI_Vladimir_Grigoriev_civilian"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Vladimir_Grigoriev_civilian.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_RUI_Vladimir_Grigoriev_army"
 		texturefile = "gfx/leaders/RUI/portrait_RUI_Vladimir_Grigoriev_army.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_RUI_Nikolay_Stogov_civilian"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Nikolay_Stogov_civilian.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_RUI_Nikolay_Stogov_army"
 		texturefile = "gfx/leaders/RUI/portrait_RUI_Nikolay_Stogov_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUI_Abram_Dragomirov_civilian"
+		texturefile = "gfx/leaders/RUI/portrait_RUI_Abram_Dragomirov_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_RUI_Abram_Dragomirov_army"
