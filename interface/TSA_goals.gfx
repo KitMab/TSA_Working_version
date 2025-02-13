@@ -35,4 +35,16 @@ spriteTypes = {
 		name = "GFX_goal_RUI_artillery_God_of_war"
 		texturefile = "gfx/interface/goals/GFX_goal_RUI_artillery_God_of_war.dds"			
 	}
+	SpriteType = {
+		name = "GFX_goal_ENG_army_modernize"
+		texturefile = "gfx/interface/goals/GFX_goal_ENG_army_modernize.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_ENG_rebuilding_economic"
+		texturefile = "gfx/interface/goals/GFX_goal_ENG_rebuilding_economic.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_ENG_national_unity"
+		texturefile = "gfx/interface/goals/GFX_goal_ENG_national_unity.dds"			
+	}
 }

@@ -11,7 +11,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = OSM_Kurdistan_VS_Osmania
+			picture = GFX_idea_OSM_Kurdistan_VS_Osmania
 			
 			removal_cost = -1
 			
@@ -37,7 +37,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = OSM_Kurdistan_VS_Osmania
+			picture = GFX_idea_OSM_Kurdistan_VS_Osmania
 			
 			removal_cost = -1
 			

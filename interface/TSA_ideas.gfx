@@ -1,6 +1,6 @@
 spriteTypes = {	
 	spriteType = {
 		name = "GFX_idea_OSM_Kurdistan_VS_Osmania"
-		texturefile = "gfx/interface/goals/idea_OSM_Kurdistan_VS_Osmania.dds"			
+		texturefile = "gfx/interface/ideas/idea_OSM_Kurdistan_VS_Osmania.dds"			
 	}	
 }
