@@ -3,18 +3,12 @@ leader_traits = {
 		random = no
 		production_speed_industrial_complex_factor = 0.5 
 		local_resources_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	RUI_Teresheno = {
 		random = no
 		trade_opinion_factor = 0.5
 		agency_upgrade_time = -0.5
 		operation_cost = -0.5 
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	RUI_Konovalov = {
 		random = no
@@ -23,21 +17,15 @@ leader_traits = {
 		production_speed_air_base_factor = 0.1
 		production_speed_naval_base_factor = 0.1
 		production_speed_bunker_factor = 0.2  
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	RUI_Alexey_II_Romanov_trait = {
 		random = no
-		stability_factor = 0.10
-	    mobilization_laws_cost_factor = 0.25
+		war_support_factor = 0.10
         justify_war_goal_time = -0.25
-	    neutrality_drift = 0.1	
 	}
 	RUI_Nikolay_II_Romanov_trait = {
 		random = no
 		political_power_factor = 0.10
 		stability_factor = 0.05
-		trade_laws_cost_factor = 0.05
 	}
 }

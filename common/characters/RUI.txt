@@ -28,6 +28,44 @@ characters = {
 			logistics_skill = 8
 		}
 	}
+	RUI_Alexey_II_Romanov = {
+		name = RUI_Alexey_II_Romanov
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Alexey_II_Romanov_small_civilian"
+				large = "GFX_portrait_RUI_Alexey_II_Romanov_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Alexey_II_Romanov_small_army"
+				large = "GFX_portrait_RUI_Alexey_II_Romanov_army"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				RUI_Alexey_II_Romanov_trait
+			}
+			desc = RUI_Alexey_II_Romanov_desc
+		}
+		field_marshal = {
+			traits = {
+			}
+			skill = 3
+			attack_skill  = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = Alexey_II_Romanov
+			ledger = army
+			traits = {
+				army_chief_reform_3
+			}
+			cost = 200
+		}	
+	}
 	RUI_Vladimir_Grigoriev = {
 		name = RUI_Vladimir_Grigoriev
 		portraits = {
@@ -89,7 +127,7 @@ characters = {
 			slot = political_advisor
 			idea_token = Mikhail_Tereshchenko
 			traits = { 
-				RUI_Teresheno
+				smooth_talking_charmer
 			}
 			cost = 150	
 		}
@@ -110,7 +148,7 @@ characters = {
 			slot = political_advisor
 			idea_token = Alexander_Konovalov
 			traits = {
-				RUI_Konovalov
+				captain_of_industry
 			}
 			cost = 150
 		}
@@ -131,7 +169,7 @@ characters = {
 			slot = political_advisor
 			idea_token = Petr_Dolgorukov
 			traits = {
-				RUI_Dolgorukov
+				silent_workhorse
 			}
 			cost = 150
 		}
@@ -152,6 +190,7 @@ characters = {
 			slot = political_advisor
 			idea_token = Vasily_Maklakov
 			traits = {
+				editor
 			}
 			cost = 150		
 		}
@@ -172,58 +211,11 @@ characters = {
 			slot = political_advisor
 			idea_token = Vsevolod_Shakhovsky
 			traits = {
-				RUI_Shahovskiy 
+				captain_of_industry
 			}	
 			cost = 150	
 		}
 	}		
-	RUI_Alexey_II_Romanov = {
-		name = RUI_Alexey_II_Romanov
-		portraits = {
-			civilian = {
-				small = "GFX_idea_RUI_Alexey_II_Romanov_small_civilian"
-				large = "GFX_portrait_RUI_Alexey_II_Romanov_civilian"
-            }
-			army = {
-				small = "GFX_idea_RUI_Alexey_II_Romanov_small_army"
-				large = "GFX_portrait_RUI_Alexey_II_Romanov_army"
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			traits = {
-				RUI_Alexey_II_Romanov_trait
-			}
-			desc = RUI_Alexey_II_Romanov_desc
-		}
-		###corps_commander = {
-		###	traits = {
-		###	}
-		###	skill = 3
-		###	attack_skill  = 5
-		###	defense_skill = 2
-		###	planning_skill = 3
-		###	logistics_skill = 8
-		###}
-		field_marshal = {
-			traits = {
-			}
-			skill = 3
-			attack_skill  = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-		}
-		advisor = {
-			slot = army_chief
-			idea_token = Alexey_II_Romanov
-			ledger = army
-			traits = {
-				army_chief_reform_3
-			}
-			cost = 200
-		}	
-	}	
 	RUI_Abram_Dragomirov = {
 		name = RUI_Abram_Dragomirov
 		portraits = {

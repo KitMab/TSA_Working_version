@@ -149,6 +149,11 @@ focus_tree = {
 		id = RUI_End_with_FER
 		icon = GFX_goal_unknown
 		cost = 5
+		available = {
+			NOT = {
+				country_exists = CRA
+			}
+		}
 		prerequisite = {
 			focus = RUI_tsarist_army
 		}
@@ -190,6 +195,11 @@ focus_tree = {
 		id = RUI_WAR_With_YAK
 		icon = GFX_goal_unknown
 		cost = 5
+		available = {
+			NOT = {
+				country_exists = FER
+			}
+		}
 		prerequisite = {
 			focus = RUI_industrial_development
 		}
@@ -224,6 +234,11 @@ focus_tree = {
 		id = RUI_War_With_TAN
 		icon = GFX_goal_unknown
 		cost = 5
+		available = {
+			NOT = {
+				country_exists = YAK
+			}
+		}
 		prerequisite = {
 			focus = RUI_Request_support
 		}
@@ -240,6 +255,10 @@ focus_tree = {
 		id = RUI_WRU_capture
 		icon = GFX_goal_unknown
 		cost = 3
+		available = {
+			owns_state = 329 
+			owns_state = 654
+		}
 		prerequisite = {
 			focus = RUI_War_With_TAN
 		}
@@ -252,28 +271,28 @@ focus_tree = {
 				target = WRU
 			}
 		}
-		x = 3
+		x = 4
 		y = 9
 	}
-	focus = {
-		id = RUI_WRU_peace_proposal
-		icon = GFX_goal_unknown
-		cost = 3
-		prerequisite = {
-			focus = RUI_War_With_TAN
-		}
-		mutually_exclusive = {
-			focus = RUI_WRU_capture
-		}
-		x = 5
-		y = 9
-	}
+	###focus = {
+	###	id = RUI_WRU_peace_proposal
+	###	icon = GFX_goal_unknown
+	###	cost = 3
+	###	prerequisite = {
+	###		focus = RUI_War_With_TAN
+	###	}
+	###	mutually_exclusive = {
+	###		focus = RUI_WRU_capture
+	###	}
+	###	x = 5
+	###	y = 9
+	###}
 	focus = {
 		id = RUI_Finish_off_the_USSR
 		icon = GFX_goal_unknown
 		cost = 5
 		prerequisite = {
-			focus = RUI_WRU_peace_proposal
+			###focus = RUI_WRU_peace_proposal
 			focus = RUI_WRU_capture
 		}
 		x = 4
