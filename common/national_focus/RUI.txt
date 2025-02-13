@@ -10,6 +10,9 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 0 y = 2588}
 	focus = {
+		bypass = {
+			always = yes
+		}
 		id = RUI_History
 		icon = GFX_goal_RUI_History
 		cost = 0
@@ -271,28 +274,31 @@ focus_tree = {
 				target = WRU
 			}
 		}
-		x = 4
+		x = 3
 		y = 9
 	}
-	###focus = {
-	###	id = RUI_WRU_peace_proposal
-	###	icon = GFX_goal_unknown
-	###	cost = 3
-	###	prerequisite = {
-	###		focus = RUI_War_With_TAN
-	###	}
-	###	mutually_exclusive = {
-	###		focus = RUI_WRU_capture
-	###	}
-	###	x = 5
-	###	y = 9
-	###}
+	focus = {
+	id = RUI_WRU_peace_proposal
+	icon = GFX_goal_unknown
+	cost = 3
+	available = {
+		always = no
+	}
+	prerequisite = {
+		focus = RUI_War_With_TAN
+	}
+	mutually_exclusive = {
+		focus = RUI_WRU_capture
+    }
+	x = 5
+	y = 9
+	}
 	focus = {
 		id = RUI_Finish_off_the_USSR
 		icon = GFX_goal_unknown
 		cost = 5
 		prerequisite = {
-			###focus = RUI_WRU_peace_proposal
+			focus = RUI_WRU_peace_proposal
 			focus = RUI_WRU_capture
 		}
 		x = 4
