@@ -56,16 +56,16 @@ RUI_Return_of_territories = {
         visible = {
             country_exists = CRA
         }
-        cost = 35
-        days_remove = 45
+        cost = 50
+        days_remove = 50
         remove_effect = {
-            982 = {
-                add_core_of = RUI
-            }
             create_wargoal = {
 				type = annex_everything
 				target = CRA
 			}
+            982 = {
+                add_core_of = RUI
+            }
         }
     }
 }
