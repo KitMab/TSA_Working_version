@@ -10,9 +10,6 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 0 y = 2588}
 	focus = {
-		bypass = {
-			always = yes
-		}
 		id = RUI_History
 		icon = GFX_goal_RUI_History
 		cost = 0
@@ -30,7 +27,7 @@ focus_tree = {
 	focus = {
 		id = RUI_Russian_way
 		icon = GFX_goal_RUI_Russian_way
-		cost = 2
+		cost = 1
 		x = 17
 		y = 0
         completion_reward = {
@@ -121,9 +118,6 @@ focus_tree = {
 			create_wargoal = {
 				type = annex_everything
 				target = CRA
-			}
-			982 = {
-				add_core_of = RUI
 			}
 		}
 	}
@@ -348,7 +342,7 @@ focus_tree = {
 	focus = {
 		id = RUI_Tsarist_absolutism
 		icon = GFX_goal_RUI_Tsarist_absolutism
-		cost = 5
+		cost = 1
 		prerequisite = {
 			focus = RUI_Russian_way
 		}

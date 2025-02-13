@@ -8,7 +8,6 @@ state = {
 		
 		owner = ARB
 		add_core_of = ARB
-		add_core_of = QAT
 
 		victory_points = {
 			8051 1
