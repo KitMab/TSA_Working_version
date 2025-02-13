@@ -48,24 +48,385 @@ IRE_category  = {
         }			
     }
 }
-RUI_Return_of_territories = {
-    RUI_Return_CRA = {
+RUI_Core = {
+    RUI_Core_982 = {
         available = {
             tag = RUI
         }
         visible = {
-            country_exists = CRA
+            owns_state = 982
         }
-        cost = 50
-        days_remove = 50
-        remove_effect = {
-            create_wargoal = {
-				type = annex_everything
-				target = CRA
+        highlight_states = {
+			highlight_state_targets = {
+				state = 982
 			}
-            982 = {
-                add_core_of = RUI
-            }
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 982
+        }
+    }
+    RUI_Core_655 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 655
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 655
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 655
+        }
+    }
+    RUI_Core_537 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 537
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 537
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 537
+        }
+    }
+    RUI_Core_555 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 555
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 555
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 555
+        }
+    }
+    RUI_Core_657 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 657
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 657
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 657
+        }
+    }
+    RUI_Core_560 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 560
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 560
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 560
+        }
+    }
+    RUI_Core_561 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 561
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 561
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 561
+        }
+    }
+    RUI_Core_562 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 562
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 562
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 562
+        }
+    }
+    RUI_Core_874 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 874
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 874
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 874
+        }
+    }
+    RUI_Core_822 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 822
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 822
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 822
+        }
+    }
+    RUI_Core_637 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 637
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 637
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 637
+        }
+    }
+    RUI_Core_875 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 875
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 875
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 875
+        }
+    }
+    RUI_Core_574 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 574
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 574
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 574
+        }
+    }
+    RUI_Core_644 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 644
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 644
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 644
+        }
+    }
+    RUI_Core_877 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 877
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 877
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 877
+        }
+    }
+    RUI_Core_876 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 876
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 876
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 876
+        }
+    }
+    RUI_Core_563 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 563
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 563
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 563
+        }
+    }
+    RUI_Core_565 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 565
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 565
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 565
+        }
+    }
+    RUI_Core_564 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 564
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 564
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 564
+        }
+    }
+    RUI_Core_566 = {
+        available = {
+            tag = RUI
+        }
+        visible = {
+            owns_state = 566
+        }
+        highlight_states = {
+			highlight_state_targets = {
+				state = 566
+			}
+		}
+        fire_only_once = yes
+        cost = 25
+        days_remove = 45
+        remove_effect = {
+            add_state_core = 566
         }
     }
 }

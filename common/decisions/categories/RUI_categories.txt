@@ -7,6 +7,6 @@ IRE_category = {
     priority = 90
     scripted_gui = new_scripted_gui	
 }
-RUI_Return_of_territories = {
+RUI_Core = {
     priority = 80
 }
