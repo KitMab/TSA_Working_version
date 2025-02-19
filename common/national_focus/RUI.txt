@@ -11,9 +11,9 @@ focus_tree = {
 	continuous_focus_position = { x = 0 y = 2588}
 	focus = {
 		id = RUI_History
-		icon = GFX_goal_RUI_History
+		icon = GFX_focus_history_russia
 		cost = 0
-		x = 19
+		x = 4
 		y = 0
         completion_reward = {
             news_event = {				
@@ -27,9 +27,12 @@ focus_tree = {
 	focus = {
 		id = RUI_Russian_way
 		icon = GFX_goal_RUI_Russian_way
-		cost = 1
-		x = 17
+		cost = 2
+		x = 24
 		y = 0
+		available = {
+			has_completed_focus = RUI_History
+		}
         completion_reward = {
             news_event = {
                 id = RUI_WAY_event.1
@@ -95,6 +98,9 @@ focus_tree = {
 		id = RUI_back_into_battle
 		icon = GFX_goal_unknown
 		cost = 2
+		prerequisite = {
+			focus = RUI_History
+		}
 		x = 4
 		y = 1
         completion_reward = {
@@ -119,6 +125,9 @@ focus_tree = {
 				type = annex_everything
 				target = CRA
 			}
+			982 = {
+				add_core_of = RUI
+			}
 		}
 	}
 	focus = {
@@ -140,25 +149,36 @@ focus_tree = {
 		id = RUI_End_with_FER
 		icon = GFX_goal_unknown
 		cost = 5
-		available = {
-			NOT = {
-				country_exists = CRA
-			}
-		}
 		prerequisite = {
 			focus = RUI_tsarist_army
 		}
 		x = 4
 		y = 4
-        completion_reward = {
-			country_event = {
-				id = RUI_Return_of_the_Far_East.1
-			}
-	        add_timed_idea = {
-				idea = RUI_Fast_company_in_the_Far_East
+       available = {
+		controls_state = 982 
+						
+				
+				
+				
+				
+		}
+
+	   completion_reward = {
+		  
+	        news_event = {				
+               id = RUI_Fer_end.1
+               days = 1
+               random_hours = 12
+               random_days = 1
+            } 
+			FER = {
+			add_timed_idea = {
+				idea = FER_surrender
 				days = 120
 			}		
 	    }
+		
+		}
 	}
 	focus = {
 		id = RUI_industrial_development
@@ -186,11 +206,6 @@ focus_tree = {
 		id = RUI_WAR_With_YAK
 		icon = GFX_goal_unknown
 		cost = 5
-		available = {
-			NOT = {
-				country_exists = FER
-			}
-		}
 		prerequisite = {
 			focus = RUI_industrial_development
 		}
@@ -213,23 +228,27 @@ focus_tree = {
 		x = 4
 		y = 7
         completion_reward = {
-			add_manpower = 5000
-		    send_equipment = {
-                equipment = infantry_equipment
-                amount = 1000
-                target = USA
-            }       
+			add_manpower = 10000
+		        
+		add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = ENG
+			}
+		add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 1000
+				producer = ENG
+			}
+		
+		
+		
 		}
 	}
 	focus = {
 		id = RUI_War_With_TAN
 		icon = GFX_goal_unknown
 		cost = 5
-		available = {
-			NOT = {
-				country_exists = YAK
-			}
-		}
 		prerequisite = {
 			focus = RUI_Request_support
 		}
@@ -240,16 +259,16 @@ focus_tree = {
 				target = MON
 				type = annex_everything
 			}
-	    }
+	  create_wargoal = {
+				target = SIB
+				type = annex_everything
+			}
+	  }
 	}
 	focus = {
 		id = RUI_WRU_capture
 		icon = GFX_goal_unknown
 		cost = 3
-		available = {
-			owns_state = 329 
-			owns_state = 654
-		}
 		prerequisite = {
 			focus = RUI_War_With_TAN
 		}
@@ -266,30 +285,22 @@ focus_tree = {
 		y = 9
 	}
 	focus = {
-	id = RUI_WRU_peace_proposal
-	icon = GFX_goal_unknown
-	cost = 3
-	available = {
-		always = no
-	}
-	prerequisite = {
-		focus = RUI_War_With_TAN
-	}
-	mutually_exclusive = {
-		focus = RUI_WRU_capture
-    }
-	x = 5
-	y = 9
+		id = RUI_WRU_peace_proposal
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = RUI_War_With_TAN
+		}
+		mutually_exclusive = {
+			focus = RUI_WRU_capture
+		}
+		x = 5
+		y = 9
 	}
 	focus = {
 		id = RUI_Finish_off_the_USSR
 		icon = GFX_goal_unknown
 		cost = 5
-		available = {
-			NOT = {
-				country_exists = SOV
-			}
-		}
 		prerequisite = {
 			focus = RUI_WRU_peace_proposal
 			focus = RUI_WRU_capture
@@ -303,56 +314,89 @@ focus_tree = {
 			}
 	    }
 	}
-	focus = {
-		id = RUI_Liquidation_of_the_separatists
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = RUI_Finish_off_the_USSR
-		}
-		x = 4
-		y = 11
-        completion_reward = {
-			annex_country = {
-				target = CRI
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = CBS
-				transfer_troops = yes
-			}
-			create_wargoal = {
-				target = BLR
-				type = annex_everything
-			}
-			create_wargoal = {
-				target = UPR
-				type = annex_everything
-			}
-			create_wargoal = {
-				target = BRS
-				type = annex_everything
-			}
-			create_wargoal = {
-				target = KDE
-				type = annex_everything
-			}
-	    }
-	}
+	##focus = {
+	##	id = RUI_Liquidation_of_the_separatists
+	##	icon = GFX_goal_unknown
+	##	cost = 5
+	##	prerequisite = {
+	##		focus = RUI_Finish_off_the_USSR
+	##	}
+	##	x = 4
+	##	y = 11
+    ##    completion_reward = {
+	##		annex_country = {
+	##			target = CRI
+	##			transfer_troops = yes
+	#		}
+	#	    create_wargoal = {
+	#			target = CBS
+	#			type = annex_everything
+	#		}
+	#		create_wargoal = {
+	#			target = UKR
+	#			type = annex_everything
+	#		}
+	#		create_wargoal = {
+	#			target = BLR
+	#			type = annex_everything
+	#		}
+	#		create_wargoal = {
+	#			target = UPR
+	#			type = annex_everything
+	#		}
+	#		create_wargoal = {
+	#			target = BRS
+	#			type = annex_everything
+	#		}
+	#		create_wargoal = {
+	#			target = KDE
+	#			type = annex_everything
+	#		}
+	#		create_wargoal = {
+	#			target = PRI
+	#			type = annex_everything
+	#		}
+	#		create_wargoal = {
+	#			target = FIN
+	#			type = annex_everything
+	#		}
+	#    }
+	#}
 	focus = {
 		id = RUI_Tsarist_absolutism
 		icon = GFX_goal_RUI_Tsarist_absolutism
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = RUI_Russian_way
-		}
-		prerequisite = {
-			focus = RUI_History
 		}
 		mutually_exclusive = {
 		}
 		x = 18
 		y = 1
+	available = {
+			
+					OR = {
+						controls_state =   982 # Kiev
+						controls_state =   657 # Azerbaijan
+						controls_state =   560 # Armenia
+						controls_state =   562 # Georgia
+						controls_state =   564 # tashkent
+						controls_state =   565 # Vladivostok
+						controls_state =   563 # Askabad
+						controls_state =  874 # Alma Ata
+						controls_state =   822 # Oyrot
+controls_state =   561 # Pamir
+						controls_state =   644 # Dushanbe
+						controls_state =  876 # minsk
+				        controls_state =   877 # minsk
+				
+				
+				
+				}
+		}
+	
+	
+	
 	}
 	focus = {
 		id = RUI_Tsar_Alexei
@@ -683,7 +727,10 @@ focus_tree = {
 		}
 		x = 23
 		y = 16
-        completion_reward = {
+       available = {
+			has_completed_focus = RUI_Finish_off_the_USSR
+		}
+	   completion_reward = {
             add_political_power = 100
 	    }
 	}
@@ -763,7 +810,11 @@ focus_tree = {
 		}
 		x = 29
 		y = 16
-        completion_reward = {
+       available = {
+			has_completed_focus = RUI_Finish_off_the_USSR
+		}
+
+	   completion_reward = {
 			add_ideas = {
 				RUI_Entente_trade
 			}
@@ -794,16 +845,21 @@ focus_tree = {
 		x = 29
 		y = 18
 		completion_reward = {	
-			send_equipment = {
-				equipment = infantry_equipment
+			
+		add_equipment_to_stockpile = {
+				type = artillery_equipment
 				amount = 1000
-				target = ENG
-		    }
-		    send_equipment = {
-				equipment = artillery_equipment
-				amount = 200
-				target = ENG
-		    }
+				producer = ENG
+			}
+		add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = ENG
+			}
+		
+		
+		
+		
 		}
 	}
 	focus = {
@@ -894,8 +950,33 @@ focus_tree = {
 		x = 18
 		y = 8
 		completion_reward = {
-			puppet = {
-				target = CBS
+			division_template = {
+				name = "Kazachya Kavaleryskaya Diviziya"
+				division_names_group = RUI_CAV_01
+				template_counter = 05
+				regiments = {
+					cavalry = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry = { x = 1 y = 0 }
+					cavalry = { x = 1 y = 1 }
+					mot_artillery_brigade = { x = 2 y = 0 }
+					light_armor = { x = 3 y = 0 }
+				}
+							support = {
+								engineer = { x = 0 y = 0 }
+								artillery = { x = 0 y = 1 }
+								recon = { x = 0 y = 2 }
+							}
+						}
+			CBS  = {
+				diplomatic_relation = {
+					country = RUI
+					relation = guarantee
+				} 
+				diplomatic_relation = {
+					country =  RUI
+					relation = military_access
+				}
 			}
 		}
 	}
@@ -909,6 +990,10 @@ focus_tree = {
 		x = 18
 		y = 9
 		completion_reward = {
+			create_wargoal = {
+				target = BLR
+				type = annex_everything
+			}
 			create_wargoal = {
 				target = UKR
 				type = annex_everything
@@ -1015,9 +1100,9 @@ focus_tree = {
             }		
 }   }
 	focus = {
-		id = RUI_Return_of_lands_from_Japan
+		id = RUI_agreement_with_china
 		icon = GFX_goal_unknown
-		cost = 5
+		cost = 3
 		prerequisite = {
 			focus = RUI_claim_to_Finland
 		}
@@ -1033,8 +1118,61 @@ focus_tree = {
 		prerequisite = {
 			focus = RUI_buy_bombers
 		}
-		x = 18
+		mutually_exclusive = {
+			focus = RUI_war_with_china
+		}
+		x = 17
 		y = 12
+        completion_reward = {
+            diplomatic_relation = {
+                country = CHI
+                relation = guarantee
+                active = no
+            }
+			add_opinion_modifier = {
+				target = CHI
+				modifier = faction_traitor
+			}
+	    }
+	}
+	focus = {
+		id = RUI_war_with_china
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = RUI_claim_to_Finland
+		}
+		prerequisite = {
+			focus = RUI_Russia_my_dear
+		}
+		prerequisite = {
+			focus = RUI_military_exercises
+		}
+		prerequisite = {
+			focus = RUI_buy_bombers
+		}
+		mutually_exclusive = {
+			focus = RUI_agreement_with_china
+		}
+		x = 19
+		y = 12
+		completion_reward = {
+			create_wargoal = {
+				target = CHI
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = RUI_Return_of_lands_from_Japan
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUI_agreement_with_china
+			focus = RUI_war_with_china
+		}
+		x = 18
+		y = 13
 		completion_reward = {
 			create_wargoal = {
 				type = take_state_focus
@@ -1053,7 +1191,35 @@ focus_tree = {
 			focus = RUI_Return_of_lands_from_Japan
 		}
 		x = 18
-		y = 13
+		y = 14
+		available = {
+			
+					OR = {
+						controls_state =   219 # Kiev
+						controls_state =   195 # Azerbaijan
+						controls_state =   217 # Armenia
+						controls_state =   405 # Georgia
+						controls_state =   402 # tashkent
+						controls_state =   570 # Vladivostok
+						controls_state =   578 # Askabad
+						controls_state =  202 # Alma Ata
+						controls_state =   214 # Oyrot
+						controls_state =   213 # Pamir
+						controls_state =   812 # Dushanbe
+						controls_state =   808 # minsk
+				        controls_state =   11 # minsk
+			            controls_state =   91 # Dushanbe
+						controls_state =   192 # minsk
+				        controls_state =   206 # minsk
+						controls_state =   137 # Dushanbe
+						controls_state =   927 # minsk
+				        controls_state =   149 # minsk
+			            controls_state =  929 # Dushanbe
+						controls_state =   142 # minsk
+				        controls_state =   216 # minsk
+
+			}
+		}
 		completion_reward = {
 			set_capital = {
 				state = 195
@@ -1437,6 +1603,7 @@ focus_tree = {
 		}
 	}
 	focus = {
+
 		id = RUI_buy_bombers
 		icon = GFX_goal_unknown
 		cost = 5
@@ -1457,15 +1624,16 @@ focus_tree = {
 		id = RUI_Strengthening
 		icon = GFX_goal_unknown
 		cost = 5
-		available = {
-			always = no
-		}
 		prerequisite = {
 			
 		}
 		x = 45
 		y = 1
+available = {
+			has_completed_focus = RUI_Russia_is_great_again
+		}
 completion_reward = {
+
 news_event = {
     id = RUI_Strengthening.1
     days = 1
