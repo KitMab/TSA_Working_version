@@ -11,7 +11,7 @@ focus_tree = {
 	continuous_focus_position = { x = 0 y = 2588}
 	focus = {
 		id = RUI_History
-		icon = GFX_focus_history_russia
+		icon = GFX_goal_RUI_History
 		cost = 0
 		x = 4
 		y = 0
@@ -373,30 +373,23 @@ focus_tree = {
 		}
 		x = 18
 		y = 1
-	available = {
-			
-					OR = {
-						controls_state =   982 # Kiev
-						controls_state =   657 # Azerbaijan
-						controls_state =   560 # Armenia
-						controls_state =   562 # Georgia
-						controls_state =   564 # tashkent
-						controls_state =   565 # Vladivostok
-						controls_state =   563 # Askabad
-						controls_state =  874 # Alma Ata
-						controls_state =   822 # Oyrot
-controls_state =   561 # Pamir
-						controls_state =   644 # Dushanbe
-						controls_state =  876 # minsk
-				        controls_state =   877 # minsk
-				
-				
-				
-				}
+		available = {
+			OR = {
+				controls_state =   982 # Kiev
+				controls_state =   657 # Azerbaijan
+				controls_state =   560 # Armenia
+				controls_state =   562 # Georgia
+				controls_state =   564 # tashkent
+				controls_state =   565 # Vladivostok
+				controls_state =   563 # Askabad
+				controls_state =  874 # Alma Ata
+				controls_state =   822 # Oyrot
+				controls_state =   561 # Pamir
+				controls_state =   644 # Dushanbe
+				controls_state =  876 # minsk
+				controls_state =   877 # minsk
+			}
 		}
-	
-	
-	
 	}
 	focus = {
 		id = RUI_Tsar_Alexei
