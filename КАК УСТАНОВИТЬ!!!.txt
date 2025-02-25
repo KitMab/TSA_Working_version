@@ -1,0 +1,2 @@
+Закиньте descriptor.mod в папку mod
+Закиньте TSA_Working_version-main в mod
