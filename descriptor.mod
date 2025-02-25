@@ -4,4 +4,4 @@ tags={
 }
 name="HOI4_TSA"
 supported_version="1.15.4"
-path="mod/TSA"
+path="mod/TSA_Working_version-main"
