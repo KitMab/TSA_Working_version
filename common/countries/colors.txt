@@ -19,21 +19,21 @@ CRA = {
 	color = rgb { 255 13 13}
 	color_ui = rgb { 255 13 13 }
 }
-ENC= {
-	color = rgb {240 12 168}
-	color_ui = rgb {240 12 168}
+ENC = {
+	color = rgb { 240 12 168 }
+	color_ui = rgb { 240 12 168 }
 }
-PRI= {
+PRI = {
 	color = rgb {116 141 161}
 	color_ui = rgb {116 141 161}
 }
 ARB = {
-	color = rgb {2 69 27}
-	color_ui = rgb {2 69 27}
+	color = rgb { 2 69 27 }
+	color_ui = rgb { 2 69 27 }
 }
 SRA = {
-	color = rgb { 8 43 74}
-	color_ui = rgb { 8 43 74 }
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
 }
 UPR = {
 	color = rgb { 74 2 2}
