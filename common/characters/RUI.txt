@@ -221,7 +221,7 @@ characters = {
 		portraits = {
 			civilian = {
 				small = "GFX_idea_RUI_Abram_Dragomirov_small_civilian"
-				large = "GFX_portrait_RUI_Alexey_II_Romanov_civilian"
+				large = "GFX_portrait_RUI_Abram_Dragomirov_small_civilian"
             }
 			army = {
 				small = "GFX_idea_RUI_Abram_Dragomirov_small_army"
@@ -246,6 +246,220 @@ characters = {
 			}
 			cost = 200
 		}
+	}
+	RUI_Lavr_Kornilov = {
+		name = RUI_Lavr_Kornilov
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Lavr_Kornilov_small_civilian"
+				large = "GFX_portrait_RUI_Alexey_II_Romanov_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Lavr_Kornilov_small_army"
+				large = "GFX_portrait_RUI_Lavr_Kornilov_army"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill  = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RUI_Alexander_Kutepov = {
+		name = RUI_Alexander_Kutepov
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Alexander_Kutepov_small_civilian"
+				large = "GFX_portrait_RUI_Alexander_Kutepov_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Alexander_Kutepov_small_army"
+				large = "GFX_portrait_RUI_Alexander_Kutepov_army"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill  = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RUI_Vladimir_Kirillovich = {
+		name = RUI_Vladimir_Kirillovich
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Vladimir_Kirillovich_small_civilian"
+				large = "GFX_portrait_RUI_Vladimir_Kirillovich_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Vladimir_Kirillovich_small_army"
+				large = "GFX_portrait_RUI_Vladimir_Kirillovich_army"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill  = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RUI_Mikhail_Romanov = {
+		name = RUI_Mikhail_Romanov
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Mikhail_Romanov_small_civilian"
+				large = "GFX_portrait_RUI_Mikhail_Romanov_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Mikhail_Romanov_small_army"
+				large = "GFX_portrait_RUI_Mikhail_Romanov_army"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill  = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RUI_Fyodor_Keller = {
+		name = RUI_Fyodor_Keller
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Fyodor_Keller_small_civilian"
+				large = "GFX_portrait_RUI_Fyodor_Keller_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Fyodor_Keller_small_army"
+				large = "GFX_portrait_RUI_Fyodor_Keller_army"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill  = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RUI_Victorin_Molchanov = {
+		name = RUI_Victorin_Molchanov
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Victorin_Molchanov_small_civilian"
+				large = "GFX_portrait_RUI_Victorin_Molchanov_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Victorin_Molchanov_small_army"
+				large = "GFX_portrait_RUI_Victorin_Molchanov_army"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill  = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RUI_Igor_Konstantinovich = {
+		name = RUI_Igor_Konstantinovich
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Igor_Konstantinovich_small_civilian"
+				large = "GFX_portrait_RUI_Igor_Konstantinovich_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Igor_Konstantinovich_small_army"
+				large = "GFX_portrait_RUI_Igor_Konstantinovich_army"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill  = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RUI_George_Stark = {
+		name = RUI_George_Stark
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_George_Stark_small_civilian"
+				large = "GFX_portrait_RUI_George_Stark_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_George_Stark_small_army"
+				large = "GFX_portrait_RUI_George_Stark_army"
+			}
+		}
+		navy_leader = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}	
+	}
+	RUI_Pavel_Ukhtomsky = {
+		name = RUI_Pavel_Ukhtomsky
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Pavel_Ukhtomsky_small_civilian"
+				large = "GFX_portrait_RUI_Pavel_Ukhtomsky_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Pavel_Ukhtomsky_small_army"
+				large = "GFX_portrait_RUI_Pavel_Ukhtomsky_army"
+			}
+		}
+		navy_leader = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}	
+	}
+	RUI_Alexander_Mikhailovich = {
+		name = RUI_Alexander_Mikhailovich
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUI_Alexander_Mikhailovich_small_civilian"
+				large = "GFX_portrait_RUI_Alexander_Mikhailovich_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Alexander_Mikhailovich_small_army"
+				large = "GFX_portrait_RUI_Alexander_Mikhailovich_army"
+			}
+		}
+		navy_leader = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}	
 	}
 }
 		
