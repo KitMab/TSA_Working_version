@@ -154,30 +154,19 @@ focus_tree = {
 		}
 		x = 4
 		y = 4
-       available = {
-		controls_state = 982 
-						
-				
-				
-				
-				
+        available = {
+			controls_state = 982 
 		}
-
-	   completion_reward = {
-		  
+	    completion_reward = {
 	        news_event = {				
-               id = RUI_Fer_end.1
-               days = 1
-               random_hours = 12
-               random_days = 1
+				id = RUI_Fer_end.1
             } 
-			FER = {
-			add_timed_idea = {
-				idea = FER_surrender
-				days = 120
-			}		
-	    }
-		
+			RUI = {
+				add_timed_idea = {
+					idea = RUI_Fast_company_in_the_Far_East
+					days = 180
+				}		
+	        }
 		}
 	}
 	focus = {

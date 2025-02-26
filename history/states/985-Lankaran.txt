@@ -1,0 +1,23 @@
+state = {
+	id = 985
+	name = "STATE_985" 
+	manpower = 57891
+	state_category = rural
+    local_supplies = 0.0
+	resources = {
+		steel = 18
+	}
+	history={
+		owner = PER
+        add_core_of = PER
+        victory_points = { 
+			4473 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		4473 12434
+	} 
+}
