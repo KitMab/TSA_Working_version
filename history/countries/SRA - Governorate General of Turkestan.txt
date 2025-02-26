@@ -1,4 +1,4 @@
-﻿capital = 586
+﻿capital = 405
 ###oob = "SRA"
 set_research_slots = 4
 set_convoys = 350
