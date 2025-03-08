@@ -11,8 +11,8 @@ state = {
 
 	history = {
 
-		owner = OMA
-		add_core_of = IMO
+		owner = ARB
+		add_core_of = ARB
 		#add_core_of = OMA
 
 		buildings = {

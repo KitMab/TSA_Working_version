@@ -1,0 +1,22 @@
+state = {
+	id = 1019
+	name = "STATE_1019" 
+	manpower = 55000
+	state_category = rural
+    local_supplies = 0.0
+	resources = {
+	}
+	history = {
+		owner = CRA
+        add_core_of = CRA
+		victory_points = { 
+			12559 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		3664 4290 4844 9659 10571 10577 12559 
+	} 
+}

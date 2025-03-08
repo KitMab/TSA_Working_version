@@ -2,7 +2,7 @@ state = {
 	id = 1017
 	name = "STATE_1017" 
 	manpower = 97663
-	state_category = city
+	state_category = town
     local_supplies = 0.0
 	resources = {
 		steel = 18
@@ -10,8 +10,14 @@ state = {
 	history = {
 		owner = RUI
         add_core_of = RUI
+		victory_points = { 
+			750 1 
+		}
 		buildings = {
 			infrastructure = 2
+			750 = {
+				naval_base = 3
+			}
 		}
 	}
 	provinces = {
