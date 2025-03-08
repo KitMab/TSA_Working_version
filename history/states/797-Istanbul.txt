@@ -13,7 +13,7 @@ state={
 	state_category = city
 
 	history= {
-		owner = OSM
+		owner = GRE
 		victory_points = {
 			9833 25
 		}
@@ -26,7 +26,7 @@ state={
 				naval_base = 8
 			}
 		}
-		add_core_of = OSM
+		add_core_of = GRE
 
 	}
 

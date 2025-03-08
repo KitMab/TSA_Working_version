@@ -3,7 +3,8 @@ state={
 	name="STATE_800" #Van
 
 	history={
-		owner = OSM
+		owner = KUR
+		add_core_of = KUR
 		victory_points = {
 			6935 5 
 		}
@@ -12,19 +13,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-		}
-		if = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			add_core_of = KUR
-		}
-		if = {
-			limit = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-			add_core_of = OSM
-			add_core_of = KUR
 		}
 	}
 

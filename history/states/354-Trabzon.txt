@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = OSM
+		owner = KDE
 		
 		victory_points = {
 			11853 3
@@ -27,7 +27,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = OSM
+		add_core_of = KDE
 	}
 
 	provinces={
