@@ -3,7 +3,5 @@ tags={
 	"Balance"
 }
 name="HOI4_TSA"
-replace_path="history/states"
-replace_path="map/strategicregions"
 supported_version="1.16.0"
 path="mod/TSA_Working_version-main"

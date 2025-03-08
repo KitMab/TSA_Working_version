@@ -7,9 +7,6 @@ state={
 
 	history={
 		owner = ARB
-		victory_points = {
-			12413 1 
-		}
 		buildings = {
 			infrastructure = 1
 		}
@@ -17,7 +14,7 @@ state={
 	}
 	
 	provinces={
-		1631 4951 10744 12413 12879 13368
+		10744 12879 13368
 	}
 
 	local_supplies=0.0 

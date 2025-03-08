@@ -1,4 +1,4 @@
-﻿capital = 982
+﻿capital = 1019
 oob = "CRA"
 set_research_slots = 3
 set_convoys = 350
