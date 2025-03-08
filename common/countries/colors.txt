@@ -1,5 +1,5 @@
 
-WIS= {
+MSR= {
 	color = rgb { 147 148 72}
 	color_ui = rgb {147 148 72}
 }

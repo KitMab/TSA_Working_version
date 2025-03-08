@@ -1,4 +1,4 @@
-WIS = {
+MSR = {
 	male = {
 		names = {
 			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Arturo Augusto Aureliano

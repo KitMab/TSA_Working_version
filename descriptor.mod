@@ -1,7 +1,9 @@
-﻿version="1"
+version="1"
 tags={
 	"Balance"
 }
 name="HOI4_TSA"
-supported_version="1.15.4"
+replace_path="history/states"
+replace_path="map/strategicregions"
+supported_version="1.16.0"
 path="mod/TSA_Working_version-main"

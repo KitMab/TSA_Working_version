@@ -1,26 +1,19 @@
-
 state = {
 	id = 983
 	name = "STATE_983" 
 	manpower = 97663
-	
 	state_category = rural
-	resources={
-		steel=18 # was: 24
+    local_supplies = 0.0
+	resources = {
 	}
-
-	history={
-		owner = WIS
+	history = {
+		owner = MSR
+        add_core_of = MSR
 		buildings = {
 			infrastructure = 2
 		}
-	
-		add_core_of = WIS
 	}
-
 	provinces = {
 		11851 9877
-	}
-
-	local_supplies = 0.0 
+	} 
 }
