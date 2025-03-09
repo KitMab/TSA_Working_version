@@ -5,8 +5,8 @@ state = {
 	state_category = pastoral
     local_supplies = 0.0
 	history = {
-		owner = BRS
-        add_core_of = BRS
+		owner = UPR
+        add_core_of = UPR
 		buildings = {
 			infrastructure = 1
 		}

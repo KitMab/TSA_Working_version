@@ -1,0 +1,25 @@
+state = {
+	id = 1031
+	name = "STATE_1031" 
+	manpower = 1885000
+	state_category = large_city
+    local_supplies = 0.0
+    resources = {
+		steel = 20
+	}
+	history = {
+		owner = CBS
+        add_core_of = CBS
+        victory_points = {
+			6474 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+		}
+	}
+	provinces = {
+		3421 6474 6493
+	} 
+}

@@ -3,7 +3,7 @@ state={
 	name="STATE_94"
 
 	history={
-		owner = BRS
+		owner = UPR
 		buildings = {
 			infrastructure = 2
 
@@ -11,9 +11,7 @@ state={
 		victory_points = { ###Брест-Литовск
 			3392 1
 		}
-		add_core_of = POL
-		add_core_of = BLR
-        add_core_of = BRS
+		add_core_of = UPR
 	}
 
 	provinces={

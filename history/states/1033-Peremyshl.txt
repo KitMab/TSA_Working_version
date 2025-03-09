@@ -1,20 +1,23 @@
 state = {
-	id = 1028
-	name = "STATE_1028" 
-	manpower = 850000
+	id = 1033
+	name = "STATE_1033" 
+	manpower = 230625
 	state_category = rural
     local_supplies = 0.0
+    resources = {
+		steel = 20
+	}
 	history = {
-		owner = UKR
-        add_core_of = UKR
+		owner = UPR
+        add_core_of = UPR
         victory_points = {
-			11325 1
+			9494 1
 		}
 		buildings = {
 			infrastructure = 2
 		}
 	}
 	provinces = {
-		315 371 398 11229 11298 11325
+		466 3434 6580 9494
 	} 
 }
