@@ -8,11 +8,8 @@ state={
 			infrastructure = 2
 
 		}
-		victory_points = {
+		victory_points = { ###Брест-Литовск
 			3392 1
-		}
-		victory_points = {
-			560 1
 		}
 		add_core_of = POL
 		add_core_of = BLR
@@ -20,9 +17,9 @@ state={
 	}
 
 	provinces={
-		535 560 3256 3309 3392 3496 3556 6280 6306 6415 6546 6579 9520 11285 11503 11528 
+		3392 3496 6546 9520 11528 
 	}
-	manpower=1232200
+	manpower=600000
 	buildings_max_level_factor=1.000
 	state_category=rural
 
