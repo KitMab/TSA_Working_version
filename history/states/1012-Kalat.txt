@@ -2,13 +2,13 @@ state={
 	id=1012
 	name="STATE_1012"
 	provinces={
-		7049 8098 8066
+		7049 8098 8066 10735
 	}
 	state_category = town
 	manpower = 480164
 
 	history = {
-		owner = RAJ
+		owner = AFG
 		add_core_of = KLT
 		add_core_of = PAK
 		add_core_of = BLC

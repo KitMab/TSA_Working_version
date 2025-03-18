@@ -10,14 +10,14 @@ state={
 		aluminium=60 # moved from Northern Hungary
 	}
 	history={
-		owner = AUS
+		owner = HUN
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 3
 			arms_factory = 1
 			air_base = 3
 		}
-		add_core_of = AUS
+		add_core_of = HUN
 	}
 
 	provinces={
