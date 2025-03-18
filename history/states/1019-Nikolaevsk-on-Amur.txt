@@ -7,8 +7,8 @@ state = {
 	resources = {
 	}
 	history = {
-		owner = CRA
-        add_core_of = CRA
+		owner = SOV
+        add_core_of = SOV
 		victory_points = { 
 			12559 1 
 		}

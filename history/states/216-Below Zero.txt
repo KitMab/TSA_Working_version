@@ -5,7 +5,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = WRU
+		owner = FIN
 		victory_points = {
 			11159 1 
 		}
@@ -15,7 +15,7 @@ state={
 
 		}
 		add_claim_by = RUI
-		add_core_of = WRU
+		add_core_of = FIN
 	}
 
 	provinces={
