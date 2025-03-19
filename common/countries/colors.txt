@@ -1,4 +1,7 @@
-
+TBC = {
+	color = rgb { 4 0 187 }
+	color_ui = rgb { 4 0 187 }
+}
 MSR= {
 	color = rgb { 147 148 72}
 	color_ui = rgb {147 148 72}

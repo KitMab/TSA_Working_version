@@ -6,8 +6,8 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "RUI"
 		default = yes
-		"RUI"={
-			history = "RUI_GATHERING_STORM_DESC"
+		"RUI" = {
+			history = "RUI_THE_ERA_OF_NEW_EMPIRES_DESC"
 			ideology = neutrality
 			ideas = {
 				RUI_Tsar_Nikolay_II
@@ -20,84 +20,8 @@ bookmarks = {
 				RUI_Strengthening
 			}
 		}
-		"OSM"={
-			history = "OSM_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = neutrality
-			ideas = {
-				OSM_Kurdistan_VS_Osmania
-				OSM_Bad_Government
-				OSM_Fascism_Cult_Leader
-			}
-			focuses = {
-                                OSM_Choice_Politic
-				OSM_War_USSR
-				OSM_Turkey
-			}
-		}
-		"PRE"={
-			history = "PRE_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = neutrality
-			ideas = {
-				PRE_Berlin_Treaty
-				PRE_Bismarck_fleet
-				PRE_Economic_Development
-			}
-			focuses = {
-                                PRE_Recreate_the_Central_Powers
-				PRE_Kaiser_propaganda
-				PRE_German_Reunification
-			}
-		}
-		"BAY"={
-			history = "BAY_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = communism
-			ideas = {
-				BAY_bad_army_1
-				BAY_bad_industry_economic1
-				BAY_sobstvenost_1
-			}
-			focuses = {
-                                BAY_problems_army_tree
-				BAY_problems_political
-				BAY_problems_industry_economic
-			}
-		}
-		"PRI"={
-			history = "PRI_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"ENG"={
-			history = "ENG_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"JAP"={
-			history = "JAP_THE_ERA_OF_NEW_EMPIRES_DESC"
-			ideology = fascism
-			ideas = {
-				state_shintoism
-				JAP_zaibatsus
-				JAP_militarism
-			}	
-			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
-			}			
-		}
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
 		}
 	}
 }

@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = SOV
+		owner = TBC
 		victory_points = {
 			4705 1 
 		}
@@ -19,7 +19,7 @@ state = {
 			air_base = 2
 		}
 		add_claim_by = RUI
-		add_core_of = SOV
+		add_core_of = TBC
 	}
 
 	provinces = {

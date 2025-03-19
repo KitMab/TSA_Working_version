@@ -1,4 +1,4 @@
-﻿capital = 797
+﻿capital = 49
 oob = "OSM"
 set_research_slots = 4
 set_popularities = {
@@ -19,18 +19,12 @@ create_country_leader = {
 	traits={
 	}
 }
-
 add_ideas = {
     service_by_requirement
     limited_exports
     partial_economic_mobilisation
 	OSM_Kurdistan_VS_Osmania
 	OSM_Bad_Government
-}
-###DIPLOMACY
-set_autonomy = {
-	target = KDE
-	autonomous_state = autonomy_satellite
 }
 ###TECH
 set_technology = {
