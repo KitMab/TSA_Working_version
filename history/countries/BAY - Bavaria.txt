@@ -1,4 +1,6 @@
-﻿capital = 52
+﻿###BASE
+capital = 52
+###OOB
 ###oob = "BAY"
 set_research_slots = 4
 set_popularities = {
@@ -10,6 +12,7 @@ set_popularities = {
 set_politics = {
 	ruling_party = communism
 }
+###CHARACTERS
 create_country_leader = {
 	name = "Communist Council of Bavaria"
 	desc = ""

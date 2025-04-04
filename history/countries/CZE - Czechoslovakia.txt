@@ -1,5 +1,4 @@
-﻿
-capital = 9
+﻿capital = 9
 oob = "CZE"
 set_research_slots = 4
 set_popularities = {
@@ -76,18 +75,18 @@ if = {
 }
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-	}
-	else = {
-		set_technology = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 		improved_light_tank_chassis = 1
+	}
+	else = {
+		set_technology = {
+			gwtank = 1
+			basic_light_tank = 1
+			improved_light_tank = 1
 	    }
 	}
 }

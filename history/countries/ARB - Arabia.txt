@@ -1,4 +1,6 @@
-﻿capital = 856
+﻿###BASE
+capital = 856
+###OOB
 oob = "ARB"
 set_research_slots = 4
 set_popularities = {
@@ -10,6 +12,7 @@ set_popularities = {
 set_politics = {
 	ruling_party = neutrality
 }
+###IDEAS
 add_ideas = {
     service_by_requirement
     limited_exports

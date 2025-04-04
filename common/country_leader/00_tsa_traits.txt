@@ -1,23 +1,4 @@
 leader_traits = {
-	RUI_Shahovskiy = {
-		random = no
-		production_speed_industrial_complex_factor = 0.5 
-		local_resources_factor = 0.1
-	}
-	RUI_Teresheno = {
-		random = no
-		trade_opinion_factor = 0.5
-		agency_upgrade_time = -0.5
-		operation_cost = -0.5 
-	}
-	RUI_Konovalov = {
-		random = no
-		conversion_cost_civ_to_mil_factor = -0.2
-		production_speed_arms_factory_factor = 0.15
-		production_speed_air_base_factor = 0.1
-		production_speed_naval_base_factor = 0.1
-		production_speed_bunker_factor = 0.2  
-	}
 	RUI_Alexey_II_Romanov_trait = {
 		random = no
 		war_support_factor = 0.10

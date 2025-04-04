@@ -1,4 +1,6 @@
-﻿capital = 408
+﻿###BASE
+capital = 408
+###OOB
 oob = "RUI"
 set_research_slots = 4
 set_convoys = 350
@@ -11,6 +13,7 @@ set_popularities = {
 set_politics = {
 	ruling_party = neutrality
 }
+###IDEAS
 add_ideas = {
     service_by_requirement
     limited_exports
@@ -19,6 +22,7 @@ add_ideas = {
     RUI_international_army_idea
     RUI_Tsar_Nikolay_II
 }
+###CHARACTERS
 recruit_character = RUI_Nikolay_II_Romanov
 recruit_character = RUI_Alexey_II_Romanov
 recruit_character = RUI_Vladimir_Grigoriev
@@ -40,7 +44,7 @@ recruit_character = RUI_Igor_Konstantinovich
 recruit_character = RUI_George_Stark
 recruit_character = RUI_Pavel_Ukhtomsky
 recruit_character = RUI_Alexander_Mikhailovich
-###TECH
+###TECHNOLOGY
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
