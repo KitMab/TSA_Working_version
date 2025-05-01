@@ -3,5 +3,5 @@ tags={
 	"Balance"
 }
 name="HOI4_TSA"
-supported_version="1.16.4"
+supported_version="1.16.5"
 path="mod/TSA_Working_version-main"
