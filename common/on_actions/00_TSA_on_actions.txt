@@ -1,0 +1,39 @@
+on_actions = {
+    on_weekly_RUI = {
+        effect = { 
+            if = {
+                limit = {
+                    NOT = {
+                        1017 = {
+                            is_fully_controlled_by = RUI
+                        }
+                    }
+                    AND = {
+                        has_idea = RUI_Rent_of_Yekaterinodar_port
+                    }
+                }
+                remove_ideas = RUI_Rent_of_Yekaterinodar_port
+            }
+            else_if = {
+                limit = {
+                    1017 = {
+                        is_fully_controlled_by = RUI
+                    }
+                    AND = {
+                        NOT = {
+                            has_idea = RUI_Rent_of_Yekaterinodar_port
+                        }
+                    }
+                }
+                add_ideas = RUI_Rent_of_Yekaterinodar_port
+            }
+        }
+    }
+    on_daily_RUI = {
+        effect = {
+            add_to_variable = { 
+                my_money = 10 
+            }
+        }
+    }
+}

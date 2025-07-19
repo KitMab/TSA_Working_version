@@ -1,11 +1,6 @@
 ideas = {
 	country = {
         RUI_Rent_of_Yekaterinodar_port = {
-            cancel = {
-                NOT = {
-                   owns_state = 984
-                }
-            }
             modifier = {
                 political_power_gain = -0.25
             }

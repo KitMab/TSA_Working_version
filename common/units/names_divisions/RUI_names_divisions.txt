@@ -920,7 +920,7 @@ RUI_MNT_01 =
 		302 = { "%dya Gornostrelkovaya Diviziya" }
 	}
 }
-RUI_CAV_02 = #COSSACK CAVALRY
+RUI_CAV_02 = 
 {
 	name = "Cossack Cavalry Division"
 
