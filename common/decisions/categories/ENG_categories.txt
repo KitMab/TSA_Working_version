@@ -1,18 +1,24 @@
 ENG_category = { 
-    icon = 
-    allowed = {  
-        tag = ENG
-        has_completed_focus = ENG_Creation_of_the_Commonwealth_Council
+
+        icon = 
+        allowed = {  
+            tag = ENG
+        			has_completed_focus = ENG_Creation_of_the_Commonwealth_Council
 		show_effect_tooltip = YES
 	}
-	visible = {
+		visible = {
 		has_completed_focus = ENG_Creation_of_the_Commonwealth_Council
 	}
-    picture = GFX_decision_cat_generic_mefo_bills
-	priority = 12	
-	picture = 
-	priority = 1
-	[?my_money]
+   picture = GFX_decision_cat_generic_mefo_bills
+		priority = 12
+		
+		
+		
 }
+
+   picture = 
+		priority = 1
+		[?my_money]
 		
 		
+}
