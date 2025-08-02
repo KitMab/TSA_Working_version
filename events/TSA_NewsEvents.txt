@@ -20,10 +20,25 @@ news_event = {
             has_global_flag = CSP_WIN
         }
     }
-    picture = GFX_report_event_polish_tanks_01
+    picture = GFX_news_event_033
 	is_triggered_only = yes
     major = yes
 	option = {
         name = TSA_news.1.a
+        trigger = {
+            has_global_flag = ISF_WIN
+        }
+    }
+    option = {
+        name = TSA_news.1.b
+        trigger = {
+            has_global_flag = MSP_WIN
+        }
+    }
+    option = {
+        name = TSA_news.1.c
+        trigger = {
+            has_global_flag = CSP_WIN
+        }
     }
 }
