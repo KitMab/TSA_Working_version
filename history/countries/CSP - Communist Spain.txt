@@ -1,21 +1,26 @@
-capital = 165
+#OOB
 oob = "CSP"
+#BASE
+capital = 165
 set_research_slots = 4
 set_popularities = {
-	democratic = 5
+	democratic = 45
 	fascism = 10
 	neutrality = 5
-	communism = 80
+	communism = 40
 }
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 }
+#IDEAS
 add_ideas = {
     service_by_requirement
     limited_exports
     partial_economic_mobilisation
 }
-###DIPLOMACY
+#CHARACTERS
+recruit_character = CSP_Manuel_Azana_y_Diaz
+#DIPLOMACY
 declare_war_on = {
 	target = ISF
 	type = annex_everything
@@ -24,7 +29,7 @@ declare_war_on = {
 	target = MSP
 	type = annex_everything
 }
-###TECH
+#TECHOLOGY
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

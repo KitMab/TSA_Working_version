@@ -1,0 +1,29 @@
+add_namespace = TSA_news
+news_event = {
+    id = TSA_news.1
+    title = TSA_news.1.t
+    desc = {
+        text = TSA_news.1.d.ISF_WIN
+        trigger = {
+            has_global_flag = ISF_WIN
+        }
+    }
+    desc = {
+        text = TSA_news.1.d.MSP_WIN
+        trigger = {
+            has_global_flag = MSP_WIN
+        }
+    }
+    desc = {
+        text = TSA_news.1.d.CSP_WIN
+        trigger = {
+            has_global_flag = CSP_WIN
+        }
+    }
+    picture = GFX_report_event_polish_tanks_01
+	is_triggered_only = yes
+    major = yes
+	option = {
+        name = TSA_news.1.a
+    }
+}

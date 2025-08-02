@@ -1,0 +1,17 @@
+characters = {
+	ISF_Jose_Antonio_Primo_de_Rivera = {
+		name = ISF_Jose_Antonio_Primo_de_Rivera
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ISF_Jose_Antonio_Primo_de_Rivera_small_civilian"
+				large = "GFX_portrait_ISF_Jose_Antonio_Primo_de_Rivera_civilian"
+            }
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {
+			}
+			desc = ISF_Jose_Antonio_Primo_de_Rivera_desc
+		}
+	}
+}

@@ -8,9 +8,7 @@ on_actions = {
                             is_fully_controlled_by = RUI
                         }
                     }
-                    AND = {
-                        has_idea = RUI_Rent_of_Yekaterinodar_port
-                    }
+                    has_idea = RUI_Rent_of_Yekaterinodar_port
                 }
                 remove_ideas = RUI_Rent_of_Yekaterinodar_port
             }
@@ -19,10 +17,8 @@ on_actions = {
                     1017 = {
                         is_fully_controlled_by = RUI
                     }
-                    AND = {
-                        NOT = {
-                            has_idea = RUI_Rent_of_Yekaterinodar_port
-                        }
+                    NOT = {
+                        has_idea = RUI_Rent_of_Yekaterinodar_port
                     }
                 }
                 add_ideas = RUI_Rent_of_Yekaterinodar_port

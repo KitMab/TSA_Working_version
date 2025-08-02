@@ -4,7 +4,6 @@ state={
 
 	history={
 		owner = CSP
-		add_core_of = FRC
 		victory_points = {
 			3933 1
 		}

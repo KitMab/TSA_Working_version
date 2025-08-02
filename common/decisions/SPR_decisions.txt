@@ -1,0 +1,116 @@
+SPR_unification = {
+    ISF_unification = {
+        available = {
+            tag = ISF
+            NOT = {
+                country_exists = MSP
+                country_exists = CSP
+            }
+        }
+        visible = {
+            tag = ISF
+        }
+        ai_will_do = {
+            factor = 1000
+        }
+        fire_only_once = yes
+        complete_effect = {
+            set_global_flag = ISF_WIN
+            news_event = TSA_news.1
+            ISF = {
+                set_cosmetic_tag = ISF_WIN
+                set_capital = {
+                    state = 41
+                }
+                MSP = {
+                    every_core_state = {
+                        add_core_of = ISF
+                        remove_core_of = MSP
+                    }
+                }
+                CSP = {
+                    every_core_state = {
+                        add_core_of = ISF
+                        remove_core_of = CSP
+                    }
+                }
+            }
+        }
+    }
+    MSP_unification = {
+        available = {
+            tag = MSP
+            NOT = {
+                country_exists = ISF
+                country_exists = CSP
+            }
+        }
+        visible = {
+            tag = MSP
+        }
+        ai_will_do = {
+            factor = 1000
+        }
+        fire_only_once = yes
+        complete_effect = {
+            set_global_flag = MSP_WIN
+            news_event = TSA_news.1
+            MSP = {
+                set_cosmetic_tag = MSP_WIN
+                set_capital = {
+                    state = 41
+                }
+                ISF = {
+                    every_core_state = {
+                        add_core_of = MSP
+                        remove_core_of = ISF
+                    }
+                }
+                CSP = {
+                    every_core_state = {
+                        add_core_of = MSP
+                        remove_core_of = CSP
+                    }
+                }
+            }
+        }
+    }
+    CSP_unification = {
+        available = {
+            tag = CSP
+            NOT = {
+                country_exists = MSP
+                country_exists = ISF
+            }
+        }
+        visible = {
+            tag = CSP
+        }
+        ai_will_do = {
+            factor = 1000
+        }
+        fire_only_once = yes
+        complete_effect = {
+            set_global_flag = CSP_WIN
+            news_event = TSA_news.1
+            CSP = {
+                set_cosmetic_tag = CSP_WIN
+                set_capital = {
+                    state = 41
+                }
+                MSP = {
+                    every_core_state = {
+                        add_core_of = ISF
+                        remove_core_of = MSP
+                    }
+                }
+                ISF = {
+                    every_core_state = {
+                        add_core_of = CSP
+                        remove_core_of = ISF
+                    }
+                }
+            }
+        }
+    }
+}
