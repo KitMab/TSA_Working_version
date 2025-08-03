@@ -1,7 +1,7 @@
 #TSA
 CSP_WIN = {
-    color = rgb { 255 165 0 }
-    color_ui = rgb { 255 165 0 }
+    color = rgb { 255 88 0 }
+    color_ui = rgb { 255 88 0 }
 }
 MSP_WIN = {
     color = rgb { 255 165 0 }
