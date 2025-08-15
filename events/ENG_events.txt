@@ -1,126 +1,47 @@
-add_namespace = british
 
-country_event = {
-	id = british.1
-	title = british.1.t
-	desc = british.1.d
-	
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = british.1.a
-        ENG = { annex_country = { target = SCO transfer_troops = yes } }
-		hidden_effect = {
-		news_event = { id = british.2 hours = 6 }
-		   ENG = {
-           add_state_core = 133
-		   add_state_core = 121
-		   add_state_core = 120
-		   add_state_core = 136
-		   add_state_core = 993
-		   add_timed_idea = { idea = ENG_recovery_after_reunification days = 365 }
-		   }   
-       }		
-    }
-	
-	option = {
-		name = british.1.b
-        ENG = {
-		    create_wargoal = {
-				type = annex_everything
-				target = SCO
-				expire = 0
-			 }
-        }
-	}
-	
-}
 
 add_namespace = ENG_Deff_GYA
 
+add_namespace = ENG_Deff_GYA
 country_event = {
 	id = ENG_Deff_GYA.1
-	title = ENG_Deff_GYA.1.t
-	desc = ENG_Deff_GYA.1.d
-	
+	title = ENG_Deff_GYA.1.a
+	desc = ENG_Deff_GYA.1.b
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
-		name = ENG_Deff_GYA.1.a
-        
-
-	give_guarantee = GYA  
-  
-	 GYA = {
-	   add_manpower = 8000
+		name = ENG_Deff_GYA.1.c
+	 add_manpower = 8000
 	 add_equipment_to_stockpile = {
 				type = infantry_equipment
 				amount = 650
 				producer = ENG
-			
-	 }
-	 }		
-    }
-	
-
-	
-}
-add_namespace = ENG_comarmy
-
-country_event = {
-	id = ENG_comarmy.1
-	title = ENG_comarmy.1.t
-	desc = ENG_comarmy.1.d
-	
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = ENG_comarmy.1.a
-      
-		hidden_effect = {
-		  
-       }		
-    }
-}
-
-add_namespace = ENG_commoney
-
-country_event = {
-	id = ENG_commoney.1
-	title = ENG_commoney.1.t
-	desc = ENG_commoney.1.d
-	
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = ENG_commoney.1.a
-     
-		hidden_effect = {
-		  
-       }		
-    }
+			 }
+	}
 }
 add_namespace = ENG_chill
 
 country_event = {
 	id = ENG_chill.1
-	title = ENG_chill.1.t
-	desc = ENG_chill.1.d
+	title = ENG_chill.1.a
+	desc = ENG_chill.1.b
 	
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = {
-		name = ENG_chill.1.a
-       
-		hidden_effect = {
-		  
-       }		
-    }
+		name = ENG_chill.1.c
+      ENG = {
+transfer_state = 270
+			
+	 add_timed_idea = { idea = ENG_ostrov_price days = 200 }
+			}
+ CHl = {
+add_timed_idea = { idea = CHl_ostrov_price days = 200 }
+}
+			
+   
+   }
 }
 
 
@@ -300,28 +221,39 @@ country_event = {
 		}
 	}
 	
-country_event = {
+	country_event = {
 	id = ENG_Europa.18
 	title = ENG_Europa.18.t
 	desc = ENG_Europa.18.d
 	picture = GFX_report_event_fascist_gathering
+	
 	trigger = {
 		tag = ENG
 		has_idea = ENG_george_vi
 		has_government = fascism
-		NOT = { 
-			has_dlc = "Man the Guns" 
-		}
+		NOT = { has_dlc = "Man the Guns" }
 	}
+	
 	fire_only_once = yes
+
 	mean_time_to_happen = { days = 14 }
+	
 	immediate = {
 		hidden_effect = {
+			
 		}
 	}
+
 	option = {
 		name = ENG_Europa.18.a
 		effect_tooltip = {
+			
+		}
+		
 		}
 	}
-}	
+	
+
+	
+	}
+	

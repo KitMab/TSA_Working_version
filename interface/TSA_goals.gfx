@@ -44,7 +44,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_goal_ENG_rebuilding_economic.dds"			
 	}
 	SpriteType = {
-		name = "GFX_goal_ENG_national_unity"
-		texturefile = "gfx/interface/goals/GFX_goal_ENG_national_unity.dds"			
+		name = "GFX_goal_RUI_capitalism"
+		texturefile = "gfx/interface/goals/GFX_goal_RUI_capitalism.dds"		
+	}
+	SpriteType = {
+		name = "GFX_goal_RUI_tsareagly"
+		texturefile = "gfx/interface/goals/GFX_goal_RUI_tsareagly.dds"		
+	}
+	SpriteType = {
+		name = "GFX_goal_RUI_Atlanta"
+		texturefile = "gfx/interface/goals/GFX_goal_RUI_Atlanta.dds"				
+	}
+	SpriteType = {
+		name = "GFX_goal_RUI_Poice"
+		texturefile = "gfx/interface/goals/GFX_goal_RUI_Poice.dds"		
+	}
+	SpriteType = {
+		name = "GFX_goal_RUI_Russia_tsarist_army"
+		texturefile = "gfx/interface/goals/GFX_goal_RUI_Russia_tsarist_army.dds"		
+	}
+	SpriteType = {
+		name = "GFX_goal_RUI_front"
+		texturefile = "gfx/interface/goals/GFX_goal_RUI_front.dds"		
 	}
 }

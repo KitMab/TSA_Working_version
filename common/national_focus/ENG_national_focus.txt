@@ -29,7 +29,12 @@ remove_ideas = ENG_Depression_of_society
 		x = 53
 		y = 0
 completion_reward = {
-
+ news_event = {				
+               id = ENG_Political_reforms_events.1
+               days = 1
+               random_hours = 12
+               random_days = 1
+            }
 }
 	}
 	focus = {
@@ -74,7 +79,7 @@ add_stability = 0.05
 		y = 3
 completion_reward = {
 	add_ideas = ENG_engaging_prisoners_in_work_idea
-add_war_support = -0.1
+add_stability = -0.1 
 add_manpower = -2000
 	}
 	}
@@ -90,7 +95,7 @@ add_manpower = -2000
 completion_reward = {
 			add_resource = {
 						type = steel
-						amount = 5
+						amount = 10
 					}
 126 = {
         add_building_construction = {
@@ -247,7 +252,7 @@ add_ideas = ENG_Modernization_of_the_army_idea
 	}
 	}
 	focus = {
-		id = ENG_land_octrine
+		id = ENG_land_doctrine
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -271,7 +276,7 @@ add_command_power = 50
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = ENG_land_octrine
+			focus = ENG_land_doctrine
 		}
 		x = 8
 		y = 3
@@ -283,23 +288,13 @@ add_tech_bonus = {
 			}
 }
 	}
-	focus = {
-		id = ENG_Elite_infantry_units
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = ENG_Infantry_development
-		}
-		x = 8
-		y = 4
 
-	}
 	focus = {
 		id = ENG_Motorization
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = ENG_land_octrine
+			focus = ENG_land_doctrine
 		}
 		x = 12
 		y = 3
@@ -318,6 +313,21 @@ add_tech_bonus = {
 }
 	}
 	focus = {
+		id = ENG_Elite_infantry_units
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ENG_Infantry_development
+		}
+		x = 8
+		y = 4
+
+completion_reward = {
+add_ideas = ENG_infantry_weapons
+
+}
+	}
+	focus = {
 		id = ENG_New_tank_doctrine
 		icon = GFX_goal_unknown
 		cost = 10,00
@@ -331,6 +341,7 @@ add_ideas = ENG_armor_focus
 
 }
 	}
+	
 	focus = {
 		id = ENG_Bet_on_guns
 		icon = GFX_goal_unknown
@@ -511,7 +522,7 @@ completion_reward = {
 add_ideas = ENG_aviation_production_idea
 126 = {
         add_building_construction = {
-              type = factory
+              type = arms_factory
               level = 2
               instant_build = yes
         }
@@ -552,11 +563,7 @@ add_ideas = ENG_bombers_B_focus
 		y = 4
 completion_reward = {
 
-add_tech_bonus = {
-				bonus = 0.5
-				uses = 2
-				category = cat_heavy_fighter
-			}
+
 add_tech_bonus = {
 				bonus = 0.5
 				uses = 2
@@ -580,7 +587,11 @@ add_tech_bonus = {
 		y = 5
 completion_reward = {
 
-
+add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = cat_heavy_fighter
+			}
 
 
 }
@@ -591,10 +602,16 @@ completion_reward = {
 		cost = 10,00
 		prerequisite = {
 			focus = ENG_Nuclear_mission
-			focus = ENG_Special_Air_Service
+			focus = ENG_Special_Air
 		}
 		x = 18
 		y = 6
+completion_reward = {
+add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.75
+			}
+			}
 
 	}
 	focus = {
@@ -696,7 +713,7 @@ add_tech_bonus = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 2
 				}
 			}
 add_to_variable = { 
@@ -1436,7 +1453,7 @@ add_war_support = 0.1
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = ENG_WAR_USA
+			focus = ENG_WAR_JAP
 		}
 		x = 39
 		y = 6
@@ -1480,18 +1497,7 @@ completion_reward = {
                random_hours = 12
                random_days = 1
             } 
-			 news_event = {				
-               id = ENG_comarmy.1
-               days = 1
-               random_hours = 12
-               random_days = 1
-            }
-				news_event = {				
-               id = ENG_commoney.1
-               days = 1
-               random_hours = 12
-               random_days = 1
-            }
+			 
 			news_event = {				
                id = ENG_chill.1
                days = 1
@@ -1537,7 +1543,7 @@ random_owned_controlled_state = {
 }
 	}
 	focus = {
-		id = ENG_WAR_USA
+		id = ENG_WAR_JAP
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -1547,7 +1553,7 @@ random_owned_controlled_state = {
 		y = 5
 completion_reward = {
 create_wargoal = {
-				target = USA
+				target = JAP
 				type = annex_everything
 			}
 }
