@@ -1,10 +1,8 @@
 RUI_projects_economy_category = { 
     RUI_New_T = { 
-        icon = GFX_decision_CVK_CALLING
         available = {
             tag = RUI
         }
-        fire_only_once = yes
         visible = { 
             tag = RUI
         }			 
@@ -15,11 +13,9 @@ RUI_projects_economy_category = {
         }			
     }
     RUI_New = { 
-        icon = GFX_decision_CVK_CALLING
         available = {
             tag = RUI
         }
-        fire_only_once = yes
         visible = { 
             tag = RUI
         }			 
@@ -28,7 +24,7 @@ RUI_projects_economy_category = {
         }
         complete_effect = {
             add_to_variable = { 
-                my_money = 10 
+                RUI.artillery_shells_in_warehouses = 10 
             } 
         }			
     }

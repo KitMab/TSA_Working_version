@@ -16,8 +16,4 @@ RUI_projects_economy_category = {
         tag = RUI
     }
     priority = 70
-    #add_to_variable = {
-    #    var = my_money
-    #    value = 100
-    #}
 }

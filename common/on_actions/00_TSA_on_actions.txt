@@ -25,10 +25,19 @@ on_actions = {
             }
         }
     }
+    on_startup = {
+        effect = {
+            RUI = {
+                add_to_variable = {
+                    RUI.production_of_artillery_shells_per_day = 10
+                }
+            }
+        }
+    }
     on_daily_RUI = {
         effect = {
             add_to_variable = { 
-                my_money = 10 
+                RUI.RUI.artillery_shells_in_warehouses = RUI.production_of_artillery_shells_per_day 
             }
         }
     }
