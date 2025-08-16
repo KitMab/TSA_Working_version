@@ -1,37 +1,3 @@
-RUI_projects_economy_category = { 
- RUI_New_T = { 
-        icon = GFX_decision_CVK_CALLING
-        available = {
-            tag = RUI
-        }
-        fire_only_once = yes
-        visible = { 
-            tag = RUI
-        }			 
-        ai_will_do = { 
-        factor = 90
-        }
-        complete_effect = {
-           
-        }			
-    }
-RUI_New = { 
-        icon = GFX_decision_CVK_CALLING
-        available = {
-            tag = RUI
-        }
-        fire_only_once = yes
-        visible = { 
-            tag = RUI
-        }			 
-        ai_will_do = { 
-        factor = 90
-        }
-        complete_effect = {
-             add_to_variable = { my_money = 10 } 
-        }			
-    }
-}
 IRE_category  = {
     RUI_kill_Old_Tzar = { 
         icon = GFX_decision_CVK_CALLING
@@ -1071,6 +1037,5 @@ RUI_Core = {
             add_state_core = 407
         }
     }
- 
 }
 	

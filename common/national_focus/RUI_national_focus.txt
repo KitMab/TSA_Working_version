@@ -96,7 +96,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUI_back_into_battle
-		icon = GFX_goal_unknown
+		icon = GFX_goal_RUI_front
 		cost = 2
 		prerequisite = {
 			focus = RUI_History
@@ -110,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUI_tsarist_army
-		icon = GFX_goal_unknown
+		icon = GFX_goal_RUI_Russia_tsarist_army
 		cost = 2
 		prerequisite = {
 			focus = RUI_back_into_battle
@@ -1231,7 +1231,7 @@ focus_tree = {
     }
 	focus = {
 		id = RUI_Creation_of_the_Imperial_Police
-		icon = GFX_goal_unknown
+		icon = GFX_goal_RUI_Poice
 		cost = 5
 		prerequisite = {
 			focus = RUI_anti_communist_repression
@@ -1247,7 +1247,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUI_strengthening_of_capitalism
-		icon = GFX_goal_unknown
+		icon = GFX_goal_RUI_capitalism
 		cost = 4
 		prerequisite = {
 			focus = RUI_Creation_of_the_Imperial_Police
