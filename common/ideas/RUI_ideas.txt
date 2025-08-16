@@ -152,5 +152,26 @@ ideas = {
                 army_speed_factor = 0.5
             }
         }
+        RUI_small_artillery_preparation_idea = {
+            modifier = {
+                army_attack_factor = 0.15
+                army_defence_factor = 0.15
+                breakthrough_factor = 0.15
+            }
+        }
+        RUI_artillery_preparation_idea = {
+            modifier = {
+                army_attack_factor = 0.2
+                army_defence_factor = 0.2
+                breakthrough_factor = 0.2
+            }
+        }
+        RUI_big_artillery_preparation_idea = {
+            modifier = {
+                army_attack_factor = 0.25
+                army_defence_factor = 0.25
+                breakthrough_factor = 0.25
+            }
+        }
     }
 }

@@ -10,8 +10,7 @@ IRE_category = {
 RUI_Core = {
     priority = 80
 }
-RUI_projects_economy_category = { 
-    #icon = 
+RUI_artillery_preparation_and_production_of_artillery_shells = {
     allowed = {  
         tag = RUI
     }

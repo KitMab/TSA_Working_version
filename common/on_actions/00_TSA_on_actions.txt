@@ -37,7 +37,7 @@ on_actions = {
     on_daily_RUI = {
         effect = {
             add_to_variable = { 
-                RUI.RUI.artillery_shells_in_warehouses = RUI.production_of_artillery_shells_per_day 
+                RUI.artillery_shells_in_warehouses = RUI.production_of_artillery_shells_per_day 
             }
         }
     }
