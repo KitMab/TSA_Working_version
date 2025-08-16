@@ -1,3 +1,193 @@
+RUI_artillery_preparation_and_production_of_artillery_shells = { 	
+    purchase_of_artillery_shells = {
+        icon = GFX_decision_eng_trade_unions_support
+        cost = 15
+        available = {
+            tag = RUI
+        }
+        visible = { 
+            tag = RUI
+        }			 
+        ai_will_do = { 
+            factor = 90
+        }
+        days_re_enable = 90
+        days_remove = 30
+        remove_effect = {
+            custom_effect_tooltip = purchase_of_artillery_shells_tooltip
+            add_to_variable = {
+                var = RUI.artillery_shells_in_warehouses
+                value = 100
+            }
+        }		
+    }
+    expansion_of_production_of_artillery_shells = {
+        icon = GFX_decision_ger_military_buildup
+        cost = 25
+        available = {
+            tag = RUI
+        }
+        visible = { 
+            tag = RUI
+        }			 
+        ai_will_do = { 
+            factor = 90
+        }
+        days_re_enable = 365
+        days_remove = 60
+        remove_effect = {
+            custom_effect_tooltip = expansion_of_production_of_artillery_shells_tooltip
+            add_to_variable = {
+                var = RUI.production_of_artillery_shells_per_day
+                value = 25
+            }
+        }		
+    }
+    RUI_small_artillery_preparation = { 
+        icon = GFX_decision_generic_ignite_civil_war
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = RUI_small_artillery_preparation_tooltip
+                tag = RUI
+                check_variable = {
+                    var = RUI.artillery_shells_in_warehouses
+                    value = 250
+                    compare = greater_than_or_equals
+                }
+            }
+            has_equipment = {
+                artillery_equipment > 14
+            }
+            hidden_trigger = {
+                NOT = {
+                    has_country_flag = artillery_preparation_performed_flag
+                }   
+            }
+        }
+        visible = { 
+            tag = RUI
+        }			 
+        ai_will_do = { 
+            factor = 90
+        }
+        days_re_enable = 30
+        days_remove = 5
+        complete_effect = {
+            set_country_flag = {
+                flag = artillery_preparation_performed_flag
+                days = 18
+                value = 1
+            }
+            add_equipment_to_stockpile = {
+                type = artillery_equipment
+                amount = -15
+                producer = RUI
+            }
+        }
+        remove_effect = {
+            add_timed_idea = {
+                idea = RUI_small_artillery_preparation_idea
+                days = 14
+            }
+        }		
+    }
+    RUI_artillery_preparation = { 
+        icon = GFX_decision_generic_ignite_civil_war
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = RUI_artillery_preparation_tooltip
+                tag = RUI
+                check_variable = {
+                    var = RUI.artillery_shells_in_warehouses
+                    value = 500
+                    compare = greater_than_or_equals
+                }
+            }
+            has_equipment = {
+                artillery_equipment > 19
+            }
+            hidden_trigger = {
+                NOT = {
+                    has_country_flag = artillery_preparation_performed_flag
+                }   
+            }
+        }
+        visible = { 
+            tag = RUI
+        }			 
+        ai_will_do = { 
+            factor = 90
+        }
+        days_re_enable = 60
+        days_remove = 10
+        complete_effect = {
+            set_country_flag = {
+                flag = artillery_preparation_performed_flag
+                days = 23
+                value = 1
+            }
+            add_equipment_to_stockpile = {
+                type = artillery_equipment
+                amount = -20
+                producer = RUI
+            }
+        }	
+        remove_effect = {
+            add_timed_idea = {
+                idea = RUI_artillery_preparation_idea
+                days = 14
+            }
+        }		
+    }
+    RUI_big_artillery_preparation = { 
+        icon = GFX_decision_generic_ignite_civil_war
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = RUI_big_artillery_preparation_tooltip
+                tag = RUI
+                check_variable = {
+                    var = RUI.artillery_shells_in_warehouses
+                    value = 750
+                    compare = greater_than_or_equals
+                }
+            }
+            has_equipment = {
+                artillery_equipment > 24
+            }
+            hidden_trigger = {
+                NOT = {
+                    has_country_flag = artillery_preparation_performed_flag
+                }   
+            }
+        }
+        visible = { 
+            tag = RUI
+        }			 
+        ai_will_do = { 
+            factor = 90
+        }
+        days_re_enable = 90
+        days_remove = 15
+        complete_effect = {
+            set_country_flag = {
+                flag = artillery_preparation_performed_flag
+                days = 28
+                value = 1
+            }
+            add_equipment_to_stockpile = {
+                type = artillery_equipment
+                amount = -25
+                producer = RUI
+            }
+        }
+        remove_effect = {
+            add_timed_idea = {
+                idea = RUI_big_artillery_preparation_idea
+                days = 14
+            }
+        }
+    }
+}
 IRE_category  = {
     RUI_kill_Old_Tzar = { 
         icon = GFX_decision_CVK_CALLING
@@ -1037,39 +1227,5 @@ RUI_Core = {
             add_state_core = 407
         }
     }
-	RUI_projects_economy_category = { 
- RUI_New_T = { 
-        icon = GFX_decision_CVK_CALLING
-        available = {
-            tag = RUI
-        }
-        fire_only_once = yes
-        visible = { 
-            tag = RUI
-        }			 
-        ai_will_do = { 
-        factor = 90
-        }
-        complete_effect = {
-           
-        }			
-    }
-RUI_New = { 
-        icon = GFX_decision_CVK_CALLING
-        available = {
-            tag = RUI
-        }
-        fire_only_once = yes
-        visible = { 
-            tag = RUI
-        }			 
-        ai_will_do = { 
-        factor = 90
-        }
-        complete_effect = {
-             add_to_variable = { my_money = 10 } 
-        }			
-    }
-}
 }
 	
