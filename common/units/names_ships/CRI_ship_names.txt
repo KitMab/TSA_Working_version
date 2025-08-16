@@ -172,7 +172,7 @@ CRI_CV_IMPERIAL = {
     can_use = {always = yes}
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	#ship_types = { ship_hull_carrier carrier }
 	
 	prefix = "" #The Imperial Russian Navy didn't have prefixes								
 	fallback_name = "Avianosets %s"		

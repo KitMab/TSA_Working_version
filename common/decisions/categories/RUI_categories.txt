@@ -11,15 +11,12 @@ RUI_Core = {
     priority = 80
 }
 RUI_projects_economy_category = { 
-
-        icon = 
-        allowed = {  
-            tag = RUI
-        }
- add_to_variable = {
-              var = my_money
-              value = 100
-             }
-		
-		
+    #icon = 
+    allowed = {  
+        tag = RUI
+    }
+    #add_to_variable = {
+    #    var = my_money
+    #    value = 100
+    #}	
 }

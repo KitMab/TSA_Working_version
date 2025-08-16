@@ -3,7 +3,7 @@ characters = {
 		name = CSP_Manuel_Azana_y_Diaz
 		portraits = {
 			civilian = {
-				small = "GFX_idea_CSP_Manuel_Azana_y_Diaz_small_civilian"
+				#small = "GFX_idea_CSP_Manuel_Azana_y_Diaz_small_civilian"
 				large = "GFX_portrait_CSP_Manuel_Azana_y_Diaz_civilian"
             }
 		}

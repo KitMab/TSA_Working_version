@@ -1,4 +1,4 @@
-SpriteType = {
+spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_RUI_capitalism"
 		texturefile = "gfx/interface/goals/GFX_goal_RUI_capitalism.dds"

@@ -70,11 +70,11 @@ characters = {
 		name = RUI_Vladimir_Grigoriev
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Vladimir_Grigoriev_small_civilian"
+				#small = "GFX_idea_RUI_Vladimir_Grigoriev_small_civilian"
 				large = "GFX_portrait_RUI_Vladimir_Grigoriev_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Vladimir_Grigoriev_small_army"
+				#small = "GFX_idea_RUI_Vladimir_Grigoriev_small_army"
 				large = "GFX_portrait_RUI_Vladimir_Grigoriev_army"
 			}
 		}
@@ -92,11 +92,11 @@ characters = {
 		name = RUI_Nikolay_Stogov
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Nikolay_Stogov_small_civilian"
+				#small = "GFX_idea_RUI_Nikolay_Stogov_small_civilian"
 				large = "GFX_portrait_RUI_Nikolay_Stogov_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Nikolay_Stogov_small_army"
+				#small = "GFX_idea_RUI_Nikolay_Stogov_small_army"
 				large = "GFX_portrait_RUI_Nikolay_Stogov_army"
 			}
 		}
@@ -115,11 +115,11 @@ characters = {
 		portraits = {
 			civilian = {
 				small = "GFX_idea_RUI_Mikhail_Tereshchenko_small_civilian"
-				large = "GFX_portrait_RUI_Mikhail_Tereshchenko_civilian"
+				#large = "GFX_portrait_RUI_Mikhail_Tereshchenko_civilian"
             }
 			army = {
 				small = "GFX_idea_RUI_Mikhail_Tereshchenko_small_army"
-				large = "GFX_portrait_RUI_Mikhail_Tereshchenko_army"
+				#large = "GFX_portrait_RUI_Mikhail_Tereshchenko_army"
 			}
 		}
 		advisor = {
@@ -137,11 +137,11 @@ characters = {
 		portraits = {
 			civilian = {
 				small = "GFX_idea_RUI_Alexander_Konovalov_small_civilian"
-				large = "GFX_portrait_RUI_Alexander_Konovalov_civilian"
+				#large = "GFX_portrait_RUI_Alexander_Konovalov_civilian"
             }
 			army = {
 				small = "GFX_idea_RUI_Alexander_Konovalov_small_army"
-				large = "GFX_portrait_RUI_Alexander_Konovalov_army"
+				#large = "GFX_portrait_RUI_Alexander_Konovalov_army"
 			}
 		}
 		advisor = {
@@ -158,11 +158,11 @@ characters = {
 		portraits = {
 			civilian = {
 				small = "GFX_idea_RUI_Petr_Dolgorukov_small_civilian"
-				large = "GFX_portrait_RUI_Petr_Dolgorukov_civilian"
+				#large = "GFX_portrait_RUI_Petr_Dolgorukov_civilian"
             }
 			army = {
 				small = "GFX_idea_RUI_Petr_Dolgorukov_small_army"
-				large = "GFX_portrait_RUI_Petr_Dolgorukov_army"
+				#large = "GFX_portrait_RUI_Petr_Dolgorukov_army"
 			}
 		}
 		advisor = {
@@ -179,11 +179,11 @@ characters = {
 		portraits = {
 			civilian = {
 				small = "GFX_idea_RUI_Vasily_Maklakov_small_civilian"
-				large = "GFX_portrait_RUI_Petr_Dolgorukov_civilian"
+				#large = "GFX_portrait_RUI_Petr_Dolgorukov_civilian"
             }
 			army = {
 				small = "GFX_idea_RUI_Vasily_Maklakov_small_army"
-				large = "GFX_portrait_RUI_Vasily_Maklakov_army"
+				#large = "GFX_portrait_RUI_Vasily_Maklakov_army"
 			}
 		}
 		advisor = {
@@ -200,11 +200,11 @@ characters = {
 		portraits = {
 			civilian = {
 				small = "GFX_idea_RUI_Vsevolod_Shakhovsky_small_civilian"
-				large = "GFX_portrait_RUI_Vsevolod_Shakhovsky_civilian"
+				#large = "GFX_portrait_RUI_Vsevolod_Shakhovsky_civilian"
             }
 			army = {
 				small = "GFX_idea_RUI_Vsevolod_Shakhovsky_small_army"
-				large = "GFX_portrait_RUI_Vsevolod_Shakhovsky_army"
+				#large = "GFX_portrait_RUI_Vsevolod_Shakhovsky_army"
 			}
 		}
 		advisor = {
@@ -221,7 +221,7 @@ characters = {
 		portraits = {
 			civilian = {
 				small = "GFX_idea_RUI_Abram_Dragomirov_small_civilian"
-				large = "GFX_portrait_RUI_Abram_Dragomirov_small_civilian"
+				#large = "GFX_portrait_RUI_Abram_Dragomirov_small_civilian"
             }
 			army = {
 				small = "GFX_idea_RUI_Abram_Dragomirov_small_army"
@@ -251,12 +251,12 @@ characters = {
 		name = RUI_Lavr_Kornilov
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Lavr_Kornilov_small_civilian"
+				#small = "GFX_idea_RUI_Lavr_Kornilov_small_civilian"
 				large = "GFX_portrait_RUI_Alexey_II_Romanov_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Lavr_Kornilov_small_army"
-				large = "GFX_portrait_RUI_Lavr_Kornilov_army"
+				#small = "GFX_idea_RUI_Lavr_Kornilov_small_army"
+				#large = "GFX_portrait_RUI_Lavr_Kornilov_army"
 			}
 		}
 		corps_commander = {
@@ -273,12 +273,12 @@ characters = {
 		name = RUI_Alexander_Kutepov
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Alexander_Kutepov_small_civilian"
-				large = "GFX_portrait_RUI_Alexander_Kutepov_civilian"
+				#small = "GFX_idea_RUI_Alexander_Kutepov_small_civilian"
+				#large = "GFX_portrait_RUI_Alexander_Kutepov_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Alexander_Kutepov_small_army"
-				large = "GFX_portrait_RUI_Alexander_Kutepov_army"
+				#small = "GFX_idea_RUI_Alexander_Kutepov_small_army"
+				#large = "GFX_portrait_RUI_Alexander_Kutepov_army"
 			}
 		}
 		corps_commander = {
@@ -295,12 +295,12 @@ characters = {
 		name = RUI_Vladimir_Kirillovich
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Vladimir_Kirillovich_small_civilian"
-				large = "GFX_portrait_RUI_Vladimir_Kirillovich_civilian"
+				#small = "GFX_idea_RUI_Vladimir_Kirillovich_small_civilian"
+				#large = "GFX_portrait_RUI_Vladimir_Kirillovich_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Vladimir_Kirillovich_small_army"
-				large = "GFX_portrait_RUI_Vladimir_Kirillovich_army"
+				#small = "GFX_idea_RUI_Vladimir_Kirillovich_small_army"
+				#large = "GFX_portrait_RUI_Vladimir_Kirillovich_army"
 			}
 		}
 		corps_commander = {
@@ -317,12 +317,12 @@ characters = {
 		name = RUI_Mikhail_Romanov
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Mikhail_Romanov_small_civilian"
-				large = "GFX_portrait_RUI_Mikhail_Romanov_civilian"
+				#small = "GFX_idea_RUI_Mikhail_Romanov_small_civilian"
+				#large = "GFX_portrait_RUI_Mikhail_Romanov_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Mikhail_Romanov_small_army"
-				large = "GFX_portrait_RUI_Mikhail_Romanov_army"
+				#small = "GFX_idea_RUI_Mikhail_Romanov_small_army"
+				#large = "GFX_portrait_RUI_Mikhail_Romanov_army"
 			}
 		}
 		corps_commander = {
@@ -339,12 +339,12 @@ characters = {
 		name = RUI_Fyodor_Keller
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Fyodor_Keller_small_civilian"
-				large = "GFX_portrait_RUI_Fyodor_Keller_civilian"
+				#small = "GFX_idea_RUI_Fyodor_Keller_small_civilian"
+				#large = "GFX_portrait_RUI_Fyodor_Keller_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Fyodor_Keller_small_army"
-				large = "GFX_portrait_RUI_Fyodor_Keller_army"
+				#small = "GFX_idea_RUI_Fyodor_Keller_small_army"
+				#large = "GFX_portrait_RUI_Fyodor_Keller_army"
 			}
 		}
 		corps_commander = {
@@ -361,12 +361,12 @@ characters = {
 		name = RUI_Victorin_Molchanov
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Victorin_Molchanov_small_civilian"
-				large = "GFX_portrait_RUI_Victorin_Molchanov_civilian"
+				#small = "GFX_idea_RUI_Victorin_Molchanov_small_civilian"
+				#large = "GFX_portrait_RUI_Victorin_Molchanov_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Victorin_Molchanov_small_army"
-				large = "GFX_portrait_RUI_Victorin_Molchanov_army"
+				#small = "GFX_idea_RUI_Victorin_Molchanov_small_army"
+				#large = "GFX_portrait_RUI_Victorin_Molchanov_army"
 			}
 		}
 		corps_commander = {
@@ -383,12 +383,12 @@ characters = {
 		name = RUI_Igor_Konstantinovich
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Igor_Konstantinovich_small_civilian"
-				large = "GFX_portrait_RUI_Igor_Konstantinovich_civilian"
+				#small = "GFX_idea_RUI_Igor_Konstantinovich_small_civilian"
+				#large = "GFX_portrait_RUI_Igor_Konstantinovich_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Igor_Konstantinovich_small_army"
-				large = "GFX_portrait_RUI_Igor_Konstantinovich_army"
+				#small = "GFX_idea_RUI_Igor_Konstantinovich_small_army"
+				#large = "GFX_portrait_RUI_Igor_Konstantinovich_army"
 			}
 		}
 		corps_commander = {
@@ -405,12 +405,12 @@ characters = {
 		name = RUI_George_Stark
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_George_Stark_small_civilian"
-				large = "GFX_portrait_RUI_George_Stark_civilian"
+				#small = "GFX_idea_RUI_George_Stark_small_civilian"
+				#large = "GFX_portrait_RUI_George_Stark_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_George_Stark_small_army"
-				large = "GFX_portrait_RUI_George_Stark_army"
+				#small = "GFX_idea_RUI_George_Stark_small_army"
+				#large = "GFX_portrait_RUI_George_Stark_army"
 			}
 		}
 		navy_leader = {
@@ -425,12 +425,12 @@ characters = {
 		name = RUI_Pavel_Ukhtomsky
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Pavel_Ukhtomsky_small_civilian"
-				large = "GFX_portrait_RUI_Pavel_Ukhtomsky_civilian"
+				#small = "GFX_idea_RUI_Pavel_Ukhtomsky_small_civilian"
+				#large = "GFX_portrait_RUI_Pavel_Ukhtomsky_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Pavel_Ukhtomsky_small_army"
-				large = "GFX_portrait_RUI_Pavel_Ukhtomsky_army"
+				#small = "GFX_idea_RUI_Pavel_Ukhtomsky_small_army"
+				#large = "GFX_portrait_RUI_Pavel_Ukhtomsky_army"
 			}
 		}
 		navy_leader = {
@@ -445,12 +445,12 @@ characters = {
 		name = RUI_Alexander_Mikhailovich
 		portraits = {
 			civilian = {
-				small = "GFX_idea_RUI_Alexander_Mikhailovich_small_civilian"
-				large = "GFX_portrait_RUI_Alexander_Mikhailovich_civilian"
+				#small = "GFX_idea_RUI_Alexander_Mikhailovich_small_civilian"
+				#large = "GFX_portrait_RUI_Alexander_Mikhailovich_civilian"
             }
 			army = {
-				small = "GFX_idea_RUI_Alexander_Mikhailovich_small_army"
-				large = "GFX_portrait_RUI_Alexander_Mikhailovich_army"
+				#small = "GFX_idea_RUI_Alexander_Mikhailovich_small_army"
+				#large = "GFX_portrait_RUI_Alexander_Mikhailovich_army"
 			}
 		}
 		navy_leader = {

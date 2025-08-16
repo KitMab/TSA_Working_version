@@ -56,14 +56,14 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			set_country_flag = ENG_king_died
-			remove_ideas = RUI_Tsar_Nikoly_II
+			remove_ideas = RUI_Tsar_Nikolay_II
 			add_ideas = RUI_Tsar_Alexey_II
 		}		
 	}
 	option = {
 		name = RUI_Nikolay_II.1.c
 		effect_tooltip = {
-			remove_ideas = RUI_Tsar_Nikoly_II		
+			remove_ideas = RUI_Tsar_Nikolay_II	
 			add_ideas = RUI_Tsar_Alexey_II
 		}
 		set_country_flag = Nikolay_II_Dead_flag

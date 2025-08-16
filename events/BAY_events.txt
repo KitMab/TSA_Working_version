@@ -60,7 +60,7 @@ country_event = {
     option = {
         name = bavaria_problems_industry_economic.1.c
         add_ideas = {
-            BAY_problems_industry_economic1
+            BAY_bad_industry_economic1
             BAY_sobstvenost_1
         }
     }

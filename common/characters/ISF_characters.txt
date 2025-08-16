@@ -3,7 +3,7 @@ characters = {
 		name = ISF_Jose_Antonio_Primo_de_Rivera
 		portraits = {
 			civilian = {
-				small = "GFX_idea_ISF_Jose_Antonio_Primo_de_Rivera_small_civilian"
+				#small = "GFX_idea_ISF_Jose_Antonio_Primo_de_Rivera_small_civilian"
 				large = "GFX_portrait_ISF_Jose_Antonio_Primo_de_Rivera_civilian"
             }
 		}

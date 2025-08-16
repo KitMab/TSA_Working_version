@@ -1,7 +1,7 @@
 ﻿###BASE
 capital = 219
 ###OOB
-oob = "SOV"
+#oob = "SOV"
 set_research_slots = 4
 set_convoys = 350
 set_popularities = {

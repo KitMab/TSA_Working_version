@@ -5,10 +5,7 @@ RUI_DD_IMPERIAL = {
 	for_countries = { RUI }
 
 	can_use = {
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -45,10 +42,7 @@ RUI_DE_IMPERIAL = {
 	for_countries = { RUI }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -74,10 +68,7 @@ RUI_CL_IMPERIAL = {
 	for_countries = { RUI }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -101,10 +92,7 @@ RUI_CA_IMPERIAL = {
 	for_countries = { RUI }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -128,10 +116,7 @@ RUI_MINELAYERS_IMPERIAL = {
 	for_countries = { RUI }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -153,10 +138,7 @@ RUI_MINESWEEPERS_IMPERIAL = {
 	for_countries = { RUI }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -179,10 +161,7 @@ RUI_BBBC_IMPERIAL = {
 	for_countries = { RUI }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -205,14 +184,11 @@ RUI_CV_IMPERIAL = {
 	for_countries = { RUI }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	#ship_types = { ship_hull_carrier carrier }
 	
 	prefix = "" #The Imperial Russian Navy didn't have prefixes								
 	fallback_name = "Avianosets %s"		
@@ -229,10 +205,7 @@ RUI_SS_IMPERIAL = {
 	for_countries = { RUI }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -256,10 +229,7 @@ RUI_IMPERIAL_CITIES = {
 	for_countries = { RUI }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -278,10 +248,7 @@ RUI_IMPERIAL_GOVERNORATES = {
 	for_countries = { RUI }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -301,7 +268,7 @@ RUI_SAINTS = {
 	for_countries = { RUI }
 
 	can_use = {
-		has_completed_focus = SOV_the_third_rome
+		always = yes
 	}
 
 	type = ship
