@@ -1,0 +1,14 @@
+areas = {
+	southamerica = {
+        strategic_regions = {
+            165
+            166
+			167
+			168
+			169
+			170
+			171
+			172
+        }
+    }
+}

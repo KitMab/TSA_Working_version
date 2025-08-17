@@ -1,0 +1,41 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	male = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+	female = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Jeremy_Elbertson_New.png"
+			"gfx/leaders/AGENT/operative_male_9.png"
+		}
+		female = {
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/FrancineSpy.png"
+			"gfx/leaders/AGENT/SarahSpy.png"
+		}
+	}
+}

@@ -1,5 +1,5 @@
 ﻿capital = 16
-oob = "FRA"
+#oob = "FRA"
 set_research_slots = 4
 set_convoys = 350
 set_popularities = {
@@ -16,7 +16,6 @@ add_ideas = {
     limited_exports
     partial_economic_mobilisation
 }
-recruit_character = FRA_pierre_laval
 ###TECH
 set_technology = {
 	infantry_weapons = 1

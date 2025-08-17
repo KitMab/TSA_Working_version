@@ -1,0 +1,117 @@
+
+continent = {
+	name = north_america
+	scientist = {
+		female = {
+			"GFX_portrait_generic_european_female_scientist"
+		}
+		male = {
+			"GFX_portrait_generic_european_scientist"
+		}
+	}
+}
+
+continent = {
+	name = europe
+	scientist = {
+		female = {
+			"GFX_portrait_generic_european_female_scientist"
+		}
+		male = {
+			"GFX_portrait_generic_european_scientist"
+		}
+	}
+}
+
+continent = {
+	name = africa
+	scientist = {
+		female = {
+			"GFX_portrait_generic_european_female_scientist"
+		}
+		male = {
+			"GFX_portrait_generic_european_scientist"
+		}
+	}
+}
+
+continent = {
+	name = middle_east
+	scientist = {
+		female = {
+			"GFX_portrait_generic_european_female_scientist"
+		}
+		male = {
+			"GFX_portrait_generic_european_scientist"
+		}
+	}
+}
+
+continent = {
+	name = asia
+	scientist = {
+		female = {
+			"GFX_portrait_generic_european_female_scientist"
+		}
+		male = {
+			"GFX_portrait_generic_european_scientist"
+		}
+	}
+}
+
+continent = {
+	name = south_america
+	scientist = {
+		female = {
+			"GFX_portrait_generic_european_female_scientist"
+		}
+		male = {
+			"GFX_portrait_generic_european_scientist"
+		}
+	}
+}
+
+continent = {
+	name = australia
+	scientist = {
+		female = {
+			"GFX_portrait_generic_european_female_scientist"
+		}
+		male = {
+			"GFX_portrait_generic_european_scientist"
+		}
+	}
+}
+
+PAK = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_european_female_scientist"
+		}
+		male = {
+			"GFX_portrait_generic_european_scientist"
+		}
+	}
+}
+
+RAJ = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_european_female_scientist"
+		}
+		male = {
+			"GFX_portrait_generic_european_scientist"
+		}
+	}
+}
+
+MEX = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_european_female_scientist"
+		}
+		male = {
+			"GFX_portrait_generic_european_scientist"
+		}
+	}
+}

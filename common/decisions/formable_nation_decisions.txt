@@ -1,0 +1,28 @@
+forming_category = {
+	
+	form_test = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+			}
+			custom_trigger_tooltip = {
+			}
+		}
+		visible = {
+		}
+
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

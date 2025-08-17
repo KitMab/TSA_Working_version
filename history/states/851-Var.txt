@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = FRC
+		owner = FRA
 		victory_points = {
 			911 1 
 		}
@@ -19,7 +19,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = FRC
+		
 		add_core_of = FRA
 	}
 

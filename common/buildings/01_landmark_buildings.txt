@@ -1,0 +1,12 @@
+@landmark_repair_speed_factor = 0.15
+
+buildings = {
+}
+
+spawn_points = {
+	landmark_spawn = {
+		type = province
+		max = 1
+		disable_auto_nudging = yes
+	}
+}
