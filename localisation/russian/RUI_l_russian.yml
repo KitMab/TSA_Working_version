@@ -257,6 +257,6 @@
  RUI_big_artillery_preparation_idea: "Большая артподготовка"
  RUI_big_artillery_preparation_idea_desc: "Была проведена большая артподготовка"
  expansion_of_production_of_artillery_shells: "Расширение производства арт. снарядов"
- expansion_of_production_of_artillery_shells_tooltip: "Производство будет расширено на 25 арт. снарядов в день"
+ expansion_of_production_of_artillery_shells_tooltip: "Производство будет увеличено на +25 арт. снарядов в день. Расширение займёт 60 дней"
  purchase_of_artillery_shells: "Покупка арт. снарядов"
- purchase_of_artillery_shells_tooltip: "Будет закупленно 100 снарядов. Снаряды будут доставлены по истечению времени"
+ purchase_of_artillery_shells_tooltip: "Будет закупленно 100 снарядов. Снаряды будут доставлены через 30 дней"

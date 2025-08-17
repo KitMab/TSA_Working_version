@@ -123,7 +123,6 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
 			slot = political_advisor
 			idea_token = Mikhail_Tereshchenko
 			traits = { 

@@ -32,8 +32,15 @@ RUI_artillery_preparation_and_production_of_artillery_shells = {
             factor = 90
         }
         days_re_enable = 365
+        days_remove = 60
         complete_effect = {
             custom_effect_tooltip = expansion_of_production_of_artillery_shells_tooltip
+            add_to_variable = {
+                var = RUI.production_of_artillery_shells_per_day
+                value = 25
+            }
+        }
+        remove_effect = {
             add_to_variable = {
                 var = RUI.production_of_artillery_shells_per_day
                 value = 25
