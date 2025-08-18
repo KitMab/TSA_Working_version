@@ -58,14 +58,14 @@ RUI_artillery_preparation_and_production_of_artillery_shells = {
                     compare = greater_than_or_equals
                 }
             }
-        }
-        visible = { 
-            tag = RUI
             NOT = {
                 has_idea = RUI_small_artillery_preparation_idea
                 has_idea = RUI_artillery_preparation_idea
                 has_idea = RUI_big_artillery_preparation_idea
             }
+        }
+        visible = { 
+            tag = RUI
         }			 
         ai_will_do = { 
             factor = 90
@@ -88,6 +88,11 @@ RUI_artillery_preparation_and_production_of_artillery_shells = {
                     value = 500
                     compare = greater_than_or_equals
                 }
+            }
+            NOT = {
+                has_idea = RUI_small_artillery_preparation_idea
+                has_idea = RUI_artillery_preparation_idea
+                has_idea = RUI_big_artillery_preparation_idea
             }
         }
         visible = { 
@@ -119,6 +124,11 @@ RUI_artillery_preparation_and_production_of_artillery_shells = {
                     value = 750
                     compare = greater_than_or_equals
                 }
+            }
+            NOT = {
+                has_idea = RUI_small_artillery_preparation_idea
+                has_idea = RUI_artillery_preparation_idea
+                has_idea = RUI_big_artillery_preparation_idea
             }
         }
         visible = { 
