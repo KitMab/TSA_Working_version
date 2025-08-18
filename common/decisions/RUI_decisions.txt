@@ -97,11 +97,6 @@ RUI_artillery_preparation_and_production_of_artillery_shells = {
         }
         visible = { 
             tag = RUI
-            NOT = {
-                has_idea = RUI_small_artillery_preparation_idea
-                has_idea = RUI_artillery_preparation_idea
-                has_idea = RUI_big_artillery_preparation_idea
-            }
         }			 
         ai_will_do = { 
             factor = 90
@@ -133,11 +128,6 @@ RUI_artillery_preparation_and_production_of_artillery_shells = {
         }
         visible = { 
             tag = RUI
-            NOT = {
-                has_idea = RUI_small_artillery_preparation_idea
-                has_idea = RUI_artillery_preparation_idea
-                has_idea = RUI_big_artillery_preparation_idea
-            }
         }			 
         ai_will_do = { 
             factor = 90
