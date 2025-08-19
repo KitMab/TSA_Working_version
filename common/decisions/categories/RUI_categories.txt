@@ -11,6 +11,7 @@ RUI_Core = {
     priority = 80
 }
 RUI_artillery_preparation_and_production_of_artillery_shells = {
+    icon = GFX_decision_category_generic_crisis
     allowed = {  
         tag = RUI
     }
