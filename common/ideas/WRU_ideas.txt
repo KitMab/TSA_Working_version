@@ -1,0 +1,33 @@
+ideas = {
+    country = {
+        WRU_Preparation_for_the_coup = {
+            picture = Preparation_for_the_coup
+		  modifier = {
+		  drift_defence_factor = -0.1
+		stability_factor = -0.05
+     	war_support_factor = -0.20
+	 }
+        }
+		  WRU_Ice_of_the_North = {
+            picture = Shipyard_ice
+		  modifier = {
+	embargo_threshold_factor = -0.2
+	tag = ENG
+	trade_cost_for_target_factor = 0.3
+	industrial_capacity_dockyard = -0.7
+			
+	}
+        }
+		WRU_Spirit_of_freedom = {
+         picture = free_russia   
+		  modifier = {
+			   army_core_defence_factor = 0.05
+			   army_core_attack_factor = 0.05
+			   	consumer_goods_factor = -0.1 
+
+
+			}
+	}
+        }
+    }
+}

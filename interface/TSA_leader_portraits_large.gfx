@@ -59,4 +59,8 @@ spriteTypes = {
 		name = "GFX_portrait_MSP_Francis_Xavier_Of_bourbon_Parma_civilian"
 		texturefile = "gfx/leaders/MSP/portrait_MSP_Francis_Xavier_Of_bourbon_Parma_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_WRU_Alexsandr_Kerenskiy_civilian"
+		texturefile = "gfx/leaders/WRU/portrait_WRU_Alexsandr_Kerenskiy_civilian.dds"
+	}
 }

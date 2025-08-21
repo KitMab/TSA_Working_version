@@ -1,4 +1,4 @@
-capital = 213
+capital = 214
 oob = "WRU"
 set_research_slots = 3
 set_convoys = 350
@@ -14,16 +14,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-create_country_leader = {
-	name = "Oleg Korenev"
-	desc = ""
-	picture = GFX_portrait_europe_generic_4
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
+
 add_ideas = {
     service_by_requirement
     limited_exports
@@ -60,4 +51,11 @@ if = {
     set_technology = {
         armored_car1 = 1
     }
+}
+recruit_character = WRU_Alexsandr_Kerenskiy
+
+add_ideas = {
+WRU_Preparation_for_the_coup
+WRU_Ice_of_the_North
+WRU_Spirit_of_freedom
 }

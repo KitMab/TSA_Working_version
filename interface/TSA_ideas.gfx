@@ -2,5 +2,17 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_OSM_Kurdistan_VS_Osmania"
 		texturefile = "gfx/interface/ideas/idea_OSM_Kurdistan_VS_Osmania.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_Shipyard_ice"
+		texturefile = "gfx/interface/ideas/idea_Shipyard_ice.dds"			
+	}	
+	spriteType = {
+		name = "GFX_idea_Preparation_for_the_coup"
+		texturefile = "gfx/interface/ideas/idea_Preparation_for_the_coup.dds"			
+	}	
+	spriteType = {
+		name = "GFX_idea_free_russia"
+		texturefile = "gfx/interface/ideas/idea_free_russia.dds"
 	}	
 }

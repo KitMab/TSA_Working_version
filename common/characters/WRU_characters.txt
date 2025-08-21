@@ -1,0 +1,50 @@
+characters = {
+	WRU_Alexsandr_Kerenskiy = {
+		name = WRU_Alexsandr_Kerenskiy
+		portraits = {
+			civilian = {
+
+				large = "GFX_portrait_WRU_Alexsandr_Kerenskiy_civilian"
+            }
+			army = {
+				small = "GFX_idea_RUI_Nikolay_II_Romanov_small_army"
+				large = "GFX_portrait_RUI_Nikolay_II_Romanov_army"
+            }
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {
+				Failed_Russian_Democrat
+			}
+			desc = WRU_Alexsandr_Kerenskiy_desc
+		}
+		
+	}
+	
+	RUI_Vladimir_Grigoriev = {
+		name = RUI_Vladimir_Grigoriev
+		portraits = {
+			civilian = {
+				#small = "GFX_idea_RUI_Vladimir_Grigoriev_small_civilian"
+				large = "GFX_portrait_RUI_Vladimir_Grigoriev_civilian"
+            }
+			army = {
+				#small = "GFX_idea_RUI_Vladimir_Grigoriev_small_army"
+				large = "GFX_portrait_RUI_Vladimir_Grigoriev_army"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill  = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	
+}
+		
+		
+		
