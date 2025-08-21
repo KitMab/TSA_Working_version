@@ -9,7 +9,7 @@ state={
 		rubber=3 # was: 4
 	}
 	history={
-		owner = ENG
+		owner = FRA
 		add_core_of = CAR
 		victory_points = {
 			12830 1

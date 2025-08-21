@@ -10,7 +10,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = SLO
+		owner = CZE
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 3
@@ -19,7 +19,7 @@ state={
 			6573 1 
 		}
 		
-		add_claim_by = SLO
+		add_core_of = HUN
 
 		}
 	
